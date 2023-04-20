@@ -51,7 +51,7 @@ Du fährst mit dem InterRegio von Zürich nach Bern. Der Zug verlässt den Haupt
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\approx \underline{25.74\,\frac{m}{s}}$ bzw. $\approx \underline{92.66\,\frac{km}{h}}$
+**Antwort**: $\approx 25.74\,\frac{m}{s}$ bzw. $\approx 92.66\,\frac{km}{h}$
 
 **Lösungsidee**: Umrechnung in SI Einheiten und Benutzung des Zusammenhangs für gleichförmige Bewegungen.
 

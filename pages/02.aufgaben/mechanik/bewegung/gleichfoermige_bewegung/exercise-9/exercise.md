@@ -25,11 +25,11 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230404
-	source: 'neu, Thomas Bisig, tbisig@pm.me'
+	source: 'neu, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: html
 	media: yes
-	licence: 'CC BY-SA 3.0'
+	licence: 'CC BY-SA 4.0'
 
 	status_tags: [content_created, review_0]
 	status_exercise: [content_created, illustration_na, files_na, review_0]
@@ -47,7 +47,7 @@ Der nebenstehende Graph zeigt die <span style="color:rgb(238,191,91); font-weigh
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-1. $9 m/s$
+1. $9 \frac{m}{s}$
 2. _todo_
 3. _todo_
 

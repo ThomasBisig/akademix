@@ -25,11 +25,11 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230404
-	source: 'Neu erstellt, Thomas Bisig, tbisig@pm.me'
+	source: 'Neu erstellt, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: no
-	licence: 'CC BY-SA 3.0'
+	licence: 'CC BY-SA 4.0'
 
 	status_tags: [content_created, review_0]
 	status_exercise: [content_created, illustration_na, files_na, review_0]
@@ -51,6 +51,6 @@ Benutze die Definition der Beschleunigung und setze die entsprechenden SI-Einhei
 
 **Lösungsweg**:
 - Die [Beschleunigung](../konzepte/Gleichmässige-Beschleunigung) ist die [Geschwindigkeitsänderung](../konzepte/Aenderungen) $\Delta v$ pro Zeitänderung $\Delta t$, formal $\frac{\Delta v}{\Delta t}$
-- Einsetzen der [Einheiten](../konzepte/SI-Einheiten) für $\Delta v$ ($m/s$) und $\Delta t$ ($s$) und [Umformen](../konzepte/Brueche_Umformen) ergibt: $[a]=\frac{m/s}{s}=\frac{m}{s^2}$
+- Einsetzen der [Einheiten](../konzepte/SI-Einheiten) für $\Delta v$ ($\frac{m}{s}$) und $\Delta t$ ($s$) und [Umformen](../konzepte/Brueche_Umformen) ergibt: $[a]=\frac{\frac{m}{s}}{s}=\frac{m}{s^2}$
 
 [/details]

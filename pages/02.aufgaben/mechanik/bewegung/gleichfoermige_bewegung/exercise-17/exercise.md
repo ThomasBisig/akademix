@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230409
-	source: 'Skript Mechanik 2022, Thomas Bisig, tbisig@pm.me'
+	source: 'Skript Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: yes
@@ -40,7 +40,7 @@ taxonomy:
 mathjax:
   process: true
 ---
-![Graph der Geschwindigkeit auf einer Joggingstrecke](exercise-17-1.svg?class=img_exercise) Das $v-t$-Diagramm zeigt die gemessene Momentangeschwindigkeit während eines Jogginglaufs.
+![Graph der Geschwindigkeit auf einer Joggingstrecke](exercise-17-1.svg?class=img_exercise) Das $t-v$-Diagramm zeigt die gemessene Momentangeschwindigkeit während eines Jogginglaufs.
 1. Nähere die gezackte Linie durch eine geeignete mittlere konstante Geschwindigkeit $\overline{v}$ an.
 2. Bestimme die ungefähre Streckenlänge.
 

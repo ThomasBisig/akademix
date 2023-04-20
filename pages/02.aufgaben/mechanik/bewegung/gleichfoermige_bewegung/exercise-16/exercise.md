@@ -1,5 +1,5 @@
 ---
-title: Eine Autofahrt mit Hilfe des s-t-Diagramms analysieren
+title: Eine Autofahrt mit Hilfe des t-x-Diagramms analysieren
 taxonomy:
 	id: 2023040615120093
 	set: 0202304071720334
@@ -25,11 +25,11 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230407
-	source: 'neu, nach Skript Mechanik 2022, Thomas Bisig, tbisig@pm.me'
+	source: 'neu, nach Skript Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: yes
-	licence: 'CC BY-SA 3.0'
+	licence: 'CC BY-SA 4.0'
 
 	status_tags: [content_created, review_0]
 	status_exercise: [content_finished, illustration_finished, files_na, review_1]
@@ -38,7 +38,7 @@ taxonomy:
 mathjax:
   process: true
 ---
-![Das v-t-Diagramm einer Autofahrt](exercise16-1.svg?resize=400,400&class=float-right)
+![Das t-v-Diagramm einer Autofahrt](exercise16-1.svg?resize=400,400&class=float-right)
 Ein Auto sei zum Zeitpunkt $t=0\,s$ am Ort $s=10\,m$ und fahre los.
 
 Das Geschwindigkeits-Zeit-Diagramm ist nebenstehend abgebildet. Zeichne das zur Fahrt gehörende Orts-Zeit-Diagramm in ein neues Koordinatensystem vom Zeitpunkt $t=0\,s$ bis zum Zeitpunkt $t=11\,s$.
@@ -69,15 +69,15 @@ Lies für jeden der drei Abschnitte mit unterschiedlicher Geschwindigkeit heraus
 
 Diagramm: siehe Abbildung
 1. $s(11)=5\,m$
-2. $\overline{v}=-0.\overline{45}\,m/s$
+2. $\overline{v}=-0.\overline{45}\,\frac{m}{s}$
 3. $17\,m$
 
 **Lösungsidee**: Mit Hilfe des gezeichneten Orts-Zeit-Diagramm können können alle drei Fragen beantwortet werden.
 
 **Lösungsweg**:
-![Das s-t und das v-t-Diagramm einer Autofahrt](exercise16-2.svg?resize=400,600&class=float-right) Um das [Orts-Zeit-Diagramm](../) zu zeichnen, kann das [Geschwindigkeits-Zeit-Diagramm](../) in drei Abschnitte unterteilt werden.
+![Das t-x und das t-v-Diagramm einer Autofahrt](exercise16-2.svg?resize=400,600&class=float-right) Um das [Orts-Zeit-Diagramm](../) zu zeichnen, kann das [Geschwindigkeits-Zeit-Diagramm](../) in drei Abschnitte unterteilt werden.
 Im Koordinatensystem des Ort-Zeit-Diagramms beginnt das Auto am Ort $(0,10)$.
-Im ersten Abschnitt fährt das Auto für $\Delta t=3\,s$ mit einer Geschwindigkeit von $v=2\,m/s$. Mit Hilfe der Formel für die [gleichförmige Bewegung](../) kann daraus die zurückgelegte Strecke $\Delta s$ für diesen Abschnitt berechnet werden:
+Im ersten Abschnitt fährt das Auto für $\Delta t=3\,s$ mit einer Geschwindigkeit von $v=2\,\frac{m}{s}$. Mit Hilfe der Formel für die [gleichförmige Bewegung](../) kann daraus die zurückgelegte Strecke $\Delta s$ für diesen Abschnitt berechnet werden:
 
 $\Delta s=v\cdot \Delta t=2\,\frac{m}{s} \cdot 3\,s=6\,m$
 
@@ -91,7 +91,7 @@ _Teil 2_
 
 Nach $11\,s$ hat sich das Auto vom ursprünglichen Ort $s(0)=10\,m$ zum Ort $s(11)=5\,m$ bewegt. Das sind $\Delta s=s(11)-s(0)=-5\,m$ in $\Delta t=11\,s$. Die mittlere Geschwindigkeit beträgt demnach
 
-$\overline{v}=\frac{\Delta s}{\Delta t}=\frac{-5\,m}{11\,s}=\underline{-0.\overline{45}\,m/s}$
+$\overline{v}=\frac{\Delta s}{\Delta t}=\frac{-5\,m}{11\,s}=\underline{-0.\overline{45}\,\frac{m}{s}}$
 
 _Teil 3_
 

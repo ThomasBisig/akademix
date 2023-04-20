@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230415
-	source: 'Mechanik Skript 2022, tbisig@pm.me'
+	source: 'Mechanik Skript 2022, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media:

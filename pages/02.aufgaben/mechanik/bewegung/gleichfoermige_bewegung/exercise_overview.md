@@ -6,5 +6,5 @@ taxonomy:
 	category: exercise_overview
 ---
 
-# Aufgabenübersicht
-
+- [Aufgaben zum Hinzufügen](offen/): Kurznotizen zu noch hinzuzufügenden Aufgaben
+- [Entscheidungen](entscheidungen/): Didaktische, inhaltliche, strukturelle Entscheidungen, manchmal mit kurzen Begründungen.

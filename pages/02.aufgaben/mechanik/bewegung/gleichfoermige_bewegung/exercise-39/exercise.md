@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230416
-	source: 'neu, tbisig@pm.me'
+	source: 'neu, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: 'https://commons.wikimedia.org/wiki/File:Lightning_NOAA.jpg'

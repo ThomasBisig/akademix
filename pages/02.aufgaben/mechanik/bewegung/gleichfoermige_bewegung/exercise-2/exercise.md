@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230419
-	source: 'Skript Markus Wey, Skript Thomas Bisig (tbisig@pm.me)'
+	source: 'Skript Markus Wey, Skript Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media: no

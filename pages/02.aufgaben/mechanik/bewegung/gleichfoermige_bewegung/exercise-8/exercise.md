@@ -24,11 +24,11 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230404
-	source: 'Skript Mechanik 2022, Thomas Bisig, tbisig@pm.me'
+	source: 'Skript Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: yes
-	licence: 'CC BY-SA 3.0'
+	licence: 'CC BY-SA 4.0'
 
 	status_tags: [content_created, review_0]
 	status_exercise: [content_created, illustration_created, files_na, review_0]

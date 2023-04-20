@@ -5,7 +5,7 @@ title: Roadmap
 The goal of the first few sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
 
 
-### Current - Sprint 2: Prototype - Todos (##### of 10h, started 11.04.23)
+### Current - Sprint 2: Prototype - Todos (6h of 10h, started 11.04.23)
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
 
 - Content
@@ -17,33 +17,34 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 	- [ ] Polish solutions, files, clean directories
 
 	- Todos for all exercises so far:
-		- [ ] Email to thomas@akademix.ch
+		- [ ] Change all images from s -> x
 		- [ ] Streckendifferenz -> Ortsverschiebung, Durchschnittsgeschw. -> mittlere Geschw.
-		- [ ] von CC 3.0 auf 4.0
 		- [ ] Add space between number and unit (MathJax) -> "$/,$"
 		- [ ] Solutions of exercises
 		- [ ] Check tags (or leave empty)
 		- [ ] polish links
 		- [ ] polish solutions
-		- [ ] Alle Lösungen einfach unterstreichen (wie exercise 14)
+		- [ ] Alle Lösungen einfach unterstreichen (wie exercise 14) aber nicht in Kurzlösungen
 		- [ ] Change all $s=v*t$ to $\Delta x = \overline{v} * \Delta t$ -> done for exercise-1
 		- [ ] Change to review_0/1/2 and todos
 		- [ ] Link all concepts to empty concept page
-		- [ ] When km/h when \frac{km}{h}
 		- [ ] 'set' bei allen hinzufügen, bzw. schauen, welche Zusammengehören
 		- [ ] Include license of images
 		- [ ] Schritte als bullet-points oder als numbered list?
-		- [ ] From s-t bzw. v-t to t-x and t-v diagramm
 		- [ ] Change from s=vt to x=vt
-		- [ ] Add 'decisions' like t-x and t-v to overview page
-
-
-- [ ] Upload everything to github v0.0.1
 
 
 #### Done in S2
-- [x] Checked Ex1-6
-- [x] Added images 30/31
+- [x] Add 'decisions' like t-x and t-v to overview page (20.04.2023)
+- [x] Add page with missing exercises (20.04.2023)
+- [x] When km/h and m/s to \frac{}{} (20.04.2023)
+- [x] von CC 3.0 auf 4.0 (20.04.2023)
+- [x] From s-t bzw. v-t to t-x and t-v diagramm (20.04.2023)
+- [x] Changed from fixed days sprints to hours (20.04.2023)
+- [x] Upload everything to github v0.0.1 (20.04.2023)
+- [x] Email to thomas@akademix.ch (20.04.2023)
+- [x] Checked Ex1-6 (19.04.2023)
+- [x] Added images 30/31 (19.04.2023)
 - [x] Added ex38-39 (16.04.2023)
 - [x] Add remaining exercises in pictures folder (15.04.2023)
 - [x] Added ex32-37 (15.04.2023)

@@ -25,11 +25,11 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230405
-	source: 'LK1 Mechanik 2022, Thomas Bisig, tbisig@pm.me'
+	source: 'LK1 Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: no
-	licence: 'CC BY-SA 3.0'
+	licence: 'CC BY-SA 4.0'
 
 	status_tags: [content_created, review_0]
 	status_exercise: [content_finished, illustration_na, files_na, review_1]

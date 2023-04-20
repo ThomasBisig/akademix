@@ -25,10 +25,10 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230419
-	source: 'Skript Markus Wey, Skript Thomas Bisig (tbisig@pm.me)'
+	source: 'Skript Markus Wey, Skript Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
-	media: 'tbisig@pm.me'
+	media: 'thomas@akademix.ch'
 	licence: 'CC BY-SA 4.0'
 
 	status_tags: review_1
@@ -40,7 +40,7 @@ taxonomy:
 mathjax:
   process: true
 ---
-![Ein Zug fährt über eine Brücke](exercise1-1.svg?resize=400,150&class=float-right) Ein Güterzug hat eine Länge von $350\,m$ und eine Geschwindigkeit von $45\,km/h$. Wie lange erfährt eine $220\,m$ lange Eisenbahnbrücke eine Belastung, wenn der Zug darüberfährt?
+![Ein Zug fährt über eine Brücke](exercise1-1.svg?resize=400,150&class=float-right) Ein Güterzug hat eine Länge von $350\,m$ und eine Geschwindigkeit von $45\,rac{km}{h}$. Wie lange erfährt eine $220\,m$ lange Eisenbahnbrücke eine Belastung, wenn der Zug darüberfährt?
 
 [details="Tipp zum Vorgehen" class="tipp"]
 Wandle die Formel für die gleichförmige Bewegung $\Delta x=v \cdot \Delta t$ um, so dass ein Zusammenhang für die Zeit $\Delta t$ entsteht.
@@ -63,10 +63,10 @@ $$
 \Delta x=350\,m + 220\,m=570\,m
 $$
 
-2. [Umwandeln](../../../../../konzepte/konzept-1) der Geschwindigkeit $v$ in $m/s$ ergibt
+2. [Umwandeln](../../../../../konzepte/konzept-1) der Geschwindigkeit $v$ in $\frac{m}{s}$ ergibt
 
 $$
-v=45\,km/h=12.5\,m/s
+v=45\,\frac{km}{h}=12.5\,\frac{m}{s}
 $$
 
 3. [Umformen](../../../../../konzepte/konzept-1) des [Zusammenhangs der geradlinigen Bewegung](../../../../../konzepte/konzept-1)
@@ -78,6 +78,6 @@ $$
 und Einsetzen der gegebenen Grössen
 
 $$
-\Delta t=\frac{\Delta x}{v}=\frac{570\,m}{12.5\,m/s}=\underline{45.6\,s}
+\Delta t=\frac{\Delta x}{v}=\frac{570\,m}{12.5\,\frac{m}{s}}=\underline{45.6\,s}
 $$
 [/details]

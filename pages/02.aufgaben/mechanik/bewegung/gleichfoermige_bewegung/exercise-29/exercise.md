@@ -51,7 +51,7 @@ Du fährst mit dem InterRegio von Luzern nach Bellinzona. Der Zug verlässt den 
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\approx \underline{28.17\,\frac{m}{s}}$ bzw. $\approx \underline{101.43\,\frac{km}{h}}$
+**Antwort**: $\approx 28.17\,\frac{m}{s}$ bzw. $\approx 101.43\,\frac{km}{h}$
 
 **Lösungsidee**: Umrechnung in SI Einheiten und Benutzung des Zusammenhangs für gleichförmige Bewegungen.
 

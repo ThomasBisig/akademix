@@ -25,11 +25,11 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230404
-	source: 'neu 2023, Thomas Bisig, tbisig@pm.me'
+	source: 'neu 2023, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: yes
-	licence: 'CC BY-SA 3.0'
+	licence: 'CC BY-SA 4.0'
 
 	status_tags: [content_created, review_0]
 	status_exercise: [content_created, illustration_created, files_created, review_0]
@@ -43,7 +43,7 @@ Nebenstehend abgebildet sind die Daten einer Joggingrunde, welche mit der App [W
 
 Zum Glück hast du die Geschwindigkeitsdaten auch gesichert.
 - Analysiere das [Dokument](exercise-12-daten.xlsx),
-- erstelle ein v-t-Diagramm,
+- erstelle ein t-v-Diagramm,
 - bestimme die Durchschnittsgeschwindigkeit und
 - die zurückgelegte Strecke.
 

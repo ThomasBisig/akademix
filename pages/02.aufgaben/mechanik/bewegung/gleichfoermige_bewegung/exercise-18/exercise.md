@@ -1,5 +1,5 @@
 ---
-title: Geschwindigkeiten aus dem s-t-Diagramm bestimmen
+title: Geschwindigkeiten aus dem t-x-Diagramm bestimmen
 taxonomy:
 	id: 2023040921064433
 	set: 0202304092106222
@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230409
-	source: 'Skript Mechanik 2022, Thomas Bisig, tbisig@pm.me'
+	source: 'Skript Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown
 	media: yes
@@ -40,8 +40,8 @@ taxonomy:
 mathjax:
   process: true
 ---
-![Bild](exercise-18-1.svg?resize=400,400&class=float-right) Das nebenstehende $s-t$-Diagramm zeigt den Ort $s$ eines Objektes zu einer bestimmten Zeit $t$ an.
-1. Unterteile das $s-t$-Diagramm in fünf zeitliche Abschnitte, in welchen sich das Objekt jeweils gleichförmig bewegt.
+![Bild](exercise-18-1.svg?resize=400,400&class=float-right) Das nebenstehende $t-x$-Diagramm zeigt den Ort $s$ eines Objektes zu einer bestimmten Zeit $t$ an.
+1. Unterteile das $t-x$-Diagramm in fünf zeitliche Abschnitte, in welchen sich das Objekt jeweils gleichförmig bewegt.
 2. Beschreibe in Worten, in welche Richtung sich das Objekt in jedem der fünf Bereiche bewegt.
 3. In welchem Bereich bewegt sich das Objekt am schnellsten? ... am langsamsten?
 4. Vervollständige die Tabelle mit Hilfe des Diagramms und berechne die zu jedem Bereich gehörende Geschwindigkeit.
@@ -85,7 +85,7 @@ Eine [positive Steigung bedeutet eine Vorwärtsbewegung](../), eine negative Ste
 
 _Teil 3_
 
-Je [steiler die Gerade im s-t-Diagramm](../) ist, je schneller bewegt sich das Objekt. Dabei ist es egal, ob es sich um eine positive oder negative Steigung handelt. Die Steigung ist im zweiten Bereich am grössten, dh das Objekt bewegt sich im zweiten Bereich am schnellsten. Im Stillstand bewegt sich das Objekt nicht, deswegen ist das Objekt im Teil 4 am langsamsten. 
+Je [steiler die Gerade im t-x-Diagramm](../) ist, je schneller bewegt sich das Objekt. Dabei ist es egal, ob es sich um eine positive oder negative Steigung handelt. Die Steigung ist im zweiten Bereich am grössten, dh das Objekt bewegt sich im zweiten Bereich am schnellsten. Im Stillstand bewegt sich das Objekt nicht, deswegen ist das Objekt im Teil 4 am langsamsten. 
 
 _Teil 4_
 

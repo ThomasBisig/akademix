@@ -4,6 +4,10 @@ title: About
 
 # About
 
+[Github repo](https://github.com/ThomasBisig/akademix)
+
+Version vom 20.04.2023
+
 [notice=tip]
 Project Guidelines:
 - accessible (markdown, opensource)

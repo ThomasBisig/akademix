@@ -49,7 +49,7 @@ Der Zusammenhang der gleichförmigen Bewegung liefert für die Durchschnittsgesc
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\underline{1152\,m}$
+**Antwort**: $1152\,m$
 
 **Lösungsidee**: Die Zeit für einen Weg und die Geschwindigkeit in den Zusammenhang der gleichförmigen Bewegung einsetzen.
 
