@@ -1,0 +1,191 @@
+---
+title: Roadmap
+---
+
+The goal of the first few sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
+
+
+### Current - Sprint 2: Prototype - Todos (##### of 10h, started 11.04.23)
+_Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
+
+- Content
+	- [ ] Add all exercises from (own) documentation
+	- [ ] Add (few) exercises from grund-wissen.de
+	- [ ] Add source from physcia.ch
+	- [ ] Add experiment
+	- [ ] Add more drawing and interpreting t-x and t-v diagrams
+	- [ ] Polish solutions, files, clean directories
+
+	- Todos for all exercises so far:
+		- [ ] Email to thomas@akademix.ch
+		- [ ] Streckendifferenz -> Ortsverschiebung, Durchschnittsgeschw. -> mittlere Geschw.
+		- [ ] von CC 3.0 auf 4.0
+		- [ ] Add space between number and unit (MathJax) -> "$/,$"
+		- [ ] Solutions of exercises
+		- [ ] Check tags (or leave empty)
+		- [ ] polish links
+		- [ ] polish solutions
+		- [ ] Alle Lösungen einfach unterstreichen (wie exercise 14)
+		- [ ] Change all $s=v*t$ to $\Delta x = \overline{v} * \Delta t$ -> done for exercise-1
+		- [ ] Change to review_0/1/2 and todos
+		- [ ] Link all concepts to empty concept page
+		- [ ] When km/h when \frac{km}{h}
+		- [ ] 'set' bei allen hinzufügen, bzw. schauen, welche Zusammengehören
+		- [ ] Include license of images
+		- [ ] Schritte als bullet-points oder als numbered list?
+		- [ ] From s-t bzw. v-t to t-x and t-v diagramm
+		- [ ] Change from s=vt to x=vt
+		- [ ] Add 'decisions' like t-x and t-v to overview page
+
+
+- [ ] Upload everything to github v0.0.1
+
+
+#### Done in S2
+- [x] Checked Ex1-6
+- [x] Added images 30/31
+- [x] Added ex38-39 (16.04.2023)
+- [x] Add remaining exercises in pictures folder (15.04.2023)
+- [x] Added ex32-37 (15.04.2023)
+- [x] Added ex24-31 (14.04.2023)
+- [x] Added ex22/23 (11.04.2023)
+- [x] Added ex20/21 (10.04.2023)
+- [x] Using media-tag for source (if empty, no media) (10.04.2023)
+
+
+### Future Sprints
+
+#### S3
+_Goal: Clean-up structure (10 days)_
+
+- [ ] Format table
+- [ ] Add tag (status: publish/draft)
+- [ ] In overview: cycle through all posts, select unique set-ids and display them in table
+- [ ] Add few pages for concepts and copy (e.g.) wikipedia shorts
+- [ ] MathJax Formulas seem too big
+- [ ] Footer kompakter bzw. evtl 'Zufallsaufgabe-button' (einfacher, gleich, schwerer)
+- [ ] Image resizing (all the same and max 40% width (or so))
+- [ ] Bildabstände in Übungen
+- [ ] for experiments: disclaimer to be careful
+- [ ] Make basic design (get rid of all the boilerplate in the template)
+- [ ] Interne und externe Links (zB Wikipedia) unterschiedlich darstellen
+- [ ] Farbkonzept überlegen und vereinheitlichen
+
+#### S4
+_Goal: Clean up design_
+
+#### S5
+
+- Content
+	- [ ] Make table overview filters
+	- [ ] Create simple 'learning experience' like documentation (LMS)
+		- [ ] Add five inputs.
+	- [ ] Add main topics (phyisics, math, biology, ...)
+	- [ ] Add 'basale Kompetenzen' exercises -> evtl. Tool suchen, dass solche Aufgaben löst und die Lsg in Latex bereitstellt
+	- [ ] Eigenen Schwierigkeitsindikator verbessern bzw. gut überlegen wie...
+	- [ ] Add modular infobox 'strategy'
+	- [ ] Images to grav-plugin-featherlight
+	- [ ] Make link per page to download markdown file (Plugin? or input: https://discourse.getgrav.org/t/provide-page-for-download-and-change-content-type/2066/2)
+	- [ ] Wo kommen Tags wie 'fehlende Daten' als Aufgabentyp hin?
+	- [ ] FAQ für Übung?
+	- [ ] Commenting system
+	- [ ] Completed x (done, partly done, failed) with db plugin https://github.com/getgrav/grav-plugin-database
+	- [ ] Possibility to ask question (email, comments?) or create ChatGPT prompt?
+	- [ ] Use ChatGPT to generate extensive solution(s) and differentiating exercises.
+
+
+- Structure and design
+	- [ ] Make collections https://learn.getgrav.org/17/content/collections#complex-collections
+	- [ ] Add simple search: https://github.com/getgrav/grav-plugin-simplesearch
+	- [ ] URL au ID umstellen -> ID als Entrypoint (zB für LP an SuS)
+	- [ ] add simple tag search to see questions for certain criteria
+	- [ ] Polish structure and design
+		- [ ] Color collapsible content like info boxes (5/10)
+	- [ ] Maybe put solutions in different file and inject...
+
+
+#### S6
+- [ ] Make flashcards available for inputs
+- [ ] Think about different framework (maybe a RDB nonetheless)
+- [ ] Add ChatGPT to evaluate text answers
+- [ ] Make content open source (i.e. upload all and only exercises to github repo)
+- [ ] Add few videos for some exercises (as solution)
+- [ ] Add some interactive exercises or inputs (like cienows.ki)
+- [ ] Transfer exercises of one documentation (e.g. Mechanik)
+- [ ] Extend from only exercises to 'input'
+- [ ] Use plugin (page inject) or do it incrementally (like brilliant) to create example chapter
+- [ ] ? Is it possible to create 'interactive' content, like an interactive version of an offline documentation? Or does this have to be a different 'stack'?
+- [ ] Add content that links from and two exercises (force, acceleration, heat) but also topic based (how and why does a rainbox appear)
+- [ ] Is KaTeX better? (https://sr.ht/~fd/grav-plugin-staticmath/)
+
+- Structure and Design
+	- [ ] Remake all graphics from the script as SVG in inkscape.
+	- [ ] Use software (like snap.svg) to add interactivity to svg's
+	- [ ] Make link per page to download as Word file
+	- [ ] Add some sort of RSS Feed?
+
+
+- [ ] Link to quiz site
+- [ ] Let others add or contribute exercises 'directly' through an interface
+- [ ] Make multi lingual
+
+
+### Completed
+_Goal: Set up a working version of a website with a few exercises that are linked._
+
+#### Sprint 1: Prototype - Todos (Goal: - 10.04.23) Finished
+- Content
+	- [x] Added Ex18/19 (09.04.2023)
+	- [x] Added Ex17, corrected Ex6 (08.04.2023)
+	- [x] Completed Ex6 (without correcting images) (07.04.2023)
+	- [x] Added Ex16 and update Ex15 (07.04.2023)
+	- [x] Change from "tag:differenziert" zu "tag:set" (06.04.2023)
+	- [x] tag: realitätsnähe hinzufügen (06.04.2023)
+	- [x] "Tipp zur ..." ohne Doppelpunkt (06.04.2023)
+	- [x] All tags that are strings need to be '' (06.04.2023)
+	- [x] Aufgabeneinteilung (Schwierigkeit, Technicken) kompakter und visuell ansprechender (05.04.2023)
+	- [x] Added exercise 14 (05.04.2023)
+	- [x] (i) einblenden und bei Hover over 'alle' Tags anzeigen (05.04.2023)
+	- [x] Add tooltips for difficulty, quality and info (i) (https://www.w3schools.com/howto/howto_css_tooltip.asp) (05.04.2023)
+	- [x] Create template to download and fill in exercises. (05.04.2023)
+	- [x] http://www.akademix.ch/aufgaben/exercise-9 Deine Aufgabe ist es, die Strecke anhand des Grapphen zu bestimmen. Gehe dazu folgendermassen vor: (05.04.2023)
+	- [x] polish tags (04.04.2023)
+	- [x] Add Mock-Logo (03.04.2023)
+	- [x] Create overview (prob. like the knowledge base template of grav) to enter exercises (03.04.2023)
+	- [x] Added excel/analysis example (03.04.2023)
+	- [x] Wrote a bit of information on the main page (03.04.2023)
+	- [x] Eine Aufgabe differenzieren: Joggingstrecke in: mit Slider und genauer Anleitung, ohne Slider, mit Teilanleitung, ohne Anleitung ohne Slider (immer mit unterschiedlichen Graphen) -> evtl. tag 'differenzierung'-> nicht diese, aber andere Aufgabe
+	- [x] Add very basic structure, so site is viewable (02.04.23)
+	- [x] Move to main directory (02.04.23) -> Not checked whether everything works
+	- [x] Eigenen Schwierigkeitsindikator entwerfen: z.B. Produkt aus 'Schwierigkeit' und Anzahl Schritte (02.04.23)
+	- [x] Add example image (31.03.23)
+	- [x] Add taxonomy for 'kind' of exercise (draw, calc, argue, experiment, home, ...) (30.03.23)
+	- [x] Add author per exercise or page (30.03.23)
+	- [x] Add licence per exercise and page (31.03.23)
+	- [x] Add source per exercise and page (based on, web, person, documentation) (31.03.23)
+	- [x] Add learning objective in tags (31.03.23)
+	- [x] Add 'content-type' e.g. html, markdown, mix (31.03.23)
+	- [x] Add 'media' e.g. yes/no (31.03.23)
+
+- Structure and design
+	- [x] Add licence (MIT, CC-BY-SA ?) -> needs to be updated maybe (06.04.2023)
+	- [x] make link to concepts always the same color (like tags on https://demo.getgrav.org/blog-skeleton/), make links to exercises always the same color. Make links to cases (Wie entsteht ein Regenbogen?) always the same color -> kind of... (05.04.2023)
+	- [x] Add links to the concepts also in solution (every linked concept as tag as well as in solution) (05.04.2023)
+	- [x] Ampel umsetzen für die Qualität der Übung/Lösung/Seite (04.04.2023)
+	- [x] Introduced simple review mechanism (04.04.2023)
+	- [x] Added font-awesome capability (03.04.2023)
+	- [x] tag: Anleitungsdetailierungsgrad, fliesst in die 'Schwierigkeit' ein (03.04.2023)
+	- [x] Fixed problem with boundaries of images (03.04.2023)
+	- [x] Created exercise with matching color to illustration (03.04.2023)
+	- [x] Added svg images (03.04.2023)
+	- [x] Added overview table in Aufgaben (03.04.2023)
+	- [x] Schwierigkeit (+1) stimmt nicht (S. wird nicht abgefragt um dynamisch zu erweitern)-> Aufgabe selbst taucht auch noch auf
+	- [x] tag: needsSupport for experiments in class (02.04.2023)
+	- [x] Add Tag 'requiredConceptsPhysics' and 'requiredConceptsMath' for exercises (01.04.23)
+	- [x] Add unique identifier per exercise (date+time+4digitrandom) (01.04.23)
+	- [x] Create very basic navigation and structure (30.03.23)
+
+### Postponed or Cancelled
+- [ ] ? Add follows from or depends on per exercise (in meta)
+- [ ] Add different (generic) filters after each exercise (harder, easier, similar...)/Weitere Aufgabenkapitel: schwerer, leichter, gleiches Thema (25%) -> nicht klar...
+- [ ] Back/Forward implementieren (Zug auf Brücke) -> geloest ueber 'differenziert'
