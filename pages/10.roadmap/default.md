@@ -2,10 +2,11 @@
 title: Roadmap
 ---
 
-The goal of the first few sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
+The goal of the first four sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
 
+### Current - Sprint 1: Finished (see at the bottom)
 
-### Current - Sprint 2: Prototype - Todos (6h of 10h, started 11.04.23)
+### Current - Sprint 2: Prototype - Todos (6.5h of 10h, started 11.04.23)
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
 
 - Content
@@ -25,7 +26,7 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 		- [ ] polish links
 		- [ ] polish solutions
 		- [ ] Alle Lösungen einfach unterstreichen (wie exercise 14) aber nicht in Kurzlösungen
-		- [ ] Change all $s=v*t$ to $\Delta x = \overline{v} * \Delta t$ -> done for exercise-1
+		- [ ] Change all $s=v*t$ to $\Delta x = v * \Delta t$ -> done for exercise-1
 		- [ ] Change to review_0/1/2 and todos
 		- [ ] Link all concepts to empty concept page
 		- [ ] 'set' bei allen hinzufügen, bzw. schauen, welche Zusammengehören
@@ -35,6 +36,7 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 
 
 #### Done in S2
+- [x] Checked Ex36-39 (21.04.2023)
 - [x] Add 'decisions' like t-x and t-v to overview page (20.04.2023)
 - [x] Add page with missing exercises (20.04.2023)
 - [x] When km/h and m/s to \frac{}{} (20.04.2023)
@@ -56,60 +58,56 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 
 ### Future Sprints
 
-#### S3
-_Goal: Clean-up structure (10 days)_
+#### S3 (0 out of 10h)
+_Goal: Clean-up structure_
 
+- [ ] Collections
 - [ ] Format table
+- [ ] Dynamic table for exercises with un/check of any tag
 - [ ] Add tag (status: publish/draft)
 - [ ] In overview: cycle through all posts, select unique set-ids and display them in table
 - [ ] Add few pages for concepts and copy (e.g.) wikipedia shorts
-- [ ] MathJax Formulas seem too big
 - [ ] Footer kompakter bzw. evtl 'Zufallsaufgabe-button' (einfacher, gleich, schwerer)
-- [ ] Image resizing (all the same and max 40% width (or so))
-- [ ] Bildabstände in Übungen
 - [ ] for experiments: disclaimer to be careful
-- [ ] Make basic design (get rid of all the boilerplate in the template)
 - [ ] Interne und externe Links (zB Wikipedia) unterschiedlich darstellen
-- [ ] Farbkonzept überlegen und vereinheitlichen
+- [ ] Add simple search: https://github.com/getgrav/grav-plugin-simplesearch
+- [ ] add simple tag search to see questions for certain criteria
 
-#### S4
+#### S4 (0 out of 10h)
 _Goal: Clean up design_
 
-#### S5
+- [ ] Make basic design (get rid of all the boilerplate in the template)
+- [ ] MathJax Formulas seem too big
+- [ ] Make table overview filters
+- [ ] Images to grav-plugin-featherlight
+- [ ] Commenting system
+- [ ] Farbkonzept überlegen und vereinheitlichen
+- [ ] Bildabstände in Übungen
+- [ ] Image resizing (all the same and max 40% width (or so))
 
-- Content
-	- [ ] Make table overview filters
-	- [ ] Create simple 'learning experience' like documentation (LMS)
-		- [ ] Add five inputs.
-	- [ ] Add main topics (phyisics, math, biology, ...)
-	- [ ] Add 'basale Kompetenzen' exercises -> evtl. Tool suchen, dass solche Aufgaben löst und die Lsg in Latex bereitstellt
-	- [ ] Eigenen Schwierigkeitsindikator verbessern bzw. gut überlegen wie...
-	- [ ] Add modular infobox 'strategy'
-	- [ ] Images to grav-plugin-featherlight
-	- [ ] Make link per page to download markdown file (Plugin? or input: https://discourse.getgrav.org/t/provide-page-for-download-and-change-content-type/2066/2)
-	- [ ] Wo kommen Tags wie 'fehlende Daten' als Aufgabentyp hin?
-	- [ ] FAQ für Übung?
-	- [ ] Commenting system
-	- [ ] Completed x (done, partly done, failed) with db plugin https://github.com/getgrav/grav-plugin-database
-	- [ ] Possibility to ask question (email, comments?) or create ChatGPT prompt?
-	- [ ] Use ChatGPT to generate extensive solution(s) and differentiating exercises.
+#### Future
 
-
-- Structure and design
-	- [ ] Make collections https://learn.getgrav.org/17/content/collections#complex-collections
-	- [ ] Add simple search: https://github.com/getgrav/grav-plugin-simplesearch
-	- [ ] URL au ID umstellen -> ID als Entrypoint (zB für LP an SuS)
-	- [ ] add simple tag search to see questions for certain criteria
-	- [ ] Polish structure and design
-		- [ ] Color collapsible content like info boxes (5/10)
-	- [ ] Maybe put solutions in different file and inject...
-
-
-#### S6
+- [ ] Create simple 'learning experience' like documentation (LMS)
+	- [ ] Add five inputs.
+- [ ] Add main topics (phyisics, math, biology, ...)
+- [ ] Add 'basale Kompetenzen' exercises -> evtl. Tool suchen, dass solche Aufgaben löst und die Lsg in Latex bereitstellt
+- [ ] Eigenen Schwierigkeitsindikator verbessern bzw. gut überlegen wie...
+- [ ] Add modular infobox 'strategy'
+- [ ] Make link per page to download markdown file (Plugin? or input: https://discourse.getgrav.org/t/provide-page-for-download-and-change-content-type/2066/2)
+- [ ] Wo kommen Tags wie 'fehlende Daten' als Aufgabentyp hin?
+- [ ] FAQ für Übung?
+- [ ] Completed x (done, partly done, failed) with db plugin https://github.com/getgrav/grav-plugin-database
+- [ ] Possibility to ask question (email, comments?) or create ChatGPT prompt?
+- [ ] Use ChatGPT to generate extensive solution(s) and differentiating exercises.
+- [ ] Make collections https://learn.getgrav.org/17/content/collections#complex-collections
+- [ ] URL au ID umstellen -> ID als Entrypoint (zB für LP an SuS)
+- [ ] Polish structure and design
+	- [ ] Color collapsible content like info boxes (5/10)
+- [ ] Maybe put solutions in different file and inject...
+- [ ] Make form to create exercise (for anyone)
 - [ ] Make flashcards available for inputs
 - [ ] Think about different framework (maybe a RDB nonetheless)
 - [ ] Add ChatGPT to evaluate text answers
-- [ ] Make content open source (i.e. upload all and only exercises to github repo)
 - [ ] Add few videos for some exercises (as solution)
 - [ ] Add some interactive exercises or inputs (like cienows.ki)
 - [ ] Transfer exercises of one documentation (e.g. Mechanik)
@@ -118,23 +116,19 @@ _Goal: Clean up design_
 - [ ] ? Is it possible to create 'interactive' content, like an interactive version of an offline documentation? Or does this have to be a different 'stack'?
 - [ ] Add content that links from and two exercises (force, acceleration, heat) but also topic based (how and why does a rainbox appear)
 - [ ] Is KaTeX better? (https://sr.ht/~fd/grav-plugin-staticmath/)
-
-- Structure and Design
-	- [ ] Remake all graphics from the script as SVG in inkscape.
-	- [ ] Use software (like snap.svg) to add interactivity to svg's
-	- [ ] Make link per page to download as Word file
-	- [ ] Add some sort of RSS Feed?
-
-
+- [ ] Remake all graphics from the script as SVG in inkscape.
+- [ ] Use software (like snap.svg) to add interactivity to svg's
+- [ ] Make link per page to download as Word/PDF file
+- [ ] Add some sort of RSS Feed?
 - [ ] Link to quiz site
 - [ ] Let others add or contribute exercises 'directly' through an interface
 - [ ] Make multi lingual
 
 
 ### Completed
-_Goal: Set up a working version of a website with a few exercises that are linked._
 
 #### Sprint 1: Prototype - Todos (Goal: - 10.04.23) Finished
+_Goal: Set up a working version of a website with a few exercises that are linked._
 - Content
 	- [x] Added Ex18/19 (09.04.2023)
 	- [x] Added Ex17, corrected Ex6 (08.04.2023)

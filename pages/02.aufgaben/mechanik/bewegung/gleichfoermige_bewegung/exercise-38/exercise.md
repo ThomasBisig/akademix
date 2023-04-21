@@ -24,8 +24,8 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230416
-	source: 'University Physics, angepasst und erweitert'
+	version: 20230419
+	source: 'Idee: University Physics 14th edition, angepasst und erweitert'
 	learning-objective: ''
 	content-type: markdown
 	media: 'https://de.wikipedia.org/wiki/Seismische_Wellen#/media/Datei:Ondes_P_et_S_1d_30_petit.gif'
@@ -70,11 +70,11 @@ Der Index $P$ bezeichnet die Grössen für **P**-Wellen, der Index $S$ bezeichne
 
 _Teil 1_
 
-1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](../) wie folgt aufgestellt werden:
+1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) wie folgt aufgestellt werden:
 
 $$
-\Delta x_P=\overline{v_P}\cdot \Delta t_P\\
-\Delta x_S=\overline{v_S}\cdot \Delta t_S\\
+\Delta x_P=v_P\cdot \Delta t_P\\
+\Delta x_S=v_S\cdot \Delta t_S\\
 $$
 
 2. Die mittleren Geschwindigkeiten können für beide Fahrten direkt eingesetzt werden:
@@ -84,13 +84,13 @@ $$
 \Delta x_S=3.5\,\frac{km}{s}\cdot \Delta t_S\\
 $$
 
-3. Die von den Wellen zurückgelegte Strecke ist  in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_P=\Delta x_S$ bzw. dass die [zwei Gleichungen können gleichgesetzt](../) werden:
+3. Die von den Wellen zurückgelegte Strecke ist  in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_P=\Delta x_S$ bzw. dass die [zwei Gleichungen können gleichgesetzt](../../../../../konzepte/konzept-1) werden:
 
 $$
 6.5\,\frac{km}{s}\cdot \Delta t_P=3.5\,\frac{km}{s}\cdot \Delta t_S
 $$
 
-4. Mit der Zusatzinformation, dass die S-Wellen mit einer Verzögerung von [$17\,s$](../) eintreffen
+4. Mit der Zusatzinformation, dass die S-Wellen mit einer Verzögerung von $17\,s$ eintreffen
 
 $$
 \Delta t_S=\Delta t_P+17\,s
@@ -106,19 +106,19 @@ $$
 
 $$
 \begin{align}
-\rightarrow 6.5 \cdot \Delta t_P & = 3.5 \cdot (\Delta t_P+17)\\
+6.5 \cdot \Delta t_P & = 3.5 \cdot (\Delta t_P+17)\\
 
-\rightarrow 6.5 \cdot \Delta t_P & = 3.5 \cdot \Delta t_P + 3.5 \cdot 17 \\
+6.5 \cdot \Delta t_P & = 3.5 \cdot \Delta t_P + 3.5 \cdot 17 \\
 
-\rightarrow 6.5 \cdot \Delta t_P - 3.5 \cdot \Delta t_P & = 3.5 \cdot 17 \\
+6.5 \cdot \Delta t_P - 3.5 \cdot \Delta t_P & = 3.5 \cdot 17 \\
 
-\rightarrow \Delta t_P \cdot (6.5-3.5) & = 59.5 \\
+\Delta t_P \cdot (6.5-3.5) & = 59.5 \\
 
-\rightarrow 3 \cdot \Delta t_P & = 59.5\\
+3 \cdot \Delta t_P & = 59.5\\
 
-\rightarrow \Delta t_P & =\frac{59.5}{3} \\
+\Delta t_P & =\frac{59.5}{3} \\
 
-\rightarrow \Delta t_P & \approx 19.8\overline{3}\,s
+\Delta t_P & \approx 19.8\overline{3}\,s
 \end{align}
 $$
 
@@ -173,6 +173,6 @@ Pro gezählter Sekunde ab Eintreffen der Primärwellen befindet sich das Zentrum
 
 _Alternative zu Teil 2_
 
-Da es sich beim Zusammenhang $\Delta s=\overline{v}\cdot \Delta t$ um einen linearen Zusammenhang handelt, kann direkt aus dem ersten Teil geschlossen werden, dass wenn eine Zeitdifferenz von $17\,s$ einer Distanz von $128.9\,km$ entspricht, $1\,s$ einer Distanz von $7.6\,km$ entspricht.
+Da es sich beim Zusammenhang $\Delta s=v\cdot \Delta t$ um einen linearen Zusammenhang handelt, kann direkt aus dem ersten Teil geschlossen werden, dass wenn eine Zeitdifferenz von $17\,s$ einer Distanz von $128.9\,km$ entsprichen, $1\,s$ einer Distanz von $7.6\,km$ entspricht.
 
 [/details]

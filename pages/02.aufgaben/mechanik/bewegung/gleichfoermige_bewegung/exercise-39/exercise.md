@@ -24,8 +24,8 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230416
-	source: 'neu, thomas@akademix.ch'
+	version: 20230419
+	source: 'neu, Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media: 'https://commons.wikimedia.org/wiki/File:Lightning_NOAA.jpg'
@@ -42,16 +42,16 @@ mathjax:
 ---
 ![Mehrere Wolke-zu-Boden- und Wolke-zu-Wolke-Blitzeinschläge während der Nacht. Beobachtet während eines nächtlichen Gewitters.](Lightning_NOAA.jpg?resize=400,300&class=float-right) In aller Regel tritt ein Blitz während eines Gewitters infolge einer elektrostatischen Aufladung der wolkenbildenden Wassertröpfchen oder der Regentropfen auf. Er wird dabei vom Donner begleitet.
 
-Während der Blitz (bzw. das Blitzlicht) sich mit Lichtgeschwindigkeit vion $3\cdot 10^8\,\frac{km}{s}$ ausbreitet, breitet sich der Schall des Donners mit einer Geschwindigkeit von $340\,\frac{m}{s}$ aus.
+Während der Blitz (bzw. das Blitzlicht) sich mit Lichtgeschwindigkeit von $3\cdot 10^8\,\frac{km}{s}$ ausbreitet, breitet sich der Schall des Donners mit einer Geschwindigkeit von $340\,\frac{m}{s}$ aus.
 
-Die Zeitverzögerung zwischen dem Eintreffen dieser beiden Signale kann dir Aufschluss darüber geben, wie weit ein Blitz bzw. das dazugehörige Gewitter, entfernt ist.
+Die Zeitverzögerung zwischen dem Eintreffen dieser beiden Signale kann dir Aufschluss darüber geben, wie weit ein Blitz, bzw. das dazugehörige Gewitter, entfernt ist.
 
 1. Wenn die Zeitverzögerung $6\,s$ beträgt, wie weit entfernt von dir findet das Gewitter statt?
 
 2. Verallgemeinere die Berechnung und leite daraus eine Faustregel ab, welche die Entfernung pro Zeit abschätzt.
 
 [details="Tipp zum Vorgehen Teil 1" class="tipp"]
-- Stelle für beide Wellen eine korrekt Gleichung für die Entfernung auf. Bezeichne alle Grössen mit Variablen.
+- Stelle für beide Signale eine korrekt Gleichung für die Entfernung in Abhängigkeit der Zeit und der mittleren Geschwindigkeit auf. Bezeichne alle Grössen mit Variablen.
 - Nutze die Informationen aus dem Text um Variablen zu eliminieren.
 - Löse das Gleichungssystem.
 [/details]
@@ -65,7 +65,7 @@ Ersetze die $6\,s$ der vorhergehenden Aufgabe mit der Variablen $a$ und führe d
 1. $\approx 2\,km$
 2. Drei Sekunden entsprechen einem Kilometer
 
-**Lösungsidee**: Die zwei Wellenausbreitungen entsprechen zwei Gleichungen mit zwei Unbekannten, welche gemeinsam gelöst werden können.
+**Lösungsidee**: Die zwei Signalausbreitungen entsprechen zwei Gleichungen mit zwei Unbekannten, welche gemeinsam gelöst werden können.
 
 **Lösungsweg**:
 
@@ -73,27 +73,27 @@ Der Index $B$ bezeichnet die Grössen für den **B**litz, der Index $D$ bezeichn
 
 _Teil 1_
 
-1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](../) wie folgt aufgestellt werden:
+1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) wie folgt aufgestellt werden:
 
 $$
-\Delta x_B=\overline{v_B}\cdot \Delta t_B\\
-\Delta x_D=\overline{v_D}\cdot \Delta t_D\\
+\Delta x_B=v_B\cdot \Delta t_B\\
+\Delta x_D=v_D\cdot \Delta t_D\\
 $$
 
-2. Die mittleren Geschwindigkeiten können für beide Fahrten direkt eingesetzt werden (die Schallgeschwindigkeit umwandeln in $\frac{km}/{s}$):
+2. Die mittleren Geschwindigkeiten können für beide Fahrten direkt eingesetzt werden (die Schallgeschwindigkeit [umwandeln](../../../../../konzepte/konzept-1) in $\frac{km}{s}$):
 
 $$
 \Delta x_B=3\cdot 10^8\,\frac{km}{s}\cdot \Delta t_B\\
 \Delta x_D=0.34\,\frac{km}{s}\cdot \Delta t_D\\
 $$
 
-3. Die von den Wellen zurückgelegte Strecke ist  in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_B=\Delta x_D$ bzw. dass die [zwei Gleichungen können gleichgesetzt](../) werden:
+3. Die von den Signalen zurückgelegte Strecke ist in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_B=\Delta x_D$ bzw. dass die [zwei Gleichungen gleichgesetzt](../../../../../konzepte/konzept-1) werden können:
 
 $$
 3\cdot 10^8\,\frac{km}{s}\cdot \Delta t_B=0.34\,\frac{km}{s}\cdot \Delta t_D
 $$
 
-4. Mit der Zusatzinformation, dass der Schall des Donners mit einer Verzögerung von [$6\,s$](../) eintrifft
+4. Mit der Zusatzinformation, dass der Schall des Donners mit einer Verzögerung von $6\,s$ eintrifft
 
 $$
 \Delta t_D=\Delta t_B+6\,s
@@ -109,17 +109,17 @@ $$
 
 $$
 \begin{align}
-\rightarrow 3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot (\Delta t_P+6)\\
+3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot (\Delta t_P+6)\\
 
-\rightarrow 3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot \Delta t_P + 0.34 \cdot 6 \\
+3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot \Delta t_P + 0.34 \cdot 6 \\
 
-\rightarrow 3\cdot 10^8 \cdot \Delta t_P - 0.34 \cdot \Delta t_P & = 0.34 \cdot 6 \\
+3\cdot 10^8 \cdot \Delta t_P - 0.34 \cdot \Delta t_P & = 0.34 \cdot 6 \\
 
-\rightarrow \Delta t_P \cdot (3\cdot 10^8-0.34) & = 2.04 \\
+\Delta t_P \cdot (3\cdot 10^8-0.34) & = 2.04 \\
 
-\rightarrow \Delta t_P & =\frac{2.04}{3\cdot 10^8-0.34} \\
+\Delta t_P & =\frac{2.04}{3\cdot 10^8-0.34} \\
 
-\rightarrow \Delta t_P & \approx 6.8e-9\,s
+\Delta t_P & \approx 6.8\cdot 10^{-9}\,s
 \end{align}
 $$
 
@@ -133,7 +133,7 @@ $$
 liefert
 
 $$
-\Delta x_B=3\cdot 10^8\,\frac{km}{s}\cdot 6.8e-9\,s \approx \underline{2\,km}
+\Delta x_B=3\cdot 10^8\,\frac{km}{s}\cdot 6.8\cdot 10^{-9}\,s \approx \underline{2\,km}
 $$
 
 _Teil 2_
@@ -142,17 +142,17 @@ _Teil 2_
 
 $$
 \begin{align}
-\rightarrow 3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot (\Delta t_P+a)\\
+3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot (\Delta t_P+a)\\
 
-\rightarrow 3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot \Delta t_P + 0.34 \cdot a \\
+3\cdot 10^8 \cdot \Delta t_P & = 0.34 \cdot \Delta t_P + 0.34 \cdot a \\
 
-\rightarrow 3\cdot 10^8 \cdot \Delta t_P - 0.34 \cdot \Delta t_P & = 0.34 \cdot a \\
+3\cdot 10^8 \cdot \Delta t_P - 0.34 \cdot \Delta t_P & = 0.34 \cdot a \\
 
-\rightarrow \Delta t_P \cdot (3\cdot 10^8-0.34) & = 0.34 \cdot a \\
+\Delta t_P \cdot (3\cdot 10^8-0.34) & = 0.34 \cdot a \\
 
-\rightarrow \Delta t_P & =\frac{0.34 \cdot a}{3\cdot 10^8-0.34} \\
+\Delta t_P & =\frac{0.34 \cdot a}{3\cdot 10^8-0.34} \\
 
-\rightarrow \Delta t_P & = \frac{0.34}{3\cdot 10^8-0.34} \cdot a
+\Delta t_P & = \frac{0.34}{3\cdot 10^8-0.34} \cdot a
 \end{align}
 $$
 
@@ -172,6 +172,6 @@ Pro gezählter Sekunde ab Eintreffen des Blitzes befindet sich das Zentrum des E
 
 _Alternative zu Teil 2_
 
-Da es sich beim Zusammenhang $\Delta s=\overline{v}\cdot \Delta t$ um einen linearen Zusammenhang handelt, kann direkt aus dem ersten Teil geschlossen werden, dass wenn eine Zeitdifferenz von $6\,s$ einer Distanz von $2\,km$ entspricht, $3\,s$ einer Distanz von $1\,km$ entspricht.
+Da es sich beim Zusammenhang $\Delta s=v\cdot \Delta t$ um einen linearen Zusammenhang handelt, kann direkt aus dem ersten Teil geschlossen werden, dass wenn eine Zeitdifferenz von $6\,s$ einer Distanz von $2\,km$ entsprechen, $3\,s$ einer Distanz von $1\,km$ entsprechen.
 
 [/details]
