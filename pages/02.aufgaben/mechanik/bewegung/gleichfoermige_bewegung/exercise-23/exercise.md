@@ -1,15 +1,15 @@
 ---
-title: Durchschnittsgeschwindigkeit eines Radfahrers
+title: Mittlere Geschwindigkeit eines Radfahrers
 taxonomy:
 	id: 2023041414576613
 	set: 0202304141453332
 
-	requires_physik: [Gleichförmige Bewegung]
+	requires_physik: [Mittlere Geschwindigkeit]
 	requires_mathematik: []
 
 	category: exercises
 	fach: Physik
-	thema: [Mechanik, Bewegung, Gleichförmige Bewegung]
+	thema: [Mechanik, Bewegung, Mittlere Geschwindigkeit]
 	art: Berechnung
 	needsSupport: 0
 	needsTool: 0
@@ -19,19 +19,19 @@ taxonomy:
 	bloom: 1
 	schritte: 1
 	schwierigkeit: 1
-	realitaet: 
+	realitaet: 2
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230414
-	source: 'www.grund-wissen.de, abgewandelt'
+	version: 20230422
+	source: 'www.grund-wissen.de, abgewandelt Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media:
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_0
+	status_tags: review_1
 	status_exercise: review_1
 	status_solution: review_1
 
@@ -45,21 +45,19 @@ Ein Radfahrer legt alle $8.0\,s$ eine Wegstrecke von $56\,m$ zurück.
 Wie gross ist seine Geschwindigkeit (in $\frac{m}{s}$)?
 
 [details="Tipp zum Vorgehen" class="tipp"]
-Der Zusammenhang der gleichförmigen Bewegung liefert für die Durchschnittsgeschwindigkeit $\overline{v}=\frac{\Delta s}{\Delta t}$ die Antwort.
+Die Definition der mittleren Geschwindigkeit liefert die Antwort.
 [/details]
 
 [details="Lösung" class="loesung"]
 **Antwort**: $7\,\frac{m}{s}$
 
-**Lösungsidee**: Benutzung des Zusammenhangs für die gleichförmige Bewegung.
+**Lösungsidee**: Benutzung der Definition der mittleren Geschwindigkeit.
 
 **Lösungsweg**:
-Der [Zusammenhang der gleichförmigen Bewegung](../) liefert für die Durchschnittsgeschwindigkeit
+Einsetzen der gegebenen Grössen in die [Definition der mittleren Geschwindigkeit](../) liefert
 
 $$
-\overline{v}=\frac{\Delta s}{\Delta t}=\frac{56\,m}{8\,s}=\underline{7\,\frac{m}{s}}
+\overline{v}=\frac{\Delta x}{\Delta t}=\frac{56\,m}{8\,s}=\underline{7\,\frac{m}{s}}
 $$
-
-[Umgerechnet in $\frac{km}{h}$](../) (Multiplikation mit $3.6$) entspricht dies $25.2\,\frac{km}{h}$. 
 
 [/details]

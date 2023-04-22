@@ -36,6 +36,7 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 
 
 #### Done in S2
+- [x] Checked Ex20-29 (22.04.2023)
 - [x] Checked Ex36-39 (21.04.2023)
 - [x] Add 'decisions' like t-x and t-v to overview page (20.04.2023)
 - [x] Add page with missing exercises (20.04.2023)
@@ -61,6 +62,7 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 #### S3 (0 out of 10h)
 _Goal: Clean-up structure_
 
+- [ ] Make each one an object: exercise, hint, solution, worked solution
 - [ ] Collections
 - [ ] Format table
 - [ ] Dynamic table for exercises with un/check of any tag

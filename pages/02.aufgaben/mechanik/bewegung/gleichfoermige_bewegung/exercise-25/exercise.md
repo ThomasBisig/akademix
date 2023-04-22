@@ -2,14 +2,14 @@
 title: 100m Sprint-Weltrekord
 taxonomy:
 	id: 2023041415458787
-	set: 0202304141453332
+	set: 0202304221515334
 
-	requires_physik: [SI Einheiten, Gleichförmige Bewegung]
+	requires_physik: [SI Einheiten, Mittlere Geschwindigkeit]
 	requires_mathematik: []
 
 	category: exercises
 	fach: Physik
-	thema: [Mechanik, Bewegung, Gleichförmige Bewegung]
+	thema: [Mechanik, Bewegung, Mittlere Geschwindigkeit]
 	art: Berechnung
 	needsSupport: 0
 	needsTool: 0
@@ -24,14 +24,14 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230414
-	source: 'www.grund-wissen.de, abgewandelt'
+	version: 20230422
+	source: 'www.grund-wissen.de, abgewandelt Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media:
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_0
+	status_tags: review_1
 	status_exercise: review_1
 	status_solution: review_1
 
@@ -46,14 +46,14 @@ Welche mittlere Geschwindigkeit hatte die Läuferin in $\frac{km}{h}$?
 
 
 [details="Tipp zum Vorgehen" class="tipp"]
-- Der Zusammenhang der gleichförmigen Bewegung liefert für die Durchschnittsgeschwindigkeit $\overline{v}=\frac{\Delta s}{\Delta t}$ die Antwort.
-- Die gegebenen Grössen können einzeln vor dem Einsetzen in die Formel umgewandelt ($m\rightarrow km$, $s\rightarrow h$) werden oder nach dem Einsetzen als ganze Einheit umgewandelt werden ($\frac{m}{s}\rightarrow \frac{km}{h}$)
+- Die Definition der mittleren Geschwindigkeit liefert die Antwort.
+- Die gegebenen Grössen können einzeln vor ($m\rightarrow km$, $s\rightarrow h$) oder nach ($\frac{m}{s}\rightarrow \frac{km}{h}$) dem Einsetzen in die Formel umgewandelt werden.
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\approx \underline{34.32\,\frac{km}{h}}$
+**Antwort**: $\approx 34.32\,\frac{km}{h}$
 
-**Lösungsidee**: Benutzung des Zusammenhangs für die gleichförmige Bewegung und korrekte Umrechnung.
+**Lösungsidee**: Benutzung der Definition der mittleren Geschwindigkeit und korrekte Umrechnung.
 
 **Lösungsweg**:
 
@@ -63,10 +63,10 @@ _Variante 1_
 
 Zuerst umwandeln, dann einsetzen:
 
-- [Umrechnen](../) der zurückgelegten Strecke
+1. [Umrechnen](../) der zurückgelegten Strecke
 
 $$
-\Delta s = 100\,m=0.1\,km
+\Delta x = 100\,m=0.1\,km
 $$ 
 
 und der dafür benötigten Zeit
@@ -75,22 +75,22 @@ $$
 \Delta t = 10.49\,s=\frac{10.49}{60\cdot 60}\,h\approx 0.0029\,h
 $$
 
-- Der [Zusammenhang der gleichförmigen Bewegung](../) liefert für die Durchschnittsgeschwindigkeit
+2. Die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) liefert
 
 $$
-\overline{v}=\frac{\Delta s}{\Delta t}=\frac{0.1\,km}{0.0029\dots\,h} \approx \underline{34.32\,\frac{km}{h}}
+\overline{v}=\frac{\Delta x}{\Delta t}=\frac{0.1\,km}{0.0029\dots\,h} \approx \underline{34.32\,\frac{km}{h}}
 $$
 
 _Variante 2_
 
 Zuerst einsetzen, dann umwandeln:
 
-- Der [Zusammenhang der gleichförmigen Bewegung](../) liefert für die Durchschnittsgeschwindigkeit in $\frac{m}{s}$
+1. Die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) ist in $\frac{m}{s}$
 
 $$
-\overline{v}=\frac{\Delta s}{\Delta t}=\frac{100\,m}{10.49\,s} \approx 9.53\,\frac{m}{s}
+\overline{v}=\frac{\Delta x}{\Delta t}=\frac{100\,m}{10.49\,s} \approx 9.53\,\frac{m}{s}
 $$
 
-- [Umrechnen](../) in die gesuchte Einheit $\frac{km}{h}$ ergibt $\approx \underline{34.32\,\frac{km}{h}}$.
+2. [Umrechnen](../) in die gesuchte Einheit $\frac{km}{h}$ ergibt $\approx \underline{34.32\,\frac{km}{h}}$.
 
 [/details]
