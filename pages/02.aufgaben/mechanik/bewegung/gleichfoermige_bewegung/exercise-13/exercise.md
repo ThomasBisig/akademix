@@ -4,12 +4,12 @@ taxonomy:
 	id: 2023040415261999
 	set: 02023040415274445
 
-	requires_physik: [Gleichmässige Beschleunigung, SI-Einheiten]
+	requires_physik: [Beschleunigung, SI-Einheiten]
 	requires_mathematik: [Brüche umformen, Änderungen]
 
 	category: exercises
 	fach: Physik
-	thema: [Mechanik, Bewegung, Gleichmässige Beschleunigung]
+	thema: [Mechanik, Bewegung, Beschleunigung]
 	art: Wissen
 	needsSupport: 0
 	needsTool: 0
@@ -19,21 +19,23 @@ taxonomy:
 	bloom: 1
 	schritte: 1
 	schwierigkeit: 1
-	realitaet: 
+	realitaet: 0
 	kat_bruder:
 	kat_proz_konz:
 
 	autor: 'Thomas'
-	version: 20230404
-	source: 'Neu erstellt, Thomas Bisig, thomas@akademix.ch'
+	version: 20230428
+	source: 'Neu erstellt, Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media: no
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: [content_created, review_0]
-	status_exercise: [content_created, illustration_na, files_na, review_0]
-	status_solution: [content_created, illustration_na, links_created, files_na, review_0]
+	status_tags: review_1
+	status_exercise: review_1
+	status_solution: review_1
+
+	todo: ['']
 
 mathjax:
   process: true
@@ -41,12 +43,20 @@ mathjax:
 Wie lautet die Einheit der Beschleunigung?
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\frac{m}{s^2}$
+**Antwort**: $[a]=\frac{m}{s^2}$
 
 **Lösungsidee**: Nutzung der Definition der Beschleunigung und Einsetzen der entsprechenden SI-Einheiten.
 
 **Lösungsweg**:
-- Die [Beschleunigung](../konzepte/Gleichmässige-Beschleunigung) ist die [Geschwindigkeitsänderung](../konzepte/Aenderungen) $\Delta v$ pro Zeitänderung $\Delta t$, formal $\frac{\Delta v}{\Delta t}$
-- Einsetzen der [Einheiten](../konzepte/SI-Einheiten) für $\Delta v$ ($\frac{m}{s}$) und $\Delta t$ ($s$) und [Umformen](../konzepte/Brueche_Umformen) ergibt: $[a]=\frac{\frac{m}{s}}{s}=\frac{m}{s^2}$
+1. Die [Beschleunigung](../../../../../konzepte/konzept-1) ist definiert als die [Geschwindigkeitsänderung](../../../../../konzepte/konzept-1) $\Delta v$ pro Zeitänderung $\Delta t$, formal $\frac{\Delta v}{\Delta t}$
+2. Einsetzen der [Einheiten](../../../../../konzepte/konzept-1) für $\Delta v$ ($\frac{m}{s}$) und $\Delta t$ ($s$) und [Umformen](../../../../../konzepte/konzept-1) ergibt: 
+
+$$
+\begin{align}
+[a]	&= \frac{[\Delta v]}{[\Delta t]} \\
+		&=\frac{\frac{m}{s}}{s} \\
+		&=\underline{\frac{m}{s^2}}
+\end{align}
+$$
 
 [/details]

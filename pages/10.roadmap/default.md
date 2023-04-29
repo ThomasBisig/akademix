@@ -6,7 +6,7 @@ The goal of the first four sprints is to create a prototype. This prototype is j
 
 ### Current - Sprint 1: Finished (see at the bottom)
 
-### Current - Sprint 2: Prototype - Todos (6.5h of 10h, started 11.04.23)
+### Current - Sprint 2: Prototype - Todos (7.5h of 10h, started 11.04.23)
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
 
 - Content
@@ -36,6 +36,8 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 
 
 #### Done in S2
+- [x] Checked Ex12/40 (29.04.2023)
+- [x] Checked Ex10/13 (28.04.2023)
 - [x] Checked Ex20-29 (22.04.2023)
 - [x] Checked Ex36-39 (21.04.2023)
 - [x] Add 'decisions' like t-x and t-v to overview page (20.04.2023)

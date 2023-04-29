@@ -40,7 +40,7 @@ taxonomy:
 mathjax:
   process: true
 ---
-![Ein Zug fährt über eine Brücke](exercise1-1.svg?resize=400,150&class=float-right) Ein Güterzug hat eine Länge von $350\,m$ und eine Geschwindigkeit von $45\,rac{km}{h}$. Wie lange erfährt eine $220\,m$ lange Eisenbahnbrücke eine Belastung, wenn der Zug darüberfährt?
+![Ein Zug fährt über eine Brücke](exercise1-1.svg?resize=400,150&class=float-right) Ein Güterzug hat eine Länge von $350\,m$ und eine Geschwindigkeit von $45\,\frac{km}{h}$. Wie lange erfährt eine $220\,m$ lange Eisenbahnbrücke eine Belastung, wenn der Zug darüberfährt?
 
 [details="Tipp zum Vorgehen" class="tipp"]
 Wandle die Formel für die gleichförmige Bewegung $\Delta x=v \cdot \Delta t$ um, so dass ein Zusammenhang für die Zeit $\Delta t$ entsteht.
