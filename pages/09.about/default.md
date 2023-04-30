@@ -6,7 +6,7 @@ title: About
 
 [Github repo](https://github.com/ThomasBisig/akademix)
 
-Version vom 29.04.2023
+Version vom 30.04.2023
 
 [notice=tip]
 Project Guidelines:

@@ -19,23 +19,23 @@ taxonomy:
 	bloom: 1
 	schritte: 2
 	schwierigkeit: 1
-	realitaet: 
+	realitaet: 2
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230414
-	source: 'www.grund-wissen.de, angepasst'
+	version: 20230430
+	source: 'www.grund-wissen.de, Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
-	media:
+	media: 'Thomas Bisig (thomas@akademix.ch)'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_0
+	status_tags: review_1
 	status_exercise: review_1
 	status_solution: review_1
 
-	todo: [illustration]
+	todo: []
 
 mathjax:
   process: true
@@ -45,7 +45,9 @@ mathjax:
 Wie weit ist die Felswand vom Wanderer entfernt?
 
 [details="Tipp zum Vorgehen" class="tipp"]
-Der Zusammenhang der gleichförmigen Bewegung liefert für die mittlere Geschwindigkeit $\overline{v}=\frac{\Delta s}{\Delta t}$ die Antwort.
+- Notiere den Zusammenhang für gleichförmige Bewegungen.
+- Identifiziere alle bekannten Grössen.
+- Löse (gegebenenfalls) nach der gesuchten Grösse auf.
 [/details]
 
 [details="Lösung" class="loesung"]
@@ -56,10 +58,10 @@ Der Zusammenhang der gleichförmigen Bewegung liefert für die mittlere Geschwin
 **Lösungsweg**:
 - Da das Rufsignal die gesuchte Strecke zwei Mal zurücklegt (hin und zurück), beträgt die Zeit für den Weg bis zur Felswand $\Delta t=2.5\,s$.
 
-- [Umformen](../) des [Zusammenhangs der gleichförmigen Bewegung](../) liefert für die für die Strecke
+- [Umformen](/konzepte/konzept-1) des [Zusammenhangs der gleichförmigen Bewegung](/konzepte/konzept-1) liefert für die für die Strecke
 
 $$
-\Delta s=\overline{v}\cdot {\Delta t}=330\,\frac{m}{s}\cdot 2.5\,s = \underline{825\,m}
+\Delta x=v \cdot {\Delta t}=330\,\frac{m}{s}\cdot 2.5\,s = \underline{825\,m}
 $$
 
 [/details]

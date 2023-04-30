@@ -65,7 +65,7 @@ mathjax:
 3. Teil 2 am schnellsten, Teil 4 am langsamsten
 4. siehe unten
 
-**Lösungsidee**: Zeit- und Ortsdifferenzen aus dem Diagramm ablesen um die Geschwindigkeit zu berechnen.
+**Lösungsidee**: Zeit- und Ortsänderungen aus dem Diagramm ablesen um die Geschwindigkeit zu berechnen.
 
 **Lösungsweg**:
 ![Bild](exercise-18-2.svg?resize=400,400&class=float-right) 
@@ -75,7 +75,7 @@ _Teil 1_
 Siehe Abbildung
 
 _Teil 2_
-Eine [positive Steigung bedeutet eine Vorwärtsbewegung](../), eine negative Steigung eine Rückwärtsbewegung. Eine Horizontale entspricht einem Stillstand des Objektes.
+Eine [positive Steigung bedeutet eine Vorwärtsbewegung](/konzepte/konzept-1), eine negative Steigung eine Rückwärtsbewegung. Eine Horizontale entspricht einem Stillstand des Objektes.
 
 - Bereich 1: Bewegung vorwärts
 - Bereich 2: Bewegung vorwärts
@@ -85,11 +85,11 @@ Eine [positive Steigung bedeutet eine Vorwärtsbewegung](../), eine negative Ste
 
 _Teil 3_
 
-Je [steiler die Gerade im $t-x$-Diagramm](../) ist, je schneller bewegt sich das Objekt. Dabei ist es egal, ob es sich um eine positive oder negative Steigung handelt. Die Steigung ist im zweiten Bereich am grössten, dh das Objekt bewegt sich im zweiten Bereich am schnellsten. Im Stillstand bewegt sich das Objekt nicht, deswegen ist das Objekt im Teil 4 am langsamsten. 
+Je [steiler die Gerade im $t-x$-Diagramm](/konzepte/konzept-1) ist, je schneller bewegt sich das Objekt. Dabei ist es egal, ob es sich um eine positive oder negative Steigung handelt. Die Steigung ist im zweiten Bereich am grössten, dh das Objekt bewegt sich im zweiten Bereich am schnellsten. Im Stillstand bewegt sich das Objekt nicht, deswegen ist das Objekt im Teil 4 am langsamsten. 
 
 _Teil 4_
 
-Durch das Einzeichnen des [Steigungsdreiecks](..) vom Anfang bis am Ende jeden Abschnitts, können die Zeit- und Ortsdifferenzen bestimmt werden. Im ersten Abschnitt bewegt sich das Objekt in $\Delta t_1=1\,s$ um $\Delta x_1=1\,m$ vorwärts, was einer [Geschwindigkeit](../) von
+Durch das Einzeichnen des [Steigungsdreiecks](/konzepte/konzept-1) vom Anfang bis am Ende jeden Abschnitts, können die Zeit- und Ortsänderungen bestimmt werden. Im ersten Abschnitt bewegt sich das Objekt in $\Delta t_1=1\,s$ um $\Delta x_1=1\,m$ vorwärts, was einer [Geschwindigkeit](/konzepte/konzept-1) von
 
 $$
 v_1=\frac{\Delta x_1}{\Delta t_1}=\frac{10\,m}{1\,s}=10\,\frac{m}{s}

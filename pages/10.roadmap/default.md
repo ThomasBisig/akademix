@@ -10,7 +10,7 @@ The goal of the first four sprints is to create a prototype. This prototype is j
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
 
 - Content
-	- [ ] To check: 8,9,30,31,32,33,34,35
+	- [ ] To check: 8,9
 	- [ ] Add all exercises from (own) documentation
 	- [ ] Add (few) exercises from grund-wissen.de
 	- [ ] Add source from physcia.ch
@@ -32,11 +32,15 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 		- [ ] Link all concepts to empty concept page
 		- [ ] Include license of images
 		- [ ] Change from s=vt to x=vt
+		- [ ] Tipps do not contain formulas or links to concepts
+		- [ ] Make source and media source uniform
 
 
 #### Done in S2
+- [x] Entscheidung bzgl. Terminologie hinzugefügt (30.04.2023)
+- [x] added Beispielkonzept (30.04.2023)
 - [x] Streckendifferenz/Streckenänderung -> Ortsänderung (?), Durchschnittsgeschw. -> mittlere Geschw. (30.04.2023)
-- [x] Checked Ex6/14-19, added and checked 41 (30.04.2023)
+- [x] Checked Ex6/14-19/30-35 and added and checked 41 (30.04.2023)
 - [x] Checked Ex12/40 (29.04.2023)
 - [x] Checked Ex10/13 (28.04.2023)
 - [x] Checked Ex20-29 (22.04.2023)
@@ -81,6 +85,7 @@ _Goal: Clean-up structure_
 #### S4 (0 out of 10h)
 _Goal: Clean up design_
 
+- [ ] Front page with example exercise (?)
 - [ ] Make basic design (get rid of all the boilerplate in the template)
 - [ ] MathJax Formulas seem too big
 - [ ] Make table overview filters
