@@ -5,6 +5,8 @@ taxonomy:
 	category: default
 ---
 
+- Add experiment
+- Add more drawing and interpreting t-x and t-v diagrams
 - t-x interpretieren (in Worten)
 - t-v interpretieren (in Worten)
 - t-x mit t-v verbinden

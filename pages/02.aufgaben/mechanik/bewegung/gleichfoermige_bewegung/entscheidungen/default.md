@@ -20,6 +20,11 @@ Jede Aufgabe ist doppelt vorhanden, dh die gleiche Aufgabenstellung, jedoch ande
 
 
 #### Zu überlegen
-- Jede Aufgabe im Doppelpack (-> pair)
-- Gewissen Aufgaben differenziert (-> set)
-- Im Grossen aber im Packet mit 'Art' und 'Thema'
+- Gruppierung der Aufgaben
+	- Jede Aufgabe im Doppelpack (-> pair)
+	- Gewissen Aufgaben differenziert (-> set)
+	- Im Grossen jedoch im Packet mit 'Art' und 'Thema'
+	
+- Was sind die Grundgleichungen? Und welche kommt zuerst?
+	- Gleichförmige Bewegung: $\Delta x=v \cdot \Delta t$
+	- Mittlere Geschwindigkeit: $\overline{v} = \frac{\Delta x}{\Delta t}$

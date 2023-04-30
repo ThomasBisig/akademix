@@ -6,20 +6,15 @@ The goal of the first four sprints is to create a prototype. This prototype is j
 
 ### Current - Sprint 1: Finished (see at the bottom)
 
-### Current - Sprint 2: Prototype - Todos (9h of 10h, started 11.04.23)
+### Current - Sprint 2: Prototype - Todos (11h of 10h, started 11.04.23)
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
 
 - Content
 	- [ ] To check: 8,9
 	- [ ] Add all exercises from (own) documentation
-	- [ ] Add (few) exercises from grund-wissen.de
-	- [ ] Add source from physcia.ch
-	- [ ] Add experiment
-	- [ ] Add more drawing and interpreting t-x and t-v diagrams
 	- [ ] Polish solutions, files, clean directories
 
 	- Todos for all exercises so far:
-		- [ ] Make id, pair and set
 		- [ ] Change all images from s -> x
 		- [ ] Add space between number and unit (MathJax) -> "$/,$"
 		- [ ] Solutions of exercises
@@ -56,6 +51,8 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 - [x] Checked Ex1-6 (19.04.2023)
 - [x] Added images 30/31 (19.04.2023)
 - [x] Added ex38-39 (16.04.2023)
+- [x] Add (few) exercises from grund-wissen.de (16.04.2023)
+- [x] Add source from physcia.ch (16.04.2023)
 - [x] Add remaining exercises in pictures folder (15.04.2023)
 - [x] Added ex32-37 (15.04.2023)
 - [x] Added ex24-31 (14.04.2023)
@@ -69,6 +66,7 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 #### S3 (0 out of 10h)
 _Goal: Clean-up structure_
 
+- [ ] Make id, pair and set
 - [ ] Make each one an object: exercise, hint, solution, worked solution
 - [ ] Collections
 - [ ] Format table
