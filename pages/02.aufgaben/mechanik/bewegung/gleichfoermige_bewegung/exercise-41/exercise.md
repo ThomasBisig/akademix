@@ -1,7 +1,7 @@
 ---
 title: Autofahrt mit Panne
 taxonomy:
-	id: 2023040520501112
+	id: 2023043013441001
 	set: 0202304301344555
 
 	requires_physik: [Gleichförmige Bewegung, SI-Einheit]
@@ -41,7 +41,7 @@ mathjax:
   process: true
 ---
 
-Zwei Ortschaften sind $30\,km$ voneinander entfernt. Ein Automobilist durchfährt die ersten $20\,km$ mit $80\,\frac{km}{h}$. Eine Panne zwingt ihn, $30$ Minuten zu warten. Die restliche Distanz legt er dann mit $100\,\frac{km}{h}$ zurück.
+Zwei Ortschaften sind $50\,km$ voneinander entfernt. Ein Automobilist durchfährt die ersten $30\,km$ mit $60\,\frac{km}{h}$. Eine Panne zwingt ihn, $20$ Minuten zu warten. Die restliche Distanz legt er dann mit $80\,\frac{km}{h}$ zurück.
 
 1. Wie lange ist er unterwegs? (in Minuten)
 2. Welches ist seine mittlere Geschwindigkeit zwischen den Ortschaften? (in $\frac{km}{h}$ und $\frac{m}{s}$)
@@ -57,8 +57,8 @@ Die mittlere Geschwindigkeit berechnet sich aus der Gesamtstrecke und der Gesamt
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-1. $51\,min$
-2. $\approx 35.29\,\frac{km}{h},\approx 9.8\,\frac{m}{s}$
+1. $65\,min$
+2. $\approx 46.15\,\frac{km}{h},\approx 12.82\,\frac{m}{s}$
 
 **Lösungsidee**: Die Autofahrt wird als drei einzelne Teile betrachtet, berechnet und wieder zusammengefügt.
 
@@ -69,20 +69,20 @@ _Teil 1_
 Die Zeiten können mit Hilfe des Zusammenhangs für [gleichförmige Bewegungen](/konzepte/konzept-1) $\Delta x = v \cdot \Delta t$ bzw. [umgeformt](/konzepte/konzept-1) nach $\Delta t = \frac{\Delta x}{v}$ wie folgt berechnet werden:
 1. Für die erste Strecke braucht er die Zeit
 $$
-\Delta t_1=\frac{\Delta x_1}{v_1}=\frac{20\,km}{80\,{\frac{km}{h}}}=0.25\,h=15\,min
+\Delta t_1=\frac{\Delta x_1}{v_1}=\frac{30\,km}{60\,{\frac{km}{h}}}=0.5\,h=30\,min
 $$
 2. Für die Panne benötigt er
 $$
-\Delta t_2 = 0.5\,h=30\,min
+\Delta t_2 = 0.\overline{3}\,h = 20\,min
 $$
 3. Für die dritte Strecke braucht er die Zeit
 $$
-\Delta t_3=\frac{\Delta x_3}{v_3}=\frac{10\,km}{100\,{\frac{km}{h}}}=0.1\,h=6\,min
+\Delta t_3=\frac{\Delta x_3}{v_3}=\frac{20\,km}{80\,{\frac{km}{h}}}=0.25\,h=15\,min
 $$
 
 Die Gesamtzeit ist dann
 $$
-t=\Delta t_1+\Delta t_2+\Delta t_3=15\,min + 30\,min + 6\,min = \underline{51\,min}
+t=\Delta t_1+\Delta t_2+\Delta t_3=30\,min + 20\,min + 15\,min = \underline{65\,min}
 $$
 
 _Teil 2_
@@ -90,9 +90,9 @@ _Teil 2_
 Die [mittlere Geschwindigkeit](/konzepte/konzept-1) berechnet sich aus Gesamtstrecke $\Delta x$ durch Gesamtzeit $\Delta t$:
 
 $$
-v=\frac{\Delta x}{\Delta t}=\frac{30\,km}{0.25+0.5+0.1\,h}\approx\underline{35.29\,\frac{km}{h}}
+v=\frac{\Delta x}{\Delta t}=\frac{50\,km}{0.5+0.\overline{3}\,h+0.25\,h}\approx\underline{46.15\,\frac{km}{h}}
 $$
 
-und [umgerechnet](../) in $\frac{m}{s}$ ergibt das $\approx \underline{9.80\,\frac{m}{s}}$.
+und [umgerechnet](/konzepte/konzept-1) in $\frac{m}{s}$ ergibt das $\approx \underline{12.82\,\frac{m}{s}}$.
 
 [/details]

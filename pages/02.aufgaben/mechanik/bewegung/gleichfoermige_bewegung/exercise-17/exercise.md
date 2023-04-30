@@ -4,7 +4,7 @@ taxonomy:
 	id: 2023040913055562
 	set: 0202304031125126
 
-	requires_physik: [Gleichförmige Bewegung, Mittlere Geschwindigkeit, SI-Einheit]
+	requires_physik: [Gleichförmige Bewegung, Mittlere Geschwindigkeit, Momentangeschwindigkeit, SI-Einheit]
 	requires_mathematik: [Graphen Lesen]
 
 	category: exercises
@@ -19,23 +19,23 @@ taxonomy:
 	bloom: 2
 	schritte: 3
 	schwierigkeit: 2
-	realitaet: 
+	realitaet: 1
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230409
-	source: 'Skript Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
+	version: 20230430
+	source: 'Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
-	media: yes
+	media: 'Thomas Bisig (thomas@akademix.ch)'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_0
-	status_exercise: review_0
-	status_solution: review_0
+	status_tags: review_1
+	status_exercise: review_1
+	status_solution: review_1
 
-	todo: [links, time_formatting]
+	todo: []
 
 mathjax:
   process: true
@@ -50,23 +50,23 @@ mathjax:
 [/details]
 
 [details="Tipp zur Streckenbestimmung" class="tipp"]
-- Für konstante Geschwindigkeiten (in diesem Fall die mittlere Geschwindigkeit $\overline{v}$) gilt der Zusammenhang $\Delta s=\overline{v}\cdot \Delta t$, wobei $\overline{v}$ die mittlere Geschwindigkeit und $\Delta t$ die dafür benötigte Zeit in Sekunden ist.
+- Für konstante Geschwindigkeiten (in diesem Fall die mittlere Geschwindigkeit $\overline{v}$) gilt der Zusammenhang $\Delta x=\overline{v}\cdot \Delta t$, wobei $\overline{v}$ die mittlere Geschwindigkeit in $\frac{m}{s}$ und $\Delta t$ die dafür benötigte Zeit in Sekunden ist.
 -  Die mittlere Geschwindigkeit und die für den Jogginglauf benötigte Zeit können aus der Grafik abgelesen werden.
 [/details]
 
 [details="Lösung" class="loesung"]
 **Antwort**:
 1. $\overline{v}=8\,\frac{km}{h}=2.\overline{2} \frac{m}{s}$
-2. $\Delta s = 20\,km$
+2. $\Delta x = 20\,km$
 
-**Lösungsidee**: Aus dem Diagramm kann ungefähr die mittlere Geschwindigkeit $\overline{v}$ und die dafür benötigte Zeit $\Delta t$ abgelesen werden. Damit kann durch den Zusammenhang $\Delta s=\overline{v}\cdot \Delta t$ die Strecke ungefähr bestimmt werden.
+**Lösungsidee**: Aus dem Diagramm kann ungefähr die mittlere Geschwindigkeit $\overline{v}$ und die dafür benötigte Zeit $\Delta t$ abgelesen werden. Damit kann durch den Zusammenhang $\Delta x=\overline{v}\cdot \Delta t$ die Strecke ungefähr bestimmt werden.
 
 **Lösungsweg**:
 ![Graph der Geschwindigkeit auf einer Joggingstrecke](exercise-17-2.svg?class=img_exercise)
 
 _Teil 1_
 
-[Aus der Grafik](../) ergibt sich eine [mittlere Geschwindigkeit](../) von ca $8\,\frac{km}{h}$, was [umgerechnet](../)
+[Aus der Grafik](/konzepte/konzept-1) der [Momentangeschwindigkeit](/konzepte/konzept-1) ergibt sich eine [mittlere Geschwindigkeit](/konzepte/konzept-1) von ca $8\,\frac{km}{h}$, was [umgerechnet](/konzepte/konzept-1)
 $$
 \overline{v}=\underline{2.\overline{2} \frac{m}{s}}
 $$
@@ -74,11 +74,11 @@ entspricht.
 
 _Teil 2_
 
-1. [Aus dem Diagramm ist ersichtlich](../), dass die Startzeit ca. $10:45$, die Endzeit ca. ${13:15}$ ist, was einer Zeitdifferenz von $2\,h 30\,min$ entspricht. [Umgerechnet](../) ergibt das für die verstrichene Zeit
+1. [Aus dem Diagramm ist ersichtlich](../), dass die Startzeit ca. 10:45, die Endzeit ca. 13:15 ist, was einer Zeitdifferenz von $2\,h 30\,min$ entspricht. [Umgerechnet](/konzepte/konzept-1) ergibt das für die verstrichene Zeit
 $$
 \Delta t=9000\,s
 $$
-2. Die Strecke kann mit Hilfe der Formel für [gleichförmige Bewegung ](../)berechnet werden 
+2. Die Strecke kann mit Hilfe der Formel für [gleichförmige Bewegung ](/konzepte/konzept-1) berechnet werden 
 $$
 \Delta s=\overline{v}\cdot \Delta t=20000\,m = \underline{20\,km}
 $$

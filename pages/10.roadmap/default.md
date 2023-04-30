@@ -6,10 +6,11 @@ The goal of the first four sprints is to create a prototype. This prototype is j
 
 ### Current - Sprint 1: Finished (see at the bottom)
 
-### Current - Sprint 2: Prototype - Todos (7.5h of 10h, started 11.04.23)
+### Current - Sprint 2: Prototype - Todos (9h of 10h, started 11.04.23)
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
 
 - Content
+	- [ ] To check: 8,9,30,31,32,33,34,35
 	- [ ] Add all exercises from (own) documentation
 	- [ ] Add (few) exercises from grund-wissen.de
 	- [ ] Add source from physcia.ch
@@ -18,8 +19,8 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 	- [ ] Polish solutions, files, clean directories
 
 	- Todos for all exercises so far:
+		- [ ] Make id, pair and set
 		- [ ] Change all images from s -> x
-		- [ ] Streckendifferenz -> Ortsverschiebung, Durchschnittsgeschw. -> mittlere Geschw.
 		- [ ] Add space between number and unit (MathJax) -> "$/,$"
 		- [ ] Solutions of exercises
 		- [ ] Check tags (or leave empty)
@@ -29,13 +30,13 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 		- [ ] Change all $s=v*t$ to $\Delta x = v * \Delta t$ -> done for exercise-1
 		- [ ] Change to review_0/1/2 and todos
 		- [ ] Link all concepts to empty concept page
-		- [ ] 'set' bei allen hinzufügen, bzw. schauen, welche Zusammengehören
 		- [ ] Include license of images
-		- [ ] Schritte als bullet-points oder als numbered list?
 		- [ ] Change from s=vt to x=vt
 
 
 #### Done in S2
+- [x] Streckendifferenz/Streckenänderung -> Ortsänderung (?), Durchschnittsgeschw. -> mittlere Geschw. (30.04.2023)
+- [x] Checked Ex6/14-19, added and checked 41 (30.04.2023)
 - [x] Checked Ex12/40 (29.04.2023)
 - [x] Checked Ex10/13 (28.04.2023)
 - [x] Checked Ex20-29 (22.04.2023)
@@ -91,6 +92,7 @@ _Goal: Clean up design_
 
 #### Future
 
+- [ ] Many different approaches for same topic: e.g. bewegung -> historical (galilei, newton), empirical (cars, bycicles), theoretical, analytical, video, text, interaction, experiments
 - [ ] Create simple 'learning experience' like documentation (LMS)
 	- [ ] Add five inputs.
 - [ ] Add main topics (phyisics, math, biology, ...)

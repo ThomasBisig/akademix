@@ -1,10 +1,10 @@
 ---
 title: Eine Autofahrt mit Hilfe des t-x-Diagramms analysieren
 taxonomy:
-	id: 2023040615120093
+	id: 2023040615123221
 	set: 0202304071720334
 
-	requires_physik: [Gleichförmige Bewegung,Geschwindigkeits-Zeit-Diagramm, Orts-Zeit-Diagramm,Mittlere Geschwindigkeit]
+	requires_physik: [Gleichförmige Bewegung,t-v-Diagramm,t-x-Dagramm,Mittlere Geschwindigkeit]
 	requires_mathematik: [Diagramm lesen, Diagramm zeichnen]
 
 	category: exercises
@@ -19,40 +19,42 @@ taxonomy:
 	bloom: 2
 	schritte: 4
 	schwierigkeit: 3
-	realitaet: 
+	realitaet: 1
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230407
-	source: 'neu, nach Skript Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
+	version: 20230430
+	source: 'neu, Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
-	media: yes
+	media: 'Thomas Bisig (thomas@akademix.ch)'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: [content_created, review_0]
-	status_exercise: [content_finished, illustration_finished, files_na, review_1]
-	status_solution: [content_finished, illustration_finished, links_missing, files_na, review_1]
+	status_tags: review_0
+	status_exercise: review_0
+	status_solution: review_0
+
+	todo: ['']
 
 mathjax:
   process: true
 ---
 ![Das t-v-Diagramm einer Autofahrt](exercise16-1.svg?resize=400,400&class=float-right)
-Ein Auto sei zum Zeitpunkt $t=0\,s$ am Ort $s=10\,m$ und fahre los.
+Ein Auto sei zum Zeitpunkt $t=0\,s$ am Ort $x=10\,m$ und fahre los.
 
-Das Geschwindigkeits-Zeit-Diagramm ist nebenstehend abgebildet. Zeichne das zur Fahrt gehörende Orts-Zeit-Diagramm in ein neues Koordinatensystem vom Zeitpunkt $t=0\,s$ bis zum Zeitpunkt $t=11\,s$.
+Das $t-v$-Diagramm (Zeit-Geschwindigkeit) ist nebenstehend abgebildet. Zeichne das zur Fahrt gehörende $t-x$-Diagramm (Zeit-Ort) in ein neues Koordinatensystem vom Zeitpunkt $t=0\,s$ bis zum Zeitpunkt $t=11\,s$.
 
 Beantworte mit Hilfe des Diagramms folgende Fragen:
 1. An welchem Ort befindet sich das Auto nach $11\,s$?
-2. Wie gross ist die mittlere Geschwindigkeit der Fahrt im Zeitraum von $s(0)$ bis $s(11)$?
+2. Wie gross ist die mittlere Geschwindigkeit der Fahrt im Zeitraum von $t=0$ bis $t=11$?
 3. Angenommen, das Auto hätte einen Distanzmesser ("Meterzähler") eingebaut – um wie viel würde sich die Streckenanzeige ändern?
 
 
 [details="Tipp zum Diagramm zeichnen" class="tipp"]
-- Unterteile das Geschwindigkeits-Zeit-Diagramm in drei Abschnitte.
+- Unterteile das $t-v$-Diagramm in drei Abschnitte.
 - Lies für jeden Abschnitt die gefahrene Geschwindigkeit $v$ und die verstrichene Zeit $\Delta t$ aus dem Diagramm.
-- Nutze den Zusammenhang zwischen $\Delta s$, $\Delta t$ und $v$ der gleichförmigen Bewegung.
+- Nutze den Zusammenhang zwischen $\Delta x$, $\Delta t$ und $v$ der gleichförmigen Bewegung.
 [/details]
 
 [details="Tipp zur mittleren Geschwindigkeit" class="tipp"]
@@ -72,32 +74,42 @@ Diagramm: siehe Abbildung
 2. $\overline{v}=-0.\overline{45}\,\frac{m}{s}$
 3. $17\,m$
 
-**Lösungsidee**: Mit Hilfe des gezeichneten Orts-Zeit-Diagramm können können alle drei Fragen beantwortet werden.
+**Lösungsidee**: Mit Hilfe des gezeichneten t-x-Diagramm können können alle drei Fragen beantwortet werden.
 
 **Lösungsweg**:
-![Das t-x und das t-v-Diagramm einer Autofahrt](exercise16-2.svg?resize=400,600&class=float-right) Um das [Orts-Zeit-Diagramm](../) zu zeichnen, kann das [Geschwindigkeits-Zeit-Diagramm](../) in drei Abschnitte unterteilt werden.
-Im Koordinatensystem des Ort-Zeit-Diagramms beginnt das Auto am Ort $(0,10)$.
-Im ersten Abschnitt fährt das Auto für $\Delta t=3\,s$ mit einer Geschwindigkeit von $v=2\,\frac{m}{s}$. Mit Hilfe der Formel für die [gleichförmige Bewegung](../) kann daraus die zurückgelegte Strecke $\Delta s$ für diesen Abschnitt berechnet werden:
+![Das t-x und das t-v-Diagramm einer Autofahrt](exercise16-2.svg?resize=400,600&class=float-right) Um das [Zeit-Ort-Diagramm](/konzepte/konzept-1) zu zeichnen, kann das [Zeit-Geschwindigkeit-Diagramm](/konzepte/konzept-1) in drei Abschnitte unterteilt werden.
+Im Koordinatensystem des Zeit-Ort-Diagramms beginnt das Auto am Ort mit den Koordinaten $(0,10)$.
+Im ersten Abschnitt fährt das Auto für $\Delta t=3\,s$ mit einer Geschwindigkeit von $v=2\,\frac{m}{s}$. Mit Hilfe der Formel für die [gleichförmige Bewegung](/konzepte/konzept-1) kann daraus die zurückgelegte Strecke $\Delta x$ für diesen Abschnitt berechnet werden:
 
-$\Delta s=v\cdot \Delta t=2\,\frac{m}{s} \cdot 3\,s=6\,m$
+$$
+\Delta x=v\cdot \Delta t=2\,\frac{m}{s} \cdot 3\,s=6\,m
+$$
 
-Da die Autofahrt bei $s(0)=10\,m$ beginnt, endet sie nach $3\,s$ bei $s(3)=10\,m+6\,m=16\,m$. Das entspricht dem Punkt mit den Koordinaten $(3,16)$. Für den zweiten und dritten Teil ist zu beachten, dass die Geschwindigkeit negativ ist und demnach die Strecke abgezählt werden muss und demnach $\Delta s$ negativ wird ("Das Auto fährt rückwärts."). Die jeweiligen Koordinaten sind $(8,11)$ und $(11,5)$.
+Da die Autofahrt bei $x(0)=10\,m$ beginnt, endet sie nach $3\,s$ bei $x(3)=10\,m+6\,m=16\,m$. Das entspricht dem Punkt mit den Koordinaten $(3,16)$. Für den zweiten und dritten Teil ist zu beachten, dass die Geschwindigkeit negativ ist und demnach die Strecke abgezählt werden muss und demnach $\Delta x$ negativ wird ("Das Auto fährt rückwärts."). Die jeweiligen Koordinaten sind $(8,11)$ und $(11,5)$.
 
 _Teil 1_
 
-Der Ort, wo sich das Auto nach $11\,s$ befindet, entspricht dem Ort $s(11)$ im Diagramm. Das Auto befindet sich demnach am Ort $s(11)=\underline{5\,m}$.
+Der Ort, wo sich das Auto nach $11\,s$ befindet, entspricht dem Ort $x(11)$ im Diagramm. Das Auto befindet sich demnach am Ort
+
+$$
+x(11)=\underline{5\,m}
+$$
 
 _Teil 2_
 
-Nach $11\,s$ hat sich das Auto vom ursprünglichen Ort $s(0)=10\,m$ zum Ort $s(11)=5\,m$ bewegt. Das sind $\Delta s=s(11)-s(0)=-5\,m$ in $\Delta t=11\,s$. Die mittlere Geschwindigkeit beträgt demnach
+Nach $11\,s$ hat sich das Auto vom ursprünglichen Ort $x(0)=10\,m$ zum Ort $x(11)=5\,m$ bewegt. Das sind $\Delta x=x(11)-x(0)=-5\,m$ in $\Delta t=11\,s$. Die mittlere Geschwindigkeit beträgt demnach
 
-$\overline{v}=\frac{\Delta s}{\Delta t}=\frac{-5\,m}{11\,s}=\underline{-0.\overline{45}\,\frac{m}{s}}$
+$$
+\overline{v}=\frac{\Delta x}{\Delta t}=\frac{-5\,m}{11\,s}=\underline{-0.\overline{45}\,\frac{m}{s}}
+$$
 
 _Teil 3_
 
 Für alle drei Teilabschnitte kann die zurückgelegte Distanz aus dem Diagramm gelesen werden:
 
-$s=6\,m+5\,m+6\,m=\underline{17 m}$
+$$
+6\,m+5\,m+6\,m=\underline{17 m}
+$$
 
 
 

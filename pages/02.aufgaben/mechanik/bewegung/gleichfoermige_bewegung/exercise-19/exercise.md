@@ -4,7 +4,7 @@ taxonomy:
 	id: 2023040921288382
 	set: 0202304092106222
 
-	requires_physik: [Gleichförmige Bewegung]
+	requires_physik: [Gleichförmige Bewegung, t-x-Diagramm]
 	requires_mathematik: [Diagramm lesen, Steigungsdreieck]
 
 	category: exercises
@@ -19,16 +19,16 @@ taxonomy:
 	bloom: 2
 	schritte: 5
 	schwierigkeit: 2
-	realitaet: 
+	realitaet: 1
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230409
-	source: 'Skript Mechanik 2022, Thomas Bisig, thomas@akademix.ch'
+	version: 20230430
+	source: 'Skript Mechanik 2022, Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
-	media: yes
+	media: 'Thomas Bisig (thomas@akademix.ch)'
 	licence: 'CC BY-SA 4.0'
 
 	status_tags: review_0
@@ -40,7 +40,7 @@ taxonomy:
 mathjax:
   process: true
 ---
-![Bild](exercise-19-1.svg?resize=400,400&class=float-right) Das nebenstehende $t-x$-Diagramm zeigt den Ort $s$ eines Objektes zu einer bestimmten Zeit $t$ an.
+![Bild](exercise-19-1.svg?resize=400,400&class=float-right) Das nebenstehende $t-x$-Diagramm zeigt den Ort $x$ eines Objektes zu einer bestimmten Zeit $t$ an.
 1. Unterteile das $t-x$-Diagramm in fünf zeitliche Abschnitte, in welchen sich das Objekt jeweils gleichförmig bewegt.
 2. Beschreibe in Worten, in welche Richtung sich das Objekt in jedem der fünf Bereiche bewegt.
 3. In welchem Bereich bewegt sich das Objekt am schnellsten? ... am langsamsten?
@@ -48,14 +48,14 @@ mathjax:
 
 | Abschnitt   | 1 | 2 | 3 | 4 | 5 |
 | :---        |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |
-| $\Delta s$  |    $20\,m$  |             |             |             |             |
+| $\Delta x$  |    $20\,m$  |             |             |             |             |
 | $\Delta t$  |    $2\,s$   |             |             |             |             |
 | $v$         |             |  $20\,\frac{m}{s}$  |             |             |             |
 
 
 [details="Tipp zum Vorgehen" class="tipp"]
-- Lies für jeden Abschnitt die vergangene Zeit $\Delta t$ und die zurückgelegte Strecke $\Delta s$ aus dem Diagramm.
--  Berechne mit Hilfe des Zusammenhangs für gleichförmige Bewegungen $v=\frac{\Delta s}{\Delta t}$ die Geschwindigkeit.
+- Lies für jeden Abschnitt die vergangene Zeit $\Delta t$ und die zurückgelegte Strecke $\Delta x$ aus dem Diagramm.
+-  Berechne mit Hilfe des Zusammenhangs für gleichförmige Bewegungen $v=\frac{\Delta x}{\Delta t}$ die Geschwindigkeit.
 [/details]
 
 [details="Lösung" class="loesung"]
@@ -65,7 +65,7 @@ mathjax:
 3. Teil 2 am schnellsten, Teil 4 am langsamsten
 4. siehe unten
 
-**Lösungsidee**: Zeit- und Streckendifferenzen aus dem Diagramm ablesen um die Geschwindigkeit zu berechnen.
+**Lösungsidee**: Zeit- und Ortsdifferenzen aus dem Diagramm ablesen um die Geschwindigkeit zu berechnen.
 
 **Lösungsweg**:
 ![Bild](exercise-19-2.svg?resize=400,400&class=float-right) 
@@ -90,23 +90,23 @@ Je [steiler die Gerade im $t-x$-Diagramm](../) ist, je schneller bewegt sich das
 
 _Teil 4_
 
-Durch das Einzeichnen des [Steigungsdreiecks](..) vom Anfang bis am Ende jeden Abschnitts, können die Zeit- und Streckdifferenzen bestimmt werden. Im ersten Abschnitt bewegt sich das Objekt in $\Delta t_1=2\,s$ um $\Delta s_1=20\,m$ vorwärts, was einer [Geschwindigkeit](../) von
+Durch das Einzeichnen des [Steigungsdreiecks](..) vom Anfang bis am Ende jeden Abschnitts, können die Zeit- und Ortsdifferenzen bestimmt werden. Im ersten Abschnitt bewegt sich das Objekt in $\Delta t_1=2\,s$ um $\Delta x_1=20\,m$ vorwärts, was einer [Geschwindigkeit](../) von
 
 $$
-v_1=\frac{\Delta s_1}{\Delta t_1}=\frac{20\,m}{2\,s}=10\,\frac{m}{s}
+v_1=\frac{\Delta x_1}{\Delta t_1}=\frac{20\,m}{2\,s}=10\,\frac{m}{s}
 $$
 
-Im dritten Bereich beträgt die Streckenänderung $\Delta s_5=-10\,m$ in einer Zeit von $\Delta t_5=1\,s$. Das entspricht einer Geschwindigkeit von
+Im dritten Bereich beträgt die Ortsänderung $\Delta x_5=-10\,m$ in einer Zeit von $\Delta t_5=1\,s$. Das entspricht einer Geschwindigkeit von
 
 $$
-v_5=\frac{\Delta s_5}{\Delta t_5}=\frac{-10\,m}{1\,s}=-10\,\frac{m}{s}
+v_5=\frac{\Delta x_5}{\Delta t_5}=\frac{-10\,m}{1\,s}=-10\,\frac{m}{s}
 $$
 
 Analog findet man die restlichen fehlenden Grössen.
 
 | Abschnitt   | 1 | 2 | 3 | 4 | 5 |
 |        ---: |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |
-| $\Delta s$  |    $20\,m$   |    $-30\,m$   |    $20\,m$   |    $0\,m$   |    $-10\,m$   |
+| $\Delta x$  |    $20\,m$   |    $-30\,m$   |    $20\,m$   |    $0\,m$   |    $-10\,m$   |
 | $\Delta t$  |    $2\,s$   |    $1\,s$   |    $1\,s$   |    $1\,s$   |    $1\,s$   |
 | $v$         |    $10\,\frac{m}{s}$   |    $-30\,\frac{m}{s}$   |    $20\,\frac{m}{s}$   |    $0\,\frac{m}{s}$   |    $-10\,\frac{m}{s}$   |
 [/details]

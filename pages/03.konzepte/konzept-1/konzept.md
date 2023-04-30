@@ -1,7 +1,7 @@
 ---
 title: Gleichförmige Bewegung
 taxonomy:
-	todo: [Aufteilen in gleichförmige Bewegung, Durchschnittsgeschwindigkeit und Momentangeschwindigkeit; Links zu Aufgaben; Links zu Lerneinheiten]
+	todo: [Aufteilen in gleichförmige Bewegung, mittlere Geschwindigkeit und Momentangeschwindigkeit; Links zu Aufgaben; Links zu Lerneinheiten]
 mathjax:
 	process: true
 ---
@@ -22,10 +22,10 @@ Ist ein Körper in gleichförmiger Bewegung, so
 
 ### Formeln: Durchschnitts-Geschwindigkeit
 
-Die Durchschnittsgeschwindigkeit $\overline{v}$ eines gleichförmig bewegten Körpers, der sich vom Ort $s_1$ zum Ort $s_2$ in der Zeit von $t_1$ bis $t_2$ bewegt, ist
+Die mittlere Geschwindigkeit $\overline{v}$ eines gleichförmig bewegten Körpers, der sich vom Ort $x_1$ zum Ort $x_2$ in der Zeit von $t_1$ bis $t_2$ bewegt, ist
 
 $$
-\overline{v}=\frac{\Delta s}{\Delta t}=\frac{s_2 - s_1}{t_2 - t_1}
+\overline{v}=\frac{\Delta x}{\Delta t}=\frac{x_2 - x_1}{t_2 - t_1}
 $$
 
 Sie ist gleich der Momentangeschwindigkeit $v$.
@@ -34,19 +34,19 @@ _ Zeichnung: Diagramm _
 
 #### Beispiel
 
-Ein Fahrradfahrer legt in $10$ Sekunden die Strecke von $120\,m$ zurück. Er ist mit einer durchschnittlichen Geschwindigkeit von
+Ein Fahrradfahrer legt in $10$ Sekunden die Strecke von $120\,m$ zurück. Er ist mit einer mittleren Geschwindigkeit von
 
 $$
-\overline{v}=\frac{\Delta s}{\Delta t}=\frac{120\,m}{10\,s}=12\,\frac{m}{s}
+\overline{v}=\frac{\Delta x}{\Delta t}=\frac{120\,m}{10\,s}=12\,\frac{m}{s}
 $$
 
 unterwegs.
 
 ### Details
 
-- Die Durchschnittsgeschwindigkeit ist die Geschwindigkeit die während eines **Zeitintervalls** im Durchschnitt erreicht wird. Die Momentangeschwindigkeit ist die Geschwindigkeit zu einem _Zeitpunkt_.
+- Die mittlere Geschwindigkeit ist die Geschwindigkeit die während eines **Zeitintervalls** im Durchschnitt erreicht wird. Die Momentangeschwindigkeit ist die Geschwindigkeit zu einem _Zeitpunkt_.
 
-- Die durchschnittliche Geschwindigkeit im $s-t$-Diagramm entspricht der **Steigung der Geraden** zwischen zwei Punkten.
+- Die mittlere Geschwindigkeit im $t-x$-Diagramm entspricht der **Steigung der Geraden** zwischen zwei Punkten.
 
 - Der Zustand, in dem ein **Körper in Ruhe** verharrt, kann als gleichförmige Bewegung des Körpers mit der Geschwindigkeit Null aufgefasst werden.
 

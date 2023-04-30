@@ -24,11 +24,11 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230419
+	version: 20230430
 	source: 'Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
-	media: yes
+	media: 'Thomas Bisig (thomas@akademix.ch)'
 	licence: 'CC BY-SA 4.0'
 
 	status_tags: review_1
@@ -66,7 +66,7 @@ mathjax:
 
 _Teil 1_
 
-[Aus der Grafik](../../../../../konzepte/konzept-1) der [Momentangeschwindigkeit](../../../../../konzepte/konzept-1) ergibt sich eine [mittlere Geschwindigkeit](../../../../../konzepte/konzept-1) von ca $7\,\frac{km}{h}$, was [umgerechnet](../../../../../konzepte/konzept-1)
+[Aus der Grafik](/konzepte/konzept-1) der [Momentangeschwindigkeit](/konzepte/konzept-1) ergibt sich eine [mittlere Geschwindigkeit](/konzepte/konzept-1) von ca $7\,\frac{km}{h}$, was [umgerechnet](/konzepte/konzept-1)
 $$
 \overline{v}=\underline{1.9\overline{4} \frac{m}{s}}
 $$
@@ -74,11 +74,11 @@ entspricht.
 
 _Teil 2_
 
-1. [Aus dem Diagramm ist ersichtlich](../), dass die Startzeit ca. 14:50, die Endzeit ca. 16:10 ist, was einer Zeitdifferenz von $2\,h 20\,min$ entspricht. [Umgerechnet](../) ergibt das für die verstrichene Zeit
+1. [Aus dem Diagramm ist ersichtlich](../), dass die Startzeit ca. 14:50, die Endzeit ca. 16:10 ist, was einer Zeitdifferenz von $2\,h 20\,min$ entspricht. [Umgerechnet](/konzepte/konzept-1) ergibt das für die verstrichene Zeit
 $$
 \Delta t=8400\,s
 $$
-2. Die Strecke kann mit Hilfe der Formel für [gleichförmige Bewegung ](../)berechnet werden 
+2. Die Strecke kann mit Hilfe der Formel für [gleichförmige Bewegung ](/konzepte/konzept-1) berechnet werden 
 $$
 \Delta x=\overline{v}\cdot \Delta t=16333.\overline{3}\,m \approx \underline{16.3\,km}
 $$

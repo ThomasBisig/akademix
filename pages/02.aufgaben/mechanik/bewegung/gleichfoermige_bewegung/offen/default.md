@@ -23,7 +23,7 @@ taxonomy:
 - Q2.2
 - Q2.10
 - Q2.4 Under what conditions is average velocity equal to instan- taneous velocity?
-- Swimmingpool (Durchschnittstempo, Durchschnittsgeschwindigkeit)
+- Swimmingpool (Durchschnittstempo, mittlere Geschwindigkeit)
 - Q2.3 .. Trip Home. You normally drive on the freeway be- tween San Diego and Los Angeles at an average speed of 105 km>h 165 mi>h2, and the trip takes 2 h and 20 min. On a Friday afternoon, however, heavy traffic slows you down and you drive the same distance at an average speed of only 66 km>h 143 mi>h2. How much longer does the trip take?
 - 2.6 .. A Honda Civic travels in a straight line along a road. The car’s distance x from a stop sign is given as a function of time t
 - Blood flow

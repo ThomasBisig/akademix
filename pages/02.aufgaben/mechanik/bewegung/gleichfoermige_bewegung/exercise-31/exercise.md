@@ -45,7 +45,7 @@ mathjax:
 Wie weit ist die Felswand vom Wanderer entfernt?
 
 [details="Tipp zum Vorgehen" class="tipp"]
-Der Zusammenhang der gleichförmigen Bewegung liefert für die Durchschnittsgeschwindigkeit $\overline{v}=\frac{\Delta s}{\Delta t}$ die Antwort.
+Der Zusammenhang der gleichförmigen Bewegung liefert für die mittlere Geschwindigkeit $\overline{v}=\frac{\Delta s}{\Delta t}$ die Antwort.
 [/details]
 
 [details="Lösung" class="loesung"]

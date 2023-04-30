@@ -45,7 +45,7 @@ mathjax:
 Wie tief ist an dieser Stelle das Meer, wenn die Schallgeschwindigkeit im Meerwasser $1440\,\frac{m}{s}$ beträgt?
 
 [details="Tipp zum Vorgehen" class="tipp"]
-Der Zusammenhang der gleichförmigen Bewegung liefert für die Durchschnittsgeschwindigkeit $\overline{v}=\frac{\Delta s}{\Delta t}$ die Antwort.
+Der Zusammenhang der gleichförmigen Bewegung liefert für die mittlere Geschwindigkeit $\overline{v}=\frac{\Delta s}{\Delta t}$ die Antwort.
 [/details]
 
 [details="Lösung" class="loesung"]
