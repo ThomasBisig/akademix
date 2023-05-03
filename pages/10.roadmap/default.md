@@ -13,12 +13,12 @@ _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegu
 	- [ ] To check: 2,3,4,9
 
 	- Todos for all exercises so far:
-		- [ ] Change all images from s -> x
 		- [ ] Add all solutions to exercises
 
 
 #### Done in S2
-- [/] Add all exercises from (own) documentation -> all but one
+- [x] Change all images from s -> x (03.05.2023)
+- [/] Add all exercises from (own) documentation -> all but one (03.05.2023)
 - [x] Polish solutions, files, clean directories (03.05.2023)
 - [x] Add space between number and unit (MathJax) -> "$/,$" (03.05.2023)
 - [x] Check tags (or leave empty) (03.05.2023)
