@@ -54,7 +54,6 @@
 <path d="M11.8855 39.3196C11.7795 39.2136 11.6735 38.8956 11.5674 39.0016C10.8178 39.7512 9.49159 40.4992 9.65909 41.546C9.80643 42.4669 13.3603 42.7375 12.9987 44.7266C12.4705 47.6318 9.59831 47.5283 7.90978 45.8398" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.09926"/>
 <path d="M9.65909 39.9557C11.2566 39.4233 12.8957 39.3196 14.589 39.3196" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.09926"/>
 <path d="M18.4057 39.3196C17.3913 39.5992 16.4196 40.4135 16.0202 41.387C15.575 42.4723 15.0488 46.2728 17.1334 46.794C22.803 48.2114 23.6471 37.875 18.4057 39.3196Z" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.09926"/>
-<path d="M26.4868 10.7329C26.0062 10.3724 23.4948 10.3109 23.9215 11.4488C24.326 12.5274 26.9444 12.6174 26.1885 14.4316C25.5477 15.9696 22.5494 15.3557 22.5494 14.6703" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.54963"/>
 <path d="M32.3332 7.98865C32.0047 7.57808 31.0599 6.78804 30.6031 7.15345C30.5573 7.19015 30.6628 8.98068 30.6628 9.42043C30.6628 10.5845 30.2128 15.3919 30.7821 16.3407C30.8559 16.4637 33.4833 16.2047 33.6456 16.0424" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.54963"/>
 <path d="M35.2564 10.4346C35.2564 10.1919 35.3169 13.5967 35.674 13.7157C35.8005 13.7579 35.823 13.4878 35.853 13.3578C35.9488 12.9423 36.6477 10.4096 36.9864 10.4943C37.7546 10.6863 37.6072 13.4631 37.8813 13.4175C38.6796 13.2844 38.4619 10.5811 39.3727 10.7329C40.0312 10.8426 39.9218 13.5526 40.3272 13.4175" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.54963"/>
 <path d="M40.5659 7.75003C40.2712 7.55356 43.8702 7.00274 44.2646 7.98865C44.6349 8.91428 44.5202 10.8807 44.6822 11.8067C45.0639 13.9876 46.3737 15.9178 43.7277 16.5793C43.2007 16.711 42.6511 16.7725 42.117 16.6389" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.54963"/>
@@ -113,6 +112,8 @@
 <path d="M232.531 16.3478C233.985 18.2872 233.203 22.7559 235.46 23.508C235.645 23.5699 235.723 23.2054 235.785 23.0198C236.36 21.2944 236.749 19.4041 237.25 17.6496C237.449 16.9538 237.562 16.2362 237.738 15.5341" fill="none" opacity="1" stroke="#d5694f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.09926"/>
 <path d="M229.764 14.2322C232.818 13.5536 235.925 14.5256 238.877 13.4186" fill="none" opacity="1" stroke="#d5694f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.09926"/>
 <path d="M231.717 24.8099C234.54 24.8099 237.359 24.5996 240.179 24.4844" fill="none" opacity="1" stroke="#d5694f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.09926"/>
+<path d="M20.8575 9.84584C22.2317 11.2201 23.3949 13.1646 24.2931 14.9611" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.54963"/>
+<path d="M24.9802 9.6168C24.6359 9.84639 20.5521 15.0131 20.5521 15.8009" fill="none" opacity="1" stroke="#eebf5b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.54963"/>
 </g>
 <g id="Ebene-1" vectornator:layerName="Ebene 1"/>
 </svg>
