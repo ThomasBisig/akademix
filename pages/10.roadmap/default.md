@@ -4,66 +4,7 @@ title: Roadmap
 
 The goal of the first four sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
 
-### Current - Sprint 1: Finished (see at the bottom)
-
-### Current - Sprint 2: Prototype - Todos (12h of 10h, started 11.04.23)
-_Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
-
-- Content
-	- [ ] To check: 2,3,4,9
-
-	- Todos for all exercises so far:
-		- [ ] Add all solutions to exercises
-
-
-#### Done in S2
-- [x] Change all images from s -> x (03.05.2023)
-- [/] Add all exercises from (own) documentation -> all but one (03.05.2023)
-- [x] Polish solutions, files, clean directories (03.05.2023)
-- [x] Add space between number and unit (MathJax) -> "$/,$" (03.05.2023)
-- [x] Check tags (or leave empty) (03.05.2023)
-- [x] polish links (03.05.2023)
-- [x] polish solutions (03.05.2023)
-- [x] Alle Lösungen einfach unterstreichen (wie exercise 14) aber nicht in Kurzlösungen (03.05.2023)
-- [x] Change all $s=v*t$ to $\Delta x = v * \Delta t$ -> done for exercise-1 (03.05.2023)
-- [x] Change to review_0/1/2 and todos (03.05.2023)
-- [x] Link all concepts to empty concept page (03.05.2023)
-- [x] Include license of images (03.05.2023)
-- [x] Change from s=vt to x=vt (03.05.2023)
-- [x] Tipps do not contain formulas or links to concepts (03.05.2023)
-- [x] Make source and media source uniform (03.05.2023)
-- [x] Entscheidung bzgl. Terminologie hinzugefügt (30.04.2023)
-- [x] added Beispielkonzept (30.04.2023)
-- [x] Streckendifferenz/Streckenänderung -> Ortsänderung (?), Durchschnittsgeschw. -> mittlere Geschw. (30.04.2023)
-- [x] Checked Ex6/14-19/30-35 and added and checked 41 (30.04.2023)
-- [x] Checked Ex12/40 (29.04.2023)
-- [x] Checked Ex10/13 (28.04.2023)
-- [x] Checked Ex20-29 (22.04.2023)
-- [x] Checked Ex36-39 (21.04.2023)
-- [x] Add 'decisions' like t-x and t-v to overview page (20.04.2023)
-- [x] Add page with missing exercises (20.04.2023)
-- [x] When km/h and m/s to \frac{}{} (20.04.2023)
-- [x] von CC 3.0 auf 4.0 (20.04.2023)
-- [x] From s-t bzw. v-t to t-x and t-v diagramm (20.04.2023)
-- [x] Changed from fixed days sprints to hours (20.04.2023)
-- [x] Upload everything to github v0.0.1 (20.04.2023)
-- [x] Email to thomas@akademix.ch (20.04.2023)
-- [x] Checked Ex1-6 (19.04.2023)
-- [x] Added images 30/31 (19.04.2023)
-- [x] Added ex38-39 (16.04.2023)
-- [x] Add (few) exercises from grund-wissen.de (16.04.2023)
-- [x] Add source from physcia.ch (16.04.2023)
-- [x] Add remaining exercises in pictures folder (15.04.2023)
-- [x] Added ex32-37 (15.04.2023)
-- [x] Added ex24-31 (14.04.2023)
-- [x] Added ex22/23 (11.04.2023)
-- [x] Added ex20/21 (10.04.2023)
-- [x] Using media-tag for source (if empty, no media) (10.04.2023)
-
-
-### Future Sprints
-
-#### S3 (0 out of 10h)
+#### Current: S3 (0 out of 10h)
 _Goal: Clean-up structure_
 
 - [ ] Make id, pair and set
@@ -93,7 +34,7 @@ _Goal: Clean up design_
 - [ ] Bildabstände in Übungen
 - [ ] Image resizing (all the same and max 40% width (or so))
 
-#### S4 (0 out of 10h)
+#### S5 (0 out of 10h)
 _Goal: Clean up everything_
 
 - [ ] Every exercise has a 'pair'
@@ -194,6 +135,59 @@ _Goal: Set up a working version of a website with a few exercises that are linke
 	- [x] Add Tag 'requiredConceptsPhysics' and 'requiredConceptsMath' for exercises (01.04.23)
 	- [x] Add unique identifier per exercise (date+time+4digitrandom) (01.04.23)
 	- [x] Create very basic navigation and structure (30.03.23)
+
+
+### Sprint 2: Prototype - Todos (12h of 10h, started 11.04.23)
+_Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
+
+Not done
+- [ ] To check: 2,3,4,9
+- [ ] Todos for all exercises so far:
+	- [ ] Add all solutions to exercises
+
+Done
+- [x] Change all images from s -> x (03.05.2023)
+- [/] Add all exercises from (own) documentation -> all but one (03.05.2023)
+- [x] Polish solutions, files, clean directories (03.05.2023)
+- [x] Add space between number and unit (MathJax) -> "$/,$" (03.05.2023)
+- [x] Check tags (or leave empty) (03.05.2023)
+- [x] polish links (03.05.2023)
+- [x] polish solutions (03.05.2023)
+- [x] Alle Lösungen einfach unterstreichen (wie exercise 14) aber nicht in Kurzlösungen (03.05.2023)
+- [x] Change all $s=v*t$ to $\Delta x = v * \Delta t$ -> done for exercise-1 (03.05.2023)
+- [x] Change to review_0/1/2 and todos (03.05.2023)
+- [x] Link all concepts to empty concept page (03.05.2023)
+- [x] Include license of images (03.05.2023)
+- [x] Change from s=vt to x=vt (03.05.2023)
+- [x] Tipps do not contain formulas or links to concepts (03.05.2023)
+- [x] Make source and media source uniform (03.05.2023)
+- [x] Entscheidung bzgl. Terminologie hinzugefügt (30.04.2023)
+- [x] added Beispielkonzept (30.04.2023)
+- [x] Streckendifferenz/Streckenänderung -> Ortsänderung (?), Durchschnittsgeschw. -> mittlere Geschw. (30.04.2023)
+- [x] Checked Ex6/14-19/30-35 and added and checked 41 (30.04.2023)
+- [x] Checked Ex12/40 (29.04.2023)
+- [x] Checked Ex10/13 (28.04.2023)
+- [x] Checked Ex20-29 (22.04.2023)
+- [x] Checked Ex36-39 (21.04.2023)
+- [x] Add 'decisions' like t-x and t-v to overview page (20.04.2023)
+- [x] Add page with missing exercises (20.04.2023)
+- [x] When km/h and m/s to \frac{}{} (20.04.2023)
+- [x] von CC 3.0 auf 4.0 (20.04.2023)
+- [x] From s-t bzw. v-t to t-x and t-v diagramm (20.04.2023)
+- [x] Changed from fixed days sprints to hours (20.04.2023)
+- [x] Upload everything to github v0.0.1 (20.04.2023)
+- [x] Email to thomas@akademix.ch (20.04.2023)
+- [x] Checked Ex1-6 (19.04.2023)
+- [x] Added images 30/31 (19.04.2023)
+- [x] Added ex38-39 (16.04.2023)
+- [x] Add (few) exercises from grund-wissen.de (16.04.2023)
+- [x] Add source from physcia.ch (16.04.2023)
+- [x] Add remaining exercises in pictures folder (15.04.2023)
+- [x] Added ex32-37 (15.04.2023)
+- [x] Added ex24-31 (14.04.2023)
+- [x] Added ex22/23 (11.04.2023)
+- [x] Added ex20/21 (10.04.2023)
+- [x] Using media-tag for source (if empty, no media) (10.04.2023)
 
 ### Postponed or Cancelled
 - [ ] ? Add follows from or depends on per exercise (in meta)
