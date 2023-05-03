@@ -51,7 +51,7 @@ Du fährst mit dem InterRegio von Zürich nach Bern. Der Zug verlässt den Haupt
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\approx 25.74\,\frac{m}{s}$ bzw. $\approx 92.66\,\frac{km}{h}$
+**Antwort**: $\overline{v} \approx 25.74\,\frac{m}{s}$ bzw. $\approx 92.66\,\frac{km}{h}$
 
 **Lösungsidee**: Umrechnung in SI Einheiten und Benutzung der Definition der mittleren Geschwindigkeit.
 
@@ -61,13 +61,13 @@ _Teil 1_
 
 1. Die zurückgelegte Strecke beträgt $\Delta x=122000\,m$ und die dafür benötigte Zeit $\Delta t=79\,min=4740\,s$
 
-2. Die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) liefert 
+2. Die [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) liefert 
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}=\frac{122000\,m}{4740\,s} \approx \underline{25.74\,\frac{m}{s}}
 $$
 
-und [umgerechnet](../../../../../konzepte/konzept-1)
+und [umgerechnet](/konzepte/konzept-1)
 
 $$
 \approx \underline{92.66\,\frac{km}{h}} 

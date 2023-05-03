@@ -51,7 +51,7 @@ Welche mittlere Geschwindigkeit hatte der Läufer in $\frac{km}{h}$?
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\approx 37.58\,\frac{km}{h}$
+**Antwort**: $\overline{v}=\approx 37.58\,\frac{km}{h}$
 
 **Lösungsidee**: Benutzung der Definition der mittleren Geschwindigkeit und korrekte Umrechnung.
 
@@ -63,7 +63,7 @@ _Variante 1_
 
 Zuerst umwandeln, dann einsetzen:
 
-1. [Umrechnen](../) der zurückgelegten Strecke
+1. [Umrechnen](/konzepte/konzept-1) der zurückgelegten Strecke
 
 $$
 \Delta x = 100\,m=0.1\,km
@@ -75,7 +75,7 @@ $$
 \Delta t = 9.58\,s=\frac{9.58}{60\cdot 60}\,h=0.00266\overline{1}\,h
 $$
 
-2. Die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) liefert
+2. Die [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) liefert
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}=\frac{0.1\,km}{0.00266\overline{1}\,h} \approx \underline{37.58\,\frac{km}{h}}
@@ -85,12 +85,12 @@ _Variante 2_
 
 Zuerst einsetzen, dann umwandeln:
 
-1. Die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) ist in $\frac{m}{s}$
+1. Die [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) ist in $\frac{m}{s}$
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}=\frac{100\,m}{9.58\,s} \approx 10.44\,\frac{m}{s}
 $$
 
-2. [Umrechnen](../) in die gesuchte Einheit $\frac{km}{h}$ ergibt $\approx \underline{37.58\,\frac{km}{h}}$.
+2. [Umrechnen](/konzepte/konzept-1) in die gesuchte Einheit $\frac{km}{h}$ ergibt $\approx \underline{37.58\,\frac{km}{h}}$.
 
 [/details]

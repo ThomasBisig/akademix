@@ -6,32 +6,32 @@ The goal of the first four sprints is to create a prototype. This prototype is j
 
 ### Current - Sprint 1: Finished (see at the bottom)
 
-### Current - Sprint 2: Prototype - Todos (11h of 10h, started 11.04.23)
+### Current - Sprint 2: Prototype - Todos (12h of 10h, started 11.04.23)
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
 
 - Content
-	- [ ] To check: 8,9
-	- [ ] Add all exercises from (own) documentation
-	- [ ] Polish solutions, files, clean directories
+	- [ ] To check: 2,3,4,9
 
 	- Todos for all exercises so far:
 		- [ ] Change all images from s -> x
-		- [ ] Add space between number and unit (MathJax) -> "$/,$"
-		- [ ] Solutions of exercises
-		- [ ] Check tags (or leave empty)
-		- [ ] polish links
-		- [ ] polish solutions
-		- [ ] Alle Lösungen einfach unterstreichen (wie exercise 14) aber nicht in Kurzlösungen
-		- [ ] Change all $s=v*t$ to $\Delta x = v * \Delta t$ -> done for exercise-1
-		- [ ] Change to review_0/1/2 and todos
-		- [ ] Link all concepts to empty concept page
-		- [ ] Include license of images
-		- [ ] Change from s=vt to x=vt
-		- [ ] Tipps do not contain formulas or links to concepts
-		- [ ] Make source and media source uniform
+		- [ ] Add all solutions to exercises
 
 
 #### Done in S2
+- [/] Add all exercises from (own) documentation -> all but one
+- [x] Polish solutions, files, clean directories (03.05.2023)
+- [x] Add space between number and unit (MathJax) -> "$/,$" (03.05.2023)
+- [x] Check tags (or leave empty) (03.05.2023)
+- [x] polish links (03.05.2023)
+- [x] polish solutions (03.05.2023)
+- [x] Alle Lösungen einfach unterstreichen (wie exercise 14) aber nicht in Kurzlösungen (03.05.2023)
+- [x] Change all $s=v*t$ to $\Delta x = v * \Delta t$ -> done for exercise-1 (03.05.2023)
+- [x] Change to review_0/1/2 and todos (03.05.2023)
+- [x] Link all concepts to empty concept page (03.05.2023)
+- [x] Include license of images (03.05.2023)
+- [x] Change from s=vt to x=vt (03.05.2023)
+- [x] Tipps do not contain formulas or links to concepts (03.05.2023)
+- [x] Make source and media source uniform (03.05.2023)
 - [x] Entscheidung bzgl. Terminologie hinzugefügt (30.04.2023)
 - [x] added Beispielkonzept (30.04.2023)
 - [x] Streckendifferenz/Streckenänderung -> Ortsänderung (?), Durchschnittsgeschw. -> mittlere Geschw. (30.04.2023)
@@ -92,6 +92,12 @@ _Goal: Clean up design_
 - [ ] Farbkonzept überlegen und vereinheitlichen
 - [ ] Bildabstände in Übungen
 - [ ] Image resizing (all the same and max 40% width (or so))
+
+#### S4 (0 out of 10h)
+_Goal: Clean up everything_
+
+- [ ] Every exercise has a 'pair'
+
 
 #### Future
 

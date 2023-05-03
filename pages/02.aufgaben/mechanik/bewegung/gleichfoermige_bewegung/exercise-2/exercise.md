@@ -43,7 +43,7 @@ mathjax:
 Das Licht der Sonne breitet sich mit Lichtgeschwindigkeit $c$ aus. Wie lange ist ein Lichtstrahl zwischen Sonne und Erde unterwegs? 
 
 [details="Tipp zum Vorgehen" class="tipp"]
-Benutze den Zusammenhang der gleichförmigen Bewegung $\Delta x=v \cdot \Delta t$, um die Zeit herauszufinden.
+Benutze den Zusammenhang der gleichförmigen Bewegung, um die Zeit herauszufinden.
 [/details]
 
 [details="Tipp zu den fehlenden Grössen" class="tipp"]

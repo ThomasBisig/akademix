@@ -48,14 +48,14 @@ Ein Körper ist in gleichförmiger Bewegung, wenn er
 
 - sich nicht rückwärts bewegt
 - sich nicht beschleunigt
-- sich mit gleicher Geschwindigkeit geradeaus bewegt
+- sich mit gleichbleibender Geschwindigkeit geradeaus bewegt
 - sich schnell bewegt
 
 
 [details="Lösung" class="loesung"]
 **Antwort**:
 
-Ein Körper ist in [gleichförmiger Bewegung](../../../../../konzepte/konzept-1), wenn er
+Ein Körper ist in [gleichförmiger Bewegung](/konzepte/konzept-1), wenn er
 - sich nicht beschleunigt
-- sich mit gleicher Geschwindigkeit geradeaus bewegt
+- sich mit gleichbleibender Geschwindigkeit geradeaus bewegt
 [/details]

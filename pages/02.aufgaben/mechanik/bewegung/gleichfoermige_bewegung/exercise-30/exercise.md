@@ -51,7 +51,7 @@ Wie tief ist an dieser Stelle das Meer, wenn die Schallgeschwindigkeit im Meerwa
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $1152\,m$
+**Antwort**: $\Delta x = 1152\,m$
 
 **Lösungsidee**: Die Zeit für einen Weg und die Geschwindigkeit in den Zusammenhang der gleichförmigen Bewegung einsetzen.
 

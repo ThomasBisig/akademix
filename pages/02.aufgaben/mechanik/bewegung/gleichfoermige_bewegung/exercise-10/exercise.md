@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230428
-	source: 'Neu erstellt, Thomas Bisig (thomas@akademix.ch)'
+	source: 'Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media: no
@@ -52,8 +52,8 @@ Benutze die Definition der Beschleunigung und setze die entsprechenden SI-Einhei
 **Lösungsidee**: Nutzung der Definition der Beschleunigung und Einsetzen der entsprechenden SI-Einheiten.
 
 **Lösungsweg**:
-1. Die [Beschleunigung](../../../../../konzepte/konzept-1) ist definiert als die [Geschwindigkeitsänderung](../../../../../konzepte/konzept-1) $\Delta v$ pro Zeitänderung $\Delta t$, formal $\frac{\Delta v}{\Delta t}$
-2. Einsetzen der [Einheiten](../../../../../konzepte/konzept-1) für $\Delta v$ ($\frac{m}{s}$) und $\Delta t$ ($s$) und [Umformen](../../../../../konzepte/konzept-1) ergibt:
+1. Die [Beschleunigung](/konzepte/konzept-1) ist definiert als die [Geschwindigkeitsänderung](/konzepte/konzept-1) $\Delta v$ pro Zeitänderung $\Delta t$, formal $\frac{\Delta v}{\Delta t}$
+2. Einsetzen der [Einheiten](/konzepte/konzept-1) für $\Delta v$ ($\frac{m}{s}$) und $\Delta t$ ($s$) und [Umformen](/konzepte/konzept-1) ergibt:
 
 $$
 \begin{align}

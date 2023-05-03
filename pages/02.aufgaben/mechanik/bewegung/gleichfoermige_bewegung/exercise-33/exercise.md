@@ -53,7 +53,7 @@ Ein Lastwagen befindte sich bei $x_1 = 122\,m$ zum Zeitpunkt $t_1 = 8.0\,s$ und 
 [details="Lösung" class="loesung"]
 **Antwort**:
 1. siehe Abbildung
-2. Die mittlere Geschwindigkeit hat denselben Wert von $18\,\frac{m}{s}$
+2. Die mittlere Geschwindigkeit hat denselben Wert von $\overline{v}=18\,\frac{m}{s}$
 
 **Lösungsidee**: Zeichnen eines $t-x$-Koordinatensystem mit den zwei Punkten $(t_1,x_1)$ und $(t_2,x_2)$ und nutze die Definition der mittleren Geschwindigkeit.
 

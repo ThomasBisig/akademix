@@ -54,7 +54,7 @@ Eine mögliche Vorgehensweise ist die direkte Umrechnung der Geschwindigkeit in 
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $35\,m$ bzw. $2.1\,km$
+**Antwort**: $\Delta x=35\,m$ bzw. $2.1\,km$
 
 **Lösungsidee**: Umrechnung in die Einheit $\frac{m}{s}$ und Interpretation der physikalischen Einheit im Bezug auf die Fragestellung.
 

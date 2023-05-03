@@ -51,7 +51,7 @@ Wie weit ist die Felswand vom Wanderer entfernt?
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $825\,m$
+**Antwort**: $\Delta x = 825\,m$
 
 **Lösungsidee**: Die Zeit für einen Weg und die Geschwindigkeit in den Zusammenhang der gleichförmigen Bewegung einsetzen.
 

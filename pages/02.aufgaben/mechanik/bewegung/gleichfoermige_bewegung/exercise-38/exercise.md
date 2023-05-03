@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230419
-	source: 'Idee: University Physics 14th edition, angepasst und erweitert'
+	source: 'Idee: University Physics 14th edition, Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media: 'https://de.wikipedia.org/wiki/Seismische_Wellen#/media/Datei:Ondes_P_et_S_1d_30_petit.gif'
@@ -60,7 +60,7 @@ Ersetze die $17\,s$ der vorhergehenden Aufgabe mit der Variablen $a$ und führe 
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-1. $128.9\,km$
+1. $\Delta x \approx 128.9\,km$
 2. Pro Sekunde Zeitdifferenz eine Distanz von $\approx 7.6\,km$.
 
 **Lösungsidee**: Die zwei Wellenausbreitungen entsprechen zwei Gleichungen mit zwei Unbekannten, welche gemeinsam gelöst werden können.
@@ -70,7 +70,7 @@ Der Index $P$ bezeichnet die Grössen für **P**-Wellen, der Index $S$ bezeichne
 
 _Teil 1_
 
-1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) wie folgt aufgestellt werden:
+1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) wie folgt aufgestellt werden:
 
 $$
 \Delta x_P=v_P\cdot \Delta t_P\\
@@ -84,7 +84,7 @@ $$
 \Delta x_S=3.5\,\frac{km}{s}\cdot \Delta t_S\\
 $$
 
-3. Die von den Wellen zurückgelegte Strecke ist  in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_P=\Delta x_S$ bzw. dass die [zwei Gleichungen können gleichgesetzt](../../../../../konzepte/konzept-1) werden:
+3. Die von den Wellen zurückgelegte Strecke ist  in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_P=\Delta x_S$ bzw. dass die [zwei Gleichungen können gleichgesetzt](/konzepte/konzept-1) werden:
 
 $$
 6.5\,\frac{km}{s}\cdot \Delta t_P=3.5\,\frac{km}{s}\cdot \Delta t_S

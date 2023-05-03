@@ -54,7 +54,7 @@ Berechne die mittlere Geschwindigkeit (in $\frac{m}{s}$) eines Wagens, der eine 
 
 **Lösungsweg**:
 
-1. Die [mittlere Geschwindigkeit](../../../../../konzepte/konzept-1) ist definiert als
+1. Die [mittlere Geschwindigkeit](/konzepte/konzept-1) ist definiert als
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}
@@ -70,7 +70,7 @@ $$
 
 Somit ergibt sich für die Gesamtzeit $\Delta t=\Delta t_1+\Delta t_2=0.6\,h+0.5\,h=1.1\,h$
 
-4. [Umwandeln der Gesamtstrecke und der Gesamtzeit in die gesuchten Einheiten](../../../../../konzepte/konzept-1)
+4. [Umwandeln der Gesamtstrecke und der Gesamtzeit in die gesuchten Einheiten](/konzepte/konzept-1)
 
 $$
 \Delta x=80\,km=80000\,m \\

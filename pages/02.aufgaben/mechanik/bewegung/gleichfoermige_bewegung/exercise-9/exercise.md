@@ -14,47 +14,49 @@ taxonomy:
 	needsSupport: 0
 	needsTool: 0
 
-	hints: 1
+	hints: 0
 	detail: 3
 	bloom: 2
 	schritte: 3
 	schwierigkeit: 1
-	realitaet: 
+	realitaet: 1
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230404
-	source: 'neu, Thomas Bisig, thomas@akademix.ch'
+	version: 20230503
+	source: 'Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: html
-	media: yes
+	media: 'Thomas Bisig, thomas@akademix.ch'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: [content_created, review_0]
-	status_exercise: [content_created, illustration_na, files_na, review_0]
-	status_solution: [content_missing, illustration_missing, links_created, files_na, review_0]
+	status_tags: review_1
+	status_exercise: review_1
+	status_solution: review_0
+
+	todo: []
 
 mathjax:
   process: true
 ---
 ![Graph der Geschwindigkeit auf einer Joggingstrecke](exercise9-1.svg?class=img_exercise)
-Der nebenstehende Graph zeigt die <span style="color:rgb(238,191,91); font-weight: 500;">Momentangeschwindigkeit</span> während eines Jogginglaufs von <span style="color:rgb(238,191,91); font-weight: 500;">15 Uhr bis 17 Uhr</span>. Deine Aufgabe ist es, die gerannte Strecke anhand der Informationen im Graphen zu bestimmen. Gehe dazu folgendermassen vor:
-1. Welche der eingezeichneten <span style="color:rgb(209,209,209); font-weight: 500;">mittleren Geschwindigkeiten</span> passt am besten zum Graphen?
+Der nebenstehende Graph zeigt die Momentangeschwindigkeit während eines Jogginglaufs von 15 Uhr bis 17 Uhr. Deine Aufgabe ist es, die gerannte Strecke anhand der Informationen im Graphen zu bestimmen. Gehe dazu folgendermassen vor:
+1. Welche der eingezeichneten mittleren Geschwindigkeiten passt am besten zum Graphen?
 2. Wandle die Joggingdauer in Sekunden um.
-3. Berechne die Länge der Joggingstrecke mit dem Zusammenhang von Weg, Zeit und Geschwindigkeit.
+3. Berechne die Länge der Joggingstrecke mit dem Zusammenhang der gleichförmigen Bewegung.
 
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-1. $9 \frac{m}{s}$
+1. $\overline{v}=9 \frac{km}{h}$
 2. _todo_
 3. _todo_
 
 **Lösungsweg**:
 ![Graph der Geschwindigkeit auf einer Joggingstrecke](exercise9-2.svg?class=img_exercise)
-1. [mittleren Geschwindigkeiten](mittlere_Geschwindigkeit) passt am besten zum Graphen?
-2. [in Sekunden um](SI-Einheit).
-3. [Weg, Zeit und Geschwindigkeit](Weg_Zeit_und_Geschwindigkeit).
+1. [mittleren Geschwindigkeiten](/konzepte/konzept-1) passt am besten zum Graphen?
+2. [in Sekunden um](/konzepte/konzept-1).
+3. [Weg, Zeit und Geschwindigkeit](/konzepte/konzept-1).
 
 [/details]

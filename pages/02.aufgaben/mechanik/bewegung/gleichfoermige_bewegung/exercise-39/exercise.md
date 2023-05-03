@@ -25,7 +25,7 @@ taxonomy:
 
 	autor: 'Thomas'
 	version: 20230419
-	source: 'neu, Thomas Bisig (thomas@akademix.ch)'
+	source: 'Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media: 'https://commons.wikimedia.org/wiki/File:Lightning_NOAA.jpg'
@@ -62,7 +62,7 @@ Ersetze die $6\,s$ der vorhergehenden Aufgabe mit der Variablen $a$ und führe d
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-1. $\approx 2\,km$
+1. $\Delta x \approx 2\,km$
 2. Drei Sekunden entsprechen einem Kilometer
 
 **Lösungsidee**: Die zwei Signalausbreitungen entsprechen zwei Gleichungen mit zwei Unbekannten, welche gemeinsam gelöst werden können.
@@ -73,21 +73,21 @@ Der Index $B$ bezeichnet die Grössen für den **B**litz, der Index $D$ bezeichn
 
 _Teil 1_
 
-1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) wie folgt aufgestellt werden:
+1. Die zwei Gleichungen können mit Hilfe der [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) wie folgt aufgestellt werden:
 
 $$
 \Delta x_B=v_B\cdot \Delta t_B\\
 \Delta x_D=v_D\cdot \Delta t_D\\
 $$
 
-2. Die mittleren Geschwindigkeiten können für beide Fahrten direkt eingesetzt werden (die Schallgeschwindigkeit [umwandeln](../../../../../konzepte/konzept-1) in $\frac{km}{s}$):
+2. Die mittleren Geschwindigkeiten können für beide Fahrten direkt eingesetzt werden (die Schallgeschwindigkeit [umwandeln](/konzepte/konzept-1) in $\frac{km}{s}$):
 
 $$
 \Delta x_B=3\cdot 10^8\,\frac{km}{s}\cdot \Delta t_B\\
 \Delta x_D=0.34\,\frac{km}{s}\cdot \Delta t_D\\
 $$
 
-3. Die von den Signalen zurückgelegte Strecke ist in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_B=\Delta x_D$ bzw. dass die [zwei Gleichungen gleichgesetzt](../../../../../konzepte/konzept-1) werden können:
+3. Die von den Signalen zurückgelegte Strecke ist in beiden Fällen dieselbe. Daraus folgt, dass $\Delta x_B=\Delta x_D$ bzw. dass die [zwei Gleichungen gleichgesetzt](/konzepte/konzept-1) werden können:
 
 $$
 3\cdot 10^8\,\frac{km}{s}\cdot \Delta t_B=0.34\,\frac{km}{s}\cdot \Delta t_D

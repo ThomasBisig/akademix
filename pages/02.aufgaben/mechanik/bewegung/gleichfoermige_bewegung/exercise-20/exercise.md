@@ -55,7 +55,7 @@ Wie gross ist seine mittlere Geschwindigkeit in $\frac{km}{h}$ und $\frac{m}{s}$
 **Lösungsidee**: Umrechnung der Grössen und Benutzung der Definition der mittleren Geschwindigkeit.
 
 **Lösungsweg**:
-1. [Umrechnen](../../../../../konzepte/konzept-1) der Strecke
+1. [Umrechnen](/konzepte/konzept-1) der Strecke
 
 $$
 \Delta x = 8.0\,km=8000\,m
@@ -67,7 +67,7 @@ $$
 \Delta t = 30\,min=0.5\,h=1800\,s
 $$
 
-2. Einsetzen in die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) liefert die Antwort.
+2. Einsetzen in die [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) liefert die Antwort.
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}=\frac{8.0\,km}{0.5\,h} \\

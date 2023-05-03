@@ -42,19 +42,19 @@ mathjax:
 ---
 Ein Radfahrer legt alle $6.0\,s$ eine Wegstrecke von $36\,m$ zurück.
 
-Wie gross ist seine Geschwindigkeit (in $\frac{m}{s}$)?
+Wie gross ist seine mittlere Geschwindigkeit (in $\frac{m}{s}$)?
 
 [details="Tipp zum Vorgehen" class="tipp"]
 Die Definition der mittleren Geschwindigkeit liefert die Antwort.
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $6\,\frac{m}{s}$
+**Antwort**: $\overline{v}=6\,\frac{m}{s}$
 
 **Lösungsidee**: Benutzung der Definition der mittleren Geschwindigkeit.
 
 **Lösungsweg**:
-Einsetzen der gegebenen Grössen in die [Definition der mittleren Geschwindigkeit](../) liefert
+Einsetzen der gegebenen Grössen in die [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) liefert
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}=\frac{36\,m}{6\,s}=\underline{6\,\frac{m}{s}}

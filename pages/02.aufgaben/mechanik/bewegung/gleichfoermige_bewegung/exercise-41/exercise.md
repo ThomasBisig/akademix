@@ -57,8 +57,8 @@ Die mittlere Geschwindigkeit berechnet sich aus der Gesamtstrecke und der Gesamt
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-1. $65\,min$
-2. $\approx 46.15\,\frac{km}{h},\approx 12.82\,\frac{m}{s}$
+1. $\Delta t = 65\,min$
+2. $\overline{v} \approx 46.15\,\frac{km}{h},\approx 12.82\,\frac{m}{s}$
 
 **Lösungsidee**: Die Autofahrt wird als drei einzelne Teile betrachtet, berechnet und wieder zusammengefügt.
 

@@ -50,7 +50,7 @@ mathjax:
 [/details]
 
 [details="Tipp zur Streckenbestimmung" class="tipp"]
-- Für konstante Geschwindigkeiten (in diesem Fall die mittlere Geschwindigkeit $\overline{v}$) gilt der Zusammenhang $\Delta x=\overline{v}\cdot \Delta t$, wobei $\overline{v}$ die mittlere Geschwindigkeit in $\frac{m}{s}$ und $\Delta t$ die dafür benötigte Zeit in Sekunden ist.
+- Für konstante Geschwindigkeiten (in diesem Fall die mittlere Geschwindigkeit $\overline{v}$) gilt der Zusammenhang der gleichförmigen Bewegung, wobei $\overline{v}$ die mittlere Geschwindigkeit in $\frac{m}{s}$ und $\Delta t$ die dafür benötigte Zeit in Sekunden ist.
 -  Die mittlere Geschwindigkeit und die für den Jogginglauf benötigte Zeit können aus der Grafik abgelesen werden.
 [/details]
 

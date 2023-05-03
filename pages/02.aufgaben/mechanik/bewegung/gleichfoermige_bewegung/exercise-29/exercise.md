@@ -51,7 +51,7 @@ Du fährst mit dem InterRegio von Luzern nach Bellinzona. Der Zug verlässt den 
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\approx 28.17\,\frac{m}{s}$ bzw. $\approx 101.43\,\frac{km}{h}$
+**Antwort**: $\overline{v} \approx 28.17\,\frac{m}{s}$ bzw. $\approx 101.43\,\frac{km}{h}$
 
 **Lösungsidee**: Umrechnung in SI Einheiten und Benutzung der Definition der mittleren Geschwindigkeit.
 
@@ -61,13 +61,13 @@ _Teil 1_
 
 1. Die zurückgelegte Strecke beträgt $\Delta x=142000\,m$ und die dafür benötigte Zeit $\Delta t=84\,min=5040\,s$
 
-2. Die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) liefert 
+2. Die [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) liefert 
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}=\frac{142000\,m}{5040\,s} \approx \underline{28.17\,\frac{m}{s}}
 $$
 
-und [umgerechnet](../../../../../konzepte/konzept-1)
+und [umgerechnet](/konzepte/konzept-1)
 
 $$
 \approx \underline{101.43\,\frac{km}{h}} 

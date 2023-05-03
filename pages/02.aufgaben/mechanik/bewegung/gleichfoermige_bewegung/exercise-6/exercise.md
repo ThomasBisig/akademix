@@ -50,13 +50,13 @@ mathjax:
 [/details]
 
 [details="Tipp zur Streckenbestimmung" class="tipp"]
-- Für konstante Geschwindigkeiten (in diesem Fall die mittlere Geschwindigkeit $\overline{v}$) gilt der Zusammenhang $\Delta x=\overline{v}\cdot \Delta t$, wobei $\overline{v}$ die mittlere Geschwindigkeit in $\frac{m}{s}$ und $\Delta t$ die dafür benötigte Zeit in Sekunden ist.
+- Für konstante Geschwindigkeiten (in diesem Fall die mittlere Geschwindigkeit $\overline{v}$) gilt der Zusammenhang der gleichförmigen Bewegung, wobei $\overline{v}$ die mittlere Geschwindigkeit in $\frac{m}{s}$ und $\Delta t$ die dafür benötigte Zeit in Sekunden ist.
 -  Die mittlere Geschwindigkeit und die für den Jogginglauf benötigte Zeit können aus der Grafik abgelesen werden.
 [/details]
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-1. $\overline{v}\approx 7\,\frac{km}{h}=1.9\overline{4} \frac{m}{s}$
+1. $\overline{v} \approx 7\,\frac{km}{h}=1.9\overline{4} \frac{m}{s}$
 2. $\Delta x \approx 16.3\,km$
 
 **Lösungsidee**: Aus dem Diagramm kann ungefähr die mittlere Geschwindigkeit $\overline{v}$ und die dafür benötigte Zeit $\Delta t$ abgelesen werden. Damit kann durch den Zusammenhang $\Delta x=\overline{v}\cdot \Delta t$ die Strecke ungefähr bestimmt werden.
@@ -78,7 +78,7 @@ _Teil 2_
 $$
 \Delta t=8400\,s
 $$
-2. Die Strecke kann mit Hilfe der Formel für [gleichförmige Bewegung ](/konzepte/konzept-1) berechnet werden 
+2. Die Strecke kann mit Hilfe der Formel für die [gleichförmige Bewegung](/konzepte/konzept-1) berechnet werden 
 $$
 \Delta x=\overline{v}\cdot \Delta t=16333.\overline{3}\,m \approx \underline{16.3\,km}
 $$

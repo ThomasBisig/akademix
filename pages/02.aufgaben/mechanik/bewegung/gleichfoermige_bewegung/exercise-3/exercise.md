@@ -43,7 +43,7 @@ mathjax:
 Radiosignale breiten sich mit Lichtgeschwindigkeit $c$ aus. Wie lange dauert es, bis ein auf der Erde abgestrahltes Radiosignal auf dem Mond ankommt? 
 
 [details="Tipp zum Vorgehen" class="tipp"]
-Benutze den Zusammenhang der gleichförmigen Bewegung $\Delta x=v \cdot \Delta t$, um die Zeit herauszufinden.
+Benutze den Zusammenhang der gleichförmigen Bewegung, um die Zeit herauszufinden.
 [/details]
 
 [details="Tipp zu den fehlende Grössen" class="tipp"]
@@ -51,7 +51,7 @@ Du brauchst zur Berechnung die Strecke (Erde-Mond) und die Lichtgeschwindigkeit 
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $\approx 1.3 s$
+**Antwort**: $\Delta t \approx 1.3 s$
 
 **Lösungsidee**: Bestimmung der Zeit $t$ mit Hilfe der Strecke $\Delta x$, der konstanten Geschwindigkeit $v$ und der Formel $\Delta x=v\cdot \Delta t$.
 

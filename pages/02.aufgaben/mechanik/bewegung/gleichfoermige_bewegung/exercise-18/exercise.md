@@ -55,7 +55,7 @@ mathjax:
 
 [details="Tipp zum Vorgehen" class="tipp"]
 - Lies für jeden Abschnitt die vergangene Zeit $\Delta t$ und die zurückgelegte Strecke $\Delta x$ aus dem Diagramm.
--  Berechne mit Hilfe des Zusammenhangs für gleichförmige Bewegungen $v=\frac{\Delta x}{\Delta t}$ die Geschwindigkeit.
+-  Berechne mit Hilfe des Zusammenhangs für gleichförmige Bewegungen die Geschwindigkeit.
 [/details]
 
 [details="Lösung" class="loesung"]

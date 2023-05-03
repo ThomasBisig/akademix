@@ -50,12 +50,12 @@ Wie gross ist seine mittlere Geschwindigkeit in $\frac{km}{h}$ und $\frac{m}{s}$
 [/details]
 
 [details="Lösung" class="loesung"]
-**Antwort**: $12\,\frac{km}{h}$ bzw. $3.\overline{3}\,\frac{m}{s}$
+**Antwort**: $\overline{v}=12\,\frac{km}{h}$ bzw. $3.\overline{3}\,\frac{m}{s}$
 
 **Lösungsidee**: Umrechnung der Grössen und Benutzung der Definition der mittleren Geschwindigkeit.
 
 **Lösungsweg**:
-1. [Umrechnen](../../../../../konzepte/konzept-1) der Strecke
+1. [Umrechnen](/konzepte/konzept-1) der Strecke
 
 $$
 \Delta x = 3.0\,km=3000\,m
@@ -67,7 +67,7 @@ $$
 \Delta t = 15\,min=0.25\,h=900\,s
 $$
 
-2. Einsetzen in die [Definition der mittleren Geschwindigkeit](../../../../../konzepte/konzept-1) liefert die Antwort.
+2. Einsetzen in die [Definition der mittleren Geschwindigkeit](/konzepte/konzept-1) liefert die Antwort.
 
 $$
 \overline{v}=\frac{\Delta x}{\Delta t}=\frac{3.0\,km}{0.25\,h} \\
