@@ -24,8 +24,8 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230430
-	source: 'neu, Thomas Bisig (thomas@akademix.ch)'
+	version: 20230503
+	source: 'Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
 	media: 'Thomas Bisig (thomas@akademix.ch)'
@@ -70,14 +70,14 @@ Lies für jeden der drei Abschnitte mit unterschiedlicher Geschwindigkeit heraus
 **Antwort**:
 
 Diagramm: siehe Abbildung
-1. $s(12)=16\,m$
+1. $x(12)=16\,m$
 2. $\overline{v}=1.25\,\frac{m}{s}$
 3. $27\,m$
 
-**Lösungsidee**: Mit Hilfe des gezeichneten t-x-Diagramm können können alle drei Fragen beantwortet werden.
+**Lösungsidee**: Mit Hilfe des gezeichneten $t-x$-Diagramm können können alle drei Fragen beantwortet werden.
 
 **Lösungsweg**:
-![Das t-x und das t-v-Diagramm einer Autofahrt](exercise15-2.svg?resize=400,600&class=float-right) Um das [Zeit-Ort-Diagramm](/konzepte/konzept-1) zu zeichnen, kann das [Zeit-Geschwindigkeit-Diagramm](/konzepte/konzept-1) in drei Abschnitte unterteilt werden.
+![Das $t-x$ und das $t-v$-Diagramm einer Autofahrt](exercise15-2.svg?resize=400,600&class=float-right) Um das [Zeit-Ort-Diagramm](/konzepte/konzept-1) zu zeichnen, kann das [Zeit-Geschwindigkeit-Diagramm](/konzepte/konzept-1) in drei Abschnitte unterteilt werden.
 Im Koordinatensystem des Zeit-Ort-Diagramms beginnt das Auto am Ort mit den Koordinaten $(0,1)$.
 Im ersten Abschnitt fährt das Auto für $\Delta t=5\,s$ mit einer Geschwindigkeit von $v=3\,\frac{m}{s}$. Mit Hilfe der Formel für die [gleichförmige Bewegung](/konzepte/konzept-1) kann daraus die zurückgelegte Strecke $\Delta x$ für diesen Abschnitt berechnet werden:
 
@@ -110,7 +110,5 @@ Für alle drei Teilabschnitte kann die zurückgelegte Distanz aus dem Diagramm g
 $$
 15\,m+6\,m+6\,m=\underline{27 m}
 $$
-
-
 
 [/details]

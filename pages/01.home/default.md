@@ -1,21 +1,20 @@
 ---
 title: Home
-body_classes: title-center title-h1h2
+body_classes: title-h1h2
 ---
+
+# Physik Lernen und Üben
+<br/><br/>
+
+![Ein Schiff nutzt Schall zur Tiefenbestimmung](exercise30-1.svg?resize=400,280&class=float-right) Zur Ermittlung der Meerestiefe wird von einem Schiff aus an der Wasseroberfläche ein kurzes Ultraschallsignal ausgesandt. Das Signal kehrt, nachdem es vom Meeresboden reflektiert wurde, nach $1.6\,s$ wieder an die Oberfläche zurück.
+
+Wie tief ist an dieser Stelle das Meer, wenn die Schallgeschwindigkeit im Meerwasser $1440\,\frac{m}{s}$ beträgt?
+
+[... zu dieser Aufgabe](/aufgaben/mechanik/bewegung/gleichfoermige_bewegung/exercise-30)
+
+[Alle Aufgaben](/aufgaben/mechanik/bewegung/gleichfoermige_bewegung/)
 
 [notice]
 Im Aufbau. Inhalt nicht verwenden!
 Wenn du Aufgaben beisteuern möchtest oder auch sonst: thomas @ akademix punkt ch
 [/notice]
-
-# Physik Lernen und Üben
-
-Offene Lernplattform mit:
-- [**Aufgaben**](../aufgaben/mechanik/bewegung/gleichfoermige_bewegung/) mit Lösungen (Beispiel: [Mittlere Geschwindigkeit auf einer Joggingstrecke](../aufgaben/mechanik/bewegung/gleichfoermige_bewegung/exercise-9))
-- **Konzepte** als Kurzerklärungen (Beispiel: Kräfte)
-- **Unterrichtseinheiten** zu Konzepten (Beispiel: gleichförmige Bewegung)
-- **Cases** bzw. Fragestellungen (Beispiel: Wie entsteht ein Regenbogen?)
-
-Aufgebaut wird diese Plattform mit Fokus auf die Stufe Gymnasium und interessierte Jugendliche und Erwachsene.
-
-Mehr (aber nicht viel) über das Projekt findest du in [About](../about) oder der [Roadmap](../roadmap). Die neueste Version ist jeweils auf [Github](https://github.com/ThomasBisig/akademix) zu finden.
