@@ -1,0 +1,13 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+<h1>Konzepte</h1>
+
+<ul>
+    {% for post in taxonomy.findTaxonomy({'category':'concepts'}) %}
+    <li><a href="{{post.url}}">{{post.title|e}}</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

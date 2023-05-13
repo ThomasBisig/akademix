@@ -5,8 +5,8 @@ title: About
 # About
 
 ### Offene Lernplattform mit:
-- [**Aufgaben**](../aufgaben/mechanik/bewegung/gleichfoermige_bewegung/) mit Lösungen (Beispiel: [Mittlere Geschwindigkeit auf einer Joggingstrecke](../aufgaben/mechanik/bewegung/gleichfoermige_bewegung/exercise-9))
-- **Konzepte** als Kurzerklärungen (Beispiel: Kräfte)
+- [**Aufgaben**](/aufgaben/mechanik/bewegung/gleichfoermige_bewegung/) mit Lösungen (Beispiel: [Mittlere Geschwindigkeit auf einer Joggingstrecke](/aufgaben/mechanik/bewegung/gleichfoermige_bewegung/exercise-9))
+- [**Konzepte**](/konzepte/) als Kurzerklärungen (Beispiel: [Zeit-Ort-Diagramm](/konzepte/konzept-3/))
 - **Unterrichtseinheiten** zu Konzepten (Beispiel: gleichförmige Bewegung)
 - **Cases** bzw. Fragestellungen (Beispiel: Wie entsteht ein Regenbogen?)
 
@@ -15,7 +15,7 @@ Aufgebaut wird diese Plattform mit Fokus auf die Stufe Gymnasium und interessier
 Die neueste Version ist jeweils auf [Github](https://github.com/ThomasBisig/akademix) zu finden.
 
 
-Version vom 06.05.2023 (unchecked S2)
+Version vom 08.05.2023 (unchecked S2)
 
 [notice=tip]
 Project Guidelines:

@@ -1,0 +1,36 @@
+enabled: true
+builtin_css: true
+fail_behaviour: hard
+icon_class: icon
+retain_icon_name: false
+emoji_icons: true
+shortcode_icons: true
+solid:
+  user/data/fontawesome/solid/star-solid.svg:
+    name: star-solid.svg
+    full_path: star-solid.svg
+    type: image/svg+xml
+    size: 582
+    path: user/data/fontawesome/solid/star-solid.svg
+  user/data/fontawesome/solid/circle-info-solid.svg:
+    name: circle-info-solid.svg
+    full_path: circle-info-solid.svg
+    type: image/svg+xml
+    size: 500
+    path: user/data/fontawesome/solid/circle-info-solid.svg
+regular:
+  user/data/fontawesome/regular/file-excel-regular.svg:
+    name: file-excel-regular.svg
+    full_path: file-excel-regular.svg
+    type: image/svg+xml
+    size: 782
+    path: user/data/fontawesome/regular/file-excel-regular.svg
+  user/data/fontawesome/regular/star-regular.svg:
+    name: star-regular.svg
+    full_path: star-regular.svg
+    type: image/svg+xml
+    size: 838
+    path: user/data/fontawesome/regular/star-regular.svg
+light: {  }
+brands: {  }
+duotone: {  }

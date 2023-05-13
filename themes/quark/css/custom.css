@@ -1,0 +1,245 @@
+body {
+	font-size: 1rem;
+}
+
+a {
+	color: #005EB8 !important;
+	font-weight: 600;
+}
+
+p.exercise_concepts {
+	font-size: 0.7rem;
+	line-height: 1.8;
+}
+
+details {
+	margin-bottom: 10px;
+	clear: right;
+	display: inline-block;
+	width: 100%;
+}
+
+details.tipp {
+	background: #FFF2DB;
+	padding: 5px;
+}
+
+details.tipp summary {
+/*	background: #F0B37E; */
+	color: #F0B37E;
+	padding: 5px;
+	font-weight: 600;
+}
+
+details.loesung {
+	background: #E6F9E6;
+	padding: 5px;
+}
+
+details.loesung summary {
+/*		background: #77C577; */
+	color: #77C577;
+	padding: 5px;
+	font-weight: 600;
+}
+
+td.main_content {
+	padding: 10px;
+	vertical-align: top;
+	width: 75%;
+}
+
+td.side_content {
+	padding: 10px;
+	background: #f4f4f4;
+}
+
+td {
+	vertical-align: top;
+}
+
+a.requiredMP {
+	background-color: lightgray;
+	color: white !important;
+	border-radius: 6px;
+	padding: 2px 5px;
+	margin-left: 10px;
+}
+
+a.requiredMP:hover {
+	background-color: #005EB8;
+	text-decoration: none;
+}
+
+a.differenziert {
+	margin-right: 10px;
+	color: #9eb0a9;
+	font-weight: bold;
+}
+
+table.more {
+	margin-top: 100px;
+	font-size: 0.7rem;
+	width: 100%;
+}
+
+blockquote {
+	margin-left: 0;
+	padding: .4rem .8rem;
+	border-left: .4rem solid #e7e9ed;
+	background: #f7f7f7;
+	font-size: 0.7rem;
+}
+
+table.more ul {
+  list-style: none;
+  margin-left: 0rem;
+}
+
+table.more ol {
+  margin-left: 0rem;
+}
+
+table.more a {
+	color: #005EB8;
+	font-weight: 600;
+}
+
+img.img_exercise {
+	width: 50%;
+	float: right;
+}
+
+table.overview {
+ font-size: 0.7rem;
+}
+
+table.overview th, table.overview td {
+  padding: 5px;
+  text-align: left;
+}
+
+table.overview tr:nth-child(even) {
+ 	background-color: #f4f4f4;
+ }
+
+table.overview th {
+  background-color: gray;
+  color: white;
+}
+
+table.overview th.first {
+	width: 50%;
+}
+
+hr {
+	border: 0px;
+	margin-top: 100px;
+}
+
+p.display_difficulty {
+	float:right;
+}
+
+p.display_quality {
+	float:left;
+}
+
+.star {
+	color: #005EB8;
+}
+
+.dot_red {
+  height: 5px;
+  width: 5px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 50%;
+}
+
+.dot_orange {
+  height: 5px;
+  width: 5px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 50%;
+}
+
+.dot_green {
+  height: 5px;
+  width: 5px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 50%;
+}
+
+.info {
+	opacity: 50%;
+}
+
+details a {
+	font-weight: normal !important;
+	background-color: #BCD5BC57;
+	border-radius: 6px;
+	padding: 2px 5px;
+	color: #50596c !important;
+}
+
+details a:hover {
+	background-color: #BCD5BCBB;
+	text-decoration: none;
+}
+
+/* Tooltip */
+.info {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Tooltip text */
+.info .tooltiptext {
+	visibility: hidden;
+	position: absolute;
+	width: 400px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s;
+
+	font-size: 0.7rem;
+}
+
+.tooltip-right {
+  top: -5px;
+  left: 125%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.info:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/*
+section.container table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	table-layout: fixed;
+	margin-bottom:25px;
+}*/
+
+.search-wrapper .search-input {
+  width: 200px;
+}
+
+blockquote {
+	font-size: 1rem;
+}

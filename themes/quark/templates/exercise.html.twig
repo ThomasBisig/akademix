@@ -1,0 +1,65 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+<p class="display_difficulty">
+    {% if page.taxonomy().schwierigkeit|first|int==1%}
+        <i class="fa fa-star-solid star"></i>
+    {% elseif page.taxonomy().schwierigkeit|first|int==2%}
+        <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
+    {% elseif page.taxonomy().schwierigkeit|first|int==3%}
+        <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
+    {% else %}
+    {% endif %}
+</p>
+
+<i class="fa fa-circle-info-solid info"><span class="tooltiptext tooltip-right">Autor: {{page.taxonomy().autor|join(' ')}}</br>Quelle: {{page.taxonomy().source|join(' ')}}</br>Version: {{page.taxonomy().version|first|string}}</br>Lizenz: {{page.taxonomy().licence|join(' ')}}</br></span></i>
+
+<div style="margin:100px;"></div>
+
+{{ page.content|raw }}</td>
+
+<table class="more">
+    <tr>
+        <td width="50%">
+            <p class="exercise_concepts">
+                <h5>Konzepte: Physik</h5>
+                <ul>
+                {% for req in page.taxonomy().requires_physik %}
+                    <li><a href="{{req}}" class="requiredMP">{{req}}</a></li>
+                {% endfor %}
+                </ul>
+
+                <h5>Konzepte: Mathematik</h5>
+                <ul>
+                {% for req in page.taxonomy().requires_mathematik %}
+                    <li><a href="{{req}}" class="requiredMP">{{req}}</a></li>
+                {% endfor %}
+                </ul>
+            </p>
+        </td>
+        <td width="50%">
+            <h5>einfacher</h5>
+            <ul>
+            {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int-1,'thema':page.taxonomy().thema}) %}
+                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+            {% endfor %}
+            </ul>
+
+            <h5>ähnlich</h5>
+            <ul>
+            {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int,'thema':page.taxonomy().thema}) %}
+                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+            {% endfor %}
+            </ul>
+
+            <h5>schwieriger</h5>
+            <ul>
+            {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int+1,'thema':page.taxonomy().thema})%}
+                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
+</table>
+{% endblock %}

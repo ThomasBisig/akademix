@@ -4,27 +4,32 @@ title: Roadmap
 
 The goal of the first four sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
 
-#### Current: S3 (0 out of 10h)
+#### Current: S3 (4 out of 10h)
 _Goal: Clean-up structure_
 
+- [ ] Format table
+- [ ] Think about and implement structure for
+	- [ ] Sets of exercises
+	- [ ] Relationships and dependencies of topics
 - [ ] Make id, pair and set
 - [ ] Make each one an object: exercise, hint, solution, worked solution
-- [ ] Collections
-- [ ] Format table
-- [ ] Dynamic table for exercises with un/check of any tag
-- [ ] Add tag (status: publish/draft)
+- [ ] Collections oder Aufgabensammlungen?
 - [ ] In overview: cycle through all posts, select unique set-ids and display them in table
-- [ ] Add few pages for concepts and copy (e.g.) wikipedia shorts
+- [ ] Dynamic table for exercises with un/check of any tag
 - [ ] Footer kompakter bzw. evtl 'Zufallsaufgabe-button' (einfacher, gleich, schwerer)
 - [ ] for experiments: disclaimer to be careful
 - [ ] Interne und externe Links (zB Wikipedia) unterschiedlich darstellen
-- [ ] Add simple search: https://github.com/getgrav/grav-plugin-simplesearch
 - [ ] add simple tag search to see questions for certain criteria
+
+##### Done
+- [-] Add tag (status: publish/draft) -> not necessary, visible:false (08.05.2023)
+- [x] Add few pages for concepts and copy (e.g.) wikipedia shorts (08.05.2023)
+- [x] Add simple search: https://github.com/getgrav/grav-plugin-simplesearch (05.05.2023)
 
 #### S4 (0 out of 10h)
 _Goal: Clean up design_
 
-- [ ] Front page with example exercise (?)
+- [x] Front page with example exercise (?) (08.05.23)
 - [ ] Make basic design (get rid of all the boilerplate in the template)
 - [ ] MathJax Formulas seem too big
 - [ ] Make table overview filters
@@ -38,6 +43,11 @@ _Goal: Clean up design_
 _Goal: Clean up everything_
 
 - [ ] Every exercise has a 'pair'
+
+Leftover of S1-S4
+- [ ] To check: 2,3,4,9
+- [ ] Todos for all exercises so far:
+	- [ ] Add all solutions to exercises
 
 
 #### Future
@@ -139,11 +149,6 @@ _Goal: Set up a working version of a website with a few exercises that are linke
 
 ### Sprint 2: Prototype - Todos (12h of 10h, started 11.04.23)
 _Goal: complete the exercise set for Mechanik - Bewegung - Gleichförmige Bewegung. No special focus on design but content and tag 'completeness'. Plain content is the goal, animations and/or interaction is a nice to have._
-
-Not done
-- [ ] To check: 2,3,4,9
-- [ ] Todos for all exercises so far:
-	- [ ] Add all solutions to exercises
 
 Done
 - [x] Change all images from s -> x (03.05.2023)

@@ -4,7 +4,7 @@ taxonomy:
 	id: 2023040615123221
 	set: 0202304071720334
 
-	requires_physik: [Gleichförmige Bewegung,t-v-Diagramm,t-x-Dagramm,Mittlere Geschwindigkeit]
+	requires_physik: [Gleichförmige Bewegung,t-v-Diagramm,t-x-Diagramm,Mittlere Geschwindigkeit]
 	requires_mathematik: [Diagramm lesen, Diagramm zeichnen]
 
 	category: exercises
@@ -24,7 +24,7 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230503
+	version: 20230508
 	source: 'Thomas Bisig (thomas@akademix.ch)'
 	learning-objective: ''
 	content-type: markdown
@@ -41,9 +41,9 @@ mathjax:
   process: true
 ---
 ![Das t-v-Diagramm einer Autofahrt](exercise16-1.svg?resize=400,400&class=float-right)
-Ein Auto sei zum Zeitpunkt $t=0\,s$ am Ort $x=10\,m$ und fahre los.
+Ein Auto sei zum Zeitpunkt $t=0\,s$ am Ort $x=10\,m$ und fahre los. Das $t-v$-Diagramm (Zeit-Geschwindigkeit) ist nebenstehend abgebildet.
 
-Das $t-v$-Diagramm (Zeit-Geschwindigkeit) ist nebenstehend abgebildet. Zeichne das zur Fahrt gehörende $t-x$-Diagramm (Zeit-Ort) in ein neues Koordinatensystem vom Zeitpunkt $t=0\,s$ bis zum Zeitpunkt $t=11\,s$.
+Zeichne das zur Fahrt gehörende $t-x$-Diagramm (Zeit-Ort) in ein neues Koordinatensystem vom Zeitpunkt $t=0\,s$ bis zum Zeitpunkt $t=11\,s$.
 
 Beantworte mit Hilfe des Diagramms folgende Fragen:
 1. An welchem Ort befindet sich das Auto nach $11\,s$?

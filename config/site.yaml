@@ -1,0 +1,56 @@
+title: Akademix
+default_lang: de
+author:
+  name: Thomas
+  email: thomas@akademix.ch
+taxonomies:
+  - id
+  - set
+
+  - requires_physik
+  - requires_mathematik
+
+  - category
+  - fach
+  - thema
+  - art
+  - needSupport
+  - needsTool
+
+  - hints
+  - detail
+  - bloom
+  - schritte
+  - schwierigkeit
+  - realitaet
+  - kat_bruder
+  - kat_proz_konz
+
+  - autor
+  - version
+  - source
+  - learning-objective
+  - content-type
+  - media
+  - licence
+
+  - status_tags
+  - status_exercise
+  - status_solution
+
+  - todo
+
+  - subject
+
+
+metadata:
+  description: 'Frei verfügbare Lernressourcen'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog

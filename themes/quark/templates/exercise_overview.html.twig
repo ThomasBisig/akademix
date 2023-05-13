@@ -1,0 +1,91 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+{% for p in page.collection %}
+    <h2>{{ p.title|e }}</h2>
+    {{ p.summary|raw }}
+{% endfor %}
+
+<h1>Gleichförmige Bewegungen</h1>
+
+<h3>Aufgaben</h3>
+<table class="overview">
+    <thead>
+        <tr>
+            <th class="first">Name</th>
+            <th class="rest">Thema</th>
+            <th class="rest">Art</th>
+            <th class="rest">Schwierigkeit</th>
+            <th class="rest">Schwierigkeit (experimental)</th>
+            <th class="rest">Set</th>
+            <th class="rest">Tools</th>
+            <th class="rest">Qualität</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for post in taxonomy.findTaxonomy({'thema':page.taxonomy().subject|first}) %}
+        <tr>
+            <td><a href="{{post.url}}">{{post.title|e}}</a></td>
+            <td>{{post.taxonomy().thema|last}}</td>
+            <td>{{post.taxonomy().art|join('/')}}</td>
+            
+            {% if post.taxonomy().schwierigkeit|first|int==1%}
+                <td><i class="far fa-star-regular"></i></td>
+            {% elseif post.taxonomy().schwierigkeit|first|int==2%}
+                <td><i class="far fa-star-regular"></i><i class="far fa-star-regular"></i></td>
+            {% elseif post.taxonomy().schwierigkeit|first|int==3%}
+                <td><i class="far fa-star-regular"></i><i class="far fa-star-regular"></i><i class="far fa-star-regular"></i></td>
+            {% else %}
+                <td></td>
+            {% endif %}
+
+            <td>{{post.taxonomy().bloom|first|int+post.taxonomy().schritte|first|int+post.taxonomy().schwierigkeit|first|int}}</td>
+
+            {% if post.taxonomy().set|first|int>0%}
+                <td>&#10003;</td>
+            {% else %}
+                <td>x</td>
+            {% endif %}
+
+            {% if post.taxonomy().needsTool|first=='xls'%}
+            <td><i class="far fa-file-excel-regular"></i></td>
+            {% else %}
+            <td></td>
+            {% endif %}
+
+            <td>
+            {% if post.taxonomy().status_tags|last|string=="review_0"%}
+            <span class="dot_red"></span>
+            {% elseif post.taxonomy().status_tags|last=='review_1'%}
+            <span class="dot_orange"></span>
+            {% elseif post.taxonomy().status_tags|last=='review_2'%}
+            <span class="dot_green"></span>
+            {% endif %}
+
+            {% if post.taxonomy().status_exercise|last|string=="review_0"%}
+            <span class="dot_red"></span>
+            {% elseif post.taxonomy().status_exercise|last=='review_1'%}
+            <span class="dot_orange"></span>
+            {% elseif post.taxonomy().status_exercise|last=='review_2'%}
+            <span class="dot_green"></span>
+            {% endif %}
+
+            {% if post.taxonomy().status_solution|last|string=="review_0"%}
+            <span class="dot_red"></span>
+            {% elseif post.taxonomy().status_solution|last=='review_1'%}
+            <span class="dot_orange"></span>
+            {% elseif post.taxonomy().status_solution|last=='review_2'%}
+            <span class="dot_green"></span>
+            {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<h3>Weiteres</h3>
+
+{{ page.content|raw }}
+
+{% endblock %}

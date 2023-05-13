@@ -1,0 +1,59 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+<p class="exercise_info">Schwierigkeit: {{page.taxonomy().schwierigkeit|first}}/5</br>Themen: {{page.taxonomy().thema|join('->')}}</p>
+
+
+
+
+<table>
+    <tr>
+        <td class="main_content">{{ page.content|raw }}</td>
+        <td class="side_content">
+            <h5>Konzepte Physik</h4>
+            <ul>
+            {% for req in page.taxonomy().requires_physik %}
+                <li><a href="{{req}}">{{req}}</a></li>
+            {% endfor %}
+            </ul>
+            <h5>Konzepte Mathematik</h4>
+            <ul>
+            {% for req in page.taxonomy().requires_mathematik %}
+                <li><a href="{{req}}">{{req}}</a></li>
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+<table>
+    <tr>
+        <td width="33%">
+            <h5>einfacher</h4>
+            <ul>
+            {% for post in taxonomy.findTaxonomy({'schwierigkeit':'3'}) %}
+                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}})</li>
+            {% endfor %}
+            </ul>
+        </td>
+        <td width="33%">
+            <h5>ähnlich</h4>
+            <ul>
+            {% for post in taxonomy.findTaxonomy({'schwierigkeit':'2'}) %}
+                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}})</li>
+            {% endfor %}
+            </ul>
+        </td>
+        <td width="33%">
+            <h5>schwieriger</h4>
+            <ul>
+            {% for post in taxonomy.findTaxonomy({'schwierigkeit':'3'}) %}
+                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}})</li>
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
+</table>
+{% endblock %}
