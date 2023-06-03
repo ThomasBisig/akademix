@@ -31,7 +31,7 @@ $$
 
 ![Zeit- und Ortsänderung als Beispiel der Delta-Schreibweise](Delta-Schreibweise.svg?resize=500,700&class=float-right)
 
-- Ausgehend von einem (früheren) Wert $w_{1}$ wird die Änderung bis zu einem (späteren) Wert $w_{2}$
+- Ausgehend von einem früheren Wert $w_{1}$ wird die Änderung bis zu einem späteren Wert $w_{2}$
  geschrieben als die Differenz dieser Werte:
 $$
 \Delta w=w_{2}-w_{1}

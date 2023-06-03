@@ -15,7 +15,7 @@ Aufgebaut wird diese Plattform mit Fokus auf die Stufe Gymnasium und interessier
 Die neueste Version ist jeweils auf [Github](https://github.com/ThomasBisig/akademix) zu finden.
 
 
-Version vom 29.05.2023 (unchecked S2)
+Version vom 03.06.2023 (unchecked S2)
 
 [notice=tip]
 Project Guidelines:
@@ -32,3 +32,13 @@ General idea exercises:
 - Solutions are 'worked solutions'
 - Exercise has tipps/hints
 - Necessary concepts are linked in solution
+
+General idea concepts:
+- Every concept is structures as
+	- Main idea
+	- main details
+	- examples
+	- why important
+	- details
+	- link to concepts and exercises
+- Simple sentence structures: e.g. first what then why, few parenthesis..., 

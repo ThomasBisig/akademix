@@ -7,7 +7,6 @@ The goal of the first four sprints is to create a prototype. This prototype is j
 #### Current: S3 (4 out of 10h)
 _Goal: Clean-up structure_
 
-- [ ] Format table
 - [ ] Think about and implement structure for
 	- [ ] Sets of exercises
 	- [ ] Relationships and dependencies of topics
@@ -22,6 +21,7 @@ _Goal: Clean-up structure_
 - [ ] add simple tag search to see questions for certain criteria
 
 ##### Done
+- [x] Format table (03.06.2023)
 - [-] Add tag (status: publish/draft) -> not necessary, visible:false (08.05.2023)
 - [x] Add few pages for concepts and copy (e.g.) wikipedia shorts (08.05.2023)
 - [x] Add simple search: https://github.com/getgrav/grav-plugin-simplesearch (05.05.2023)
