@@ -1,57 +1,85 @@
 ---
 title: Gleichförmige Bewegung
 taxonomy:
-	todo: [Aufteilen in gleichförmige Bewegung, mittlere Geschwindigkeit und Momentangeschwindigkeit; Links zu Aufgaben; Links zu Lerneinheiten]
+	requires_physik: [Delta-Schreibweise,t-x-Diagramm,t-v-Diagramm]
+	requires_mathematik: [Steigung]
+
+	category: concepts
+	fach: Physik
+	thema: [Mechanik, Bewegung]
+
+	autor: 'Thomas'
+	version: 20230530
+	source: 'Thomas Bisig (thomas@akademix.ch)'
+	content-type: markdown
+	media: 'thomas@akademix.ch'
+	licence: 'CC BY-SA 4.0'
+
+	status: review_0
+
+	todo: []
 mathjax:
 	process: true
 ---
 
-## Gleichförmige Bewegung
 
-Ist ein Körper in gleichförmiger Bewegung, so
-	- ist er unbeschleunigt oder
-	- verändert sich der Betrag der Geschwindigkeit und seine Bewegungsrichtung nicht.
+# Gleichförmige Bewegung
 
-#### Beispiele
+> Ist ein Körper in gleichförmiger Bewegung, so
+- ist er unbeschleunigt oder
+- verändert sich der Betrag der Geschwindigkeit und seine Bewegungsrichtung nicht.
 
-1. Ein Gesteinsbrocken, der ohne äussere Einflüsse durch das All schwebt, ist in gleichförmiger Bewegung.
-2. Ein Fahrrad, das mit konstanter Geschwindigkeit vorwärts fährt.
-3. Eine startende Rakete ist nicht in gleichförmiger Bewegung (sie ist beschleunigt).
-4. Eine Person auf einem Karussel ist nicht in gleichförmiger Bewegung, da sich in jedem Zeitpunkt die Bewegungsrichtung ändert.
-
-
-### Formeln: Durchschnitts-Geschwindigkeit
-
-Die mittlere Geschwindigkeit $\overline{v}$ eines gleichförmig bewegten Körpers, der sich vom Ort $x_1$ zum Ort $x_2$ in der Zeit von $t_1$ bis $t_2$ bewegt, ist
-
+##### Formal
+- Pro [Zeitintervall $\Delta t$][1] findet immer die dieselbe [Ortsänderung $\Delta x$][1] statt. Das heisst, dass das Verhältnis 'Ortsänderung pro Zeitintervall' konstant ist:
 $$
-\overline{v}=\frac{\Delta x}{\Delta t}=\frac{x_2 - x_1}{t_2 - t_1}
+v=\frac{\Delta x}{\Delta t}
 $$
 
-Sie ist gleich der Momentangeschwindigkeit $v$.
+- Die Ortsänderung ist proportional zum Zeitintervall ("Wenn ich doppelt so lange fahre, lege ich die doppelte Strecke zurück."). Dies folgt aus der Umformung zu $\Delta x=v\cdot \Delta t$.
 
-_ Zeichnung: Diagramm _
+##### Grafisch 
+- Die Geschwindigkeit $v$ entspricht der [Steigung][3] im [t-x-Diagramm][2]. Dies folgt aus dem Vergleich der Gleichung $\Delta x=v\cdot \Delta t$ mit der allgemeinen Gleichung [linearer Funktionen][4] mit Steigung $m$: $y=m\cdot x+q$)
 
-#### Beispiel
+- Gleichförmige Bewegungen werden im [t-v-Diagramm][4] als Horizontale dargestellt, da die Geschwindigkeit konstant ist.
 
-Ein Fahrradfahrer legt in $10$ Sekunden die Strecke von $120\,m$ zurück. Er ist mit einer mittleren Geschwindigkeit von
 
+### Beispiele
+
+##### In Worten
+- Ein Gesteinsbrocken, der ohne äussere Einflüsse durch das All schwebt, ist in gleichförmiger Bewegung.
+- Ein Fahrrad, das mit konstanter Geschwindigkeit vorwärts fährt.
+- Eine startende Rakete ist nicht in gleichförmiger Bewegung (sie ist beschleunigt).
+- Eine Person auf einem Karussel ist nicht in gleichförmiger Bewegung, da sich in jedem Zeitpunkt die Bewegungsrichtung ändert.
+
+##### Formal
+- Ein Ball rolle gleichförmig pro $3\,s$ Zeitintervall eine Strecke von $6\,m$. Seine Geschwindigkeit beträgt damit
 $$
-\overline{v}=\frac{\Delta x}{\Delta t}=\frac{120\,m}{10\,s}=12\,\frac{m}{s}
+v=\frac{\Delta x}{\Delta t}=\frac{6\,m}{3\,s}=2\,\frac{m}{s}
 $$
 
-unterwegs.
+- Ein Zug fährt für $50\,min$ mit der Geschwindigkeit von $150\,\frac{km}{h}$ geradeaus. Die zurückgelegte Strecke beträgt somit
+$$
+\Delta x=v\cdot \Delta t=150\,\frac{km}{h} \cdot \frac{50}{60}\,h=125\,km
+$$
 
-### Details
+##### Grafisch
+_2 x t-x-Diagramme, 2 x t-v-Diagramme_
 
-- Die mittlere Geschwindigkeit ist die Geschwindigkeit die während eines **Zeitintervalls** im Durchschnitt erreicht wird. Die Momentangeschwindigkeit ist die Geschwindigkeit zu einem _Zeitpunkt_.
+### Wieso ist das hilfreich?
 
-- Die mittlere Geschwindigkeit im $t-x$-Diagramm entspricht der **Steigung der Geraden** zwischen zwei Punkten.
+Die gleichförmige Bewegung bildet die Grundlage zum Verständnis der [mittleren Geschwindigkeit][5], der [beschleunigten Bewegung][6], des [Trägheitssatzes][7] und damit von [Kräften][8].
+
+### Weiteres
 
 - Der Zustand, in dem ein **Körper in Ruhe** verharrt, kann als gleichförmige Bewegung des Körpers mit der Geschwindigkeit Null aufgefasst werden.
 
 - Zur besseren Unterscheidung von der gleichförmigen Kreisbewegung und anderen Bewegungen mit konstantem Betrag der Geschwindigkeit, vor allem in der Alltagssprache, wird die gleichförmige Bewegung auch als **geradlinig gleichförmige Bewegung** bezeichnet.
 
-
-### Lerneinheiten
-...
+[1]: <konzepte/konzept-1/> "Name des Konzepts"
+[2]: <konzepte/konzept-1/> "Name des Konzepts"
+[3]: <konzepte/konzept-1/> "Name des Konzepts"
+[4]: <konzepte/konzept-1/> "Name des Konzepts"
+[5]: <konzepte/konzept-1/> "Name des Konzepts"
+[6]: <konzepte/konzept-1/> "Name des Konzepts"
+[7]: <konzepte/konzept-1/> "Name des Konzepts"
+[8]: <konzepte/konzept-1/> "Name des Konzepts"

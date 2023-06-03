@@ -227,19 +227,38 @@ details a:hover {
   visibility: visible;
   opacity: 1;
 }
-/*
+
+
+/* Tables in main part */
 section.container table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
 	table-layout: fixed;
-	margin-bottom:25px;
-}*/
+	margin-bottom: 25px;
+}
 
+section.container th, section.container td {
+  padding: 10px;
+  text-align: left;
+}
+
+section.container tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+section.container th {
+  background-color: #ABABAB;
+  color: white;
+}
+
+/* Search Widget */
 .search-wrapper .search-input {
   width: 200px;
 }
 
+
+/* Main point in concepts */
 blockquote {
 	font-size: 1rem;
 }
