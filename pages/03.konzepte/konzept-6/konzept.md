@@ -48,9 +48,13 @@ $$
 ### Beispiele
 
 ##### Geschwindigkeitsänderung
-Im Alltag nutzen wir den Begriff _Änderung_ meistens auch von 'früher' zu 'später': Wenn ich heute mit $8\,\frac{km}{h}$ laufe und morgen mit $12\,\frac{km}{h}$ entspricht das einer Geschwindigkeitsänderung von $+4\,\frac{km}{h}$:
+Im Alltag nutzen wir den Begriff _Änderung_ auch von 'Start' bis 'Ende': Wenn ich heute ('Start') mit $8\,\frac{km}{h}$ laufe und morgen ('Ende') mit $12\,\frac{km}{h}$ entspricht das einer Geschwindigkeitsänderung von:
 $$
-4\,\frac{km}{h} = 12\,\frac{km}{h}-8\,\frac{km}{h}
+\begin{align}
+\Delta v	&= v_\textrm{Ende}-v_\textrm{Start} \\
+			&= 12\,\frac{km}{h}-8\,\frac{km}{h} \\
+			&= 4\,\frac{km}{h}
+\end{align}
 $$
 
 ##### Orts- und Zeitänderung
@@ -62,8 +66,10 @@ Damit ergibt sich eine
 - Ortsänderung $\Delta x=x_\textrm{Ende}-x_\textrm{Start}=27\,m-10\,m=17\,m$
 - Zeitänderung $\Delta t=t_\textrm{Ende}-t_\textrm{Start}=10\,s-0\,s=10\,s$
 
+
 ### Wieso ist das hilfreich?
 Eine kurze und einheitliche Schreibweise für Änderungen sind in der Physik von zentraler Bedeutung, da die Physik sich hauptsächlich mit sich verändernden Grössen beschäftigt.
+
 
 ### Weiteres
 - **Umformung**: Die Änderung $\Delta w$ ist der Wert, der zum Startwert $w_\textrm{Start}$ hinzugefügt werden muss, um den Endwert $w_\textrm{Ende}$ zu erhalten. Dies folgt aus der Definition:

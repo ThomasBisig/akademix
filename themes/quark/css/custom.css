@@ -86,7 +86,7 @@ table.more {
 blockquote {
 	margin-left: 0;
 	padding: .4rem .8rem;
-	border-left: .4rem solid #e7e9ed;
+	border-left: .4rem solid #EEE;
 	background: #f7f7f7;
 	font-size: 0.7rem;
 }
@@ -229,7 +229,7 @@ details a:hover {
 }
 
 
-/* Tables in main part */
+/* Tables in main part -> Anpassen, dass nur in Aufgaben dieses Design übernommen wird
 section.container table {
 	margin-left: auto;
 	margin-right: auto;
@@ -252,6 +252,8 @@ section.container th {
   color: white;
 }
 
+*/
+
 /* Search Widget */
 .search-wrapper .search-input {
   width: 200px;
@@ -261,4 +263,19 @@ section.container th {
 /* Main point in concepts */
 blockquote {
 	font-size: 1rem;
+}
+
+/* Trial for collapisble content looking as h3
+.my-class summary {
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+ */
+
+h3 {
+	background: #EEE;
+	padding: 5px 10px;
 }
