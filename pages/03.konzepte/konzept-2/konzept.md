@@ -9,7 +9,7 @@ taxonomy:
 	thema: [Mechanik, Bewegung]
 
 	autor: 'Thomas'
-	version: 20230530
+	version: 20230603
 	source: 'Thomas Bisig (thomas@akademix.ch)'
 	content-type: markdown
 	media: 'thomas@akademix.ch'
@@ -47,7 +47,7 @@ $$
 
 ##### In Worten
 - Ein Gesteinsbrocken, der ohne äussere Einflüsse durch das All schwebt, ist in gleichförmiger Bewegung.
-- Ein Fahrrad, das mit konstanter Geschwindigkeit vorwärts fährt.
+- Ein Fahrrad, das mit konstanter Geschwindigkeit vorwärts fährt, ist in gleichförmiger Bewegung.
 - Eine startende Rakete ist nicht in gleichförmiger Bewegung (sie ist beschleunigt).
 - Eine Person auf einem Karussel ist nicht in gleichförmiger Bewegung, da sich in jedem Zeitpunkt die Bewegungsrichtung ändert.
 
@@ -71,9 +71,9 @@ Die gleichförmige Bewegung bildet die Grundlage zum Verständnis der [mittleren
 
 ### Weiteres
 
-- Der Zustand, in dem ein **Körper in Ruhe** verharrt, kann als gleichförmige Bewegung des Körpers mit der Geschwindigkeit Null aufgefasst werden.
+- **Ruhende Körper**: Der Zustand, in dem ein Körper in Ruhe verharrt, kann als gleichförmige Bewegung des Körpers mit der Geschwindigkeit Null aufgefasst werden.
 
-- Zur besseren Unterscheidung von der gleichförmigen Kreisbewegung und anderen Bewegungen mit konstantem Betrag der Geschwindigkeit, vor allem in der Alltagssprache, wird die gleichförmige Bewegung auch als **geradlinig gleichförmige Bewegung** bezeichnet.
+- **Bezeichnungen**: Zur besseren Unterscheidung von der gleichförmigen Kreisbewegung und anderen Bewegungen mit konstantem Betrag der Geschwindigkeit, vor allem in der Alltagssprache, wird die gleichförmige Bewegung auch als geradlinig gleichförmige Bewegung bezeichnet.
 
 [1]: <konzepte/konzept-1/> "Name des Konzepts"
 [2]: <konzepte/konzept-1/> "Name des Konzepts"

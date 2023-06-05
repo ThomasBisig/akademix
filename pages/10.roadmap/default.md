@@ -4,6 +4,9 @@ title: Roadmap
 
 The goal of the first four sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
 
+#### Ongoing
+- [ ] Concepts have same structure (only one sentence 'wieso ist das hilfreich', keyword for 'Weiteres', wie bei konzept-6)
+
 #### Current: S3 (4 out of 10h)
 _Goal: Clean-up structure_
 
