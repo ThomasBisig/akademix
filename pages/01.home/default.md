@@ -20,12 +20,15 @@ Wie tief ist an dieser Stelle das Meer, wenn die Schallgeschwindigkeit im Meerwa
 <br/><br/>
 ### Konzepte ([dieses](/konzepte/konzept-3/), [alle](/konzepte/))
 
-> Das Zeit-Ort-[Diagramm][1] ($t-x$-Diagramm) beschreibt den Ort $x$ eines Objektes zu einer bestimmten Zeit $t$.
+> Das Zeit-Ort-Diagramm ($t-x$-Diagramm) beschreibt den Ort $x$ eines Objektes zu einer bestimmten Zeit $t$.
 
 ![Zeit-Ort-Diagramm (t-x-Diagramm) theoretische Darstellung](Zeit-Ort-Diagramm-theoretisch.svg?resize=450,300&class=float-right)
 
 - Die horizontale Achse beschreibt die Zeit $t$, die vertikale Achse den Ort $x$.
 - Die Punkte im Diagramm werden mit Hilfe von Koordinaten z.B. $(t_1,x_1)$ beschrieben.
-- Eine steigende Kurve entspricht einer Vorwärtsbewegung, eine fallende Kurve einer Rückwärtsbewegung und eine Horizontale einem Stillstand.
+- Die Krümmung der Kurve bestimmt die Bewegungsrichtung:
+	- eine steigende Kurve entspricht einer Vorwärtsbewegung: [$\Delta x \gt 0$][1]
+	- eine fallende Kurve einer Rückwärtsbewegung: $\Delta x \lt 0$
+	- eine Horizontale einem Stillstand $\Delta x=0$
 
 [1]: <konzepte/konzept-1/> "Name des Konzepts"

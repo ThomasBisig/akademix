@@ -9,7 +9,7 @@ taxonomy:
 	thema: [Mechanik, Bewegung]
 
 	autor: 'Thomas'
-	version: 20230603
+	version: 20230606
 	source: 'Thomas Bisig (thomas@akademix.ch)'
 	content-type: markdown
 	media: 'thomas@akademix.ch'
@@ -24,13 +24,16 @@ mathjax:
 
 # Zeit-Ort-Diagramm
 
-> Das Zeit-Ort-[Diagramm][1] ($t-x$-Diagramm) beschreibt den Ort $x$ eines Objektes zu einer bestimmten Zeit $t$.
+> Das Zeit-Ort-Diagramm ($t-x$-Diagramm) beschreibt den Ort $x$ eines Objektes zu einer bestimmten Zeit $t$.
 
 ![Zeit-Ort-Diagramm (t-x-Diagramm) theoretische Darstellung](Zeit-Ort-Diagramm-theoretisch.svg?resize=450,300&class=float-right)
 
 - Die horizontale Achse beschreibt die Zeit $t$, die vertikale Achse den Ort $x$.
 - Die Punkte im Diagramm werden mit Hilfe von Koordinaten z.B. $(t_1,x_1)$ beschrieben.
-- Eine steigende Kurve entspricht einer Vorwärtsbewegung ($\Delta x \gt 0$), eine fallende Kurve einer Rückwärtsbewegung ($\Delta x \lt 0$) und eine Horizontale einem Stillstand ($\Delta x=0$).
+- Die Krümmung der Kurve bestimmt die Bewegungsrichtung:
+	- eine steigende Kurve entspricht einer Vorwärtsbewegung: [$\Delta x \gt 0$][1]
+	- eine fallende Kurve einer Rückwärtsbewegung: $\Delta x \lt 0$
+	- eine Horizontale einem Stillstand $\Delta x=0$
 
 ### Beispiel
 ![Beispiel eines Zeit-Ort-Diagramm (t-x-Diagramm)](Zeit-Ort-Diagramm-Beispiel.svg?resize=450,350&class=float-right) Das abgebildete Diagramm kann wie folgt gelesen werden:
