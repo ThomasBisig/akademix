@@ -8,9 +8,6 @@ body_classes: title-h1h2
 Im Aufbau. Inhalt nicht verwenden!
 [/notice]
 
-# Physik Lernen und Üben
-<br/><br/>
-
 ### Aufgaben ([diese](/aufgaben/mechanik/bewegung/gleichfoermige_bewegung/exercise-30), [alle](/aufgaben/mechanik/bewegung/gleichfoermige_bewegung/))
 
 ![Ein Schiff nutzt Schall zur Tiefenbestimmung](exercise30-1.svg?resize=400,280&class=float-right) Zur Ermittlung der Meerestiefe wird von einem Schiff aus an der Wasseroberfläche ein kurzes Ultraschallsignal ausgesandt. Das Signal kehrt, nachdem es vom Meeresboden reflektiert wurde, nach $1.6\,s$ wieder an die Oberfläche zurück.
