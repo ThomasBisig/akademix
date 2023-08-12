@@ -18,6 +18,12 @@ taxonomy:
 	status: review_0
 
 	todo: []
+
+routes:
+  aliases:
+    - '/konzepte/proportionalitaet'
+
+
 mathjax:
 	process: true
 ---

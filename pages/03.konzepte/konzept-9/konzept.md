@@ -1,15 +1,15 @@
 ---
-title: Momentane Geschwindigkeit
+title: Impuls
 taxonomy:
 	requires_physik: []
 	requires_mathematik: []
 
 	category: concepts
-	fach: Physik
-	thema: [Mechanik, Bewegung, Momentane Geschwindigkeit]
+	fach: ['Physik']
+	thema: ['Mechanik']
 
 	autor: 'Thomas'
-	version: 20230508
+	version: 20230814
 	source: 'Thomas Bisig (thomas@akademix.ch)'
 	content-type: markdown
 	media: 'thomas@akademix.ch'
@@ -21,24 +21,19 @@ taxonomy:
 
 routes:
   aliases:
-    - '/konzepte/momentane-geschwindigkeit'
+    - '/konzepte/impuls'
 
 mathjax:
 	process: true
 ---
 
-# Momentane Geschwindigkeit
+# Impuls
 
-...
+> Der Impuls ist definiert als das Produkt aus Masse und Geschwindigkeit:
+$$
+\vec{p}=m \dot \vec{v}
+$$
 
-### Beispiel
-
-...
-
-### Wieso ist das hilfreich?
-
-...
-
-### Weiteres
+### Beispiele
 
 ...

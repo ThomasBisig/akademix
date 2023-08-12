@@ -18,6 +18,11 @@ taxonomy:
 	status: review_0
 
 	todo: []
+
+routes:
+  aliases:
+    - '/konzepte/mittlere-geschwindigkeit'
+
 mathjax:
 	process: true
 ---

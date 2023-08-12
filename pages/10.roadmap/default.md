@@ -4,6 +4,10 @@ title: Roadmap
 
 The goal of the first four sprints is to create a prototype. This prototype is just to see what works, what comes up during creation, what can/could be done. The content is not correct or good, that's not the point. Technically, especially the stack might change in the future (DB).
 
+#### TODOs
+- Show and let download QR Code per exercise
+- change all star/star subtitles in answers to L5 subtitles
+
 #### Ongoing
 - [ ] Concepts have same structure (only one sentence 'wieso ist das hilfreich', keyword for 'Weiteres', wie bei konzept-6)
 
@@ -46,6 +50,7 @@ _Goal: Clean up design_
 _Goal: Clean up everything_
 
 - [ ] Every exercise has a 'pair'
+- [ ] Clean up tag structure of all exercises like "Impuls"-Exercises
 
 Leftover of S1-S4
 - [ ] To check: 2,3,4,9
@@ -95,6 +100,16 @@ Leftover of S1-S4
 
 
 ### Completed
+
+#### Ongoing
+- [x] Add kind of exercise (experiment, calculation) in title (20230812)
+- [x] Set up overview per area (e.g. also 'Impuls') (20230812)
+- [x] Added first part of subject 'Impuls' (20230812)
+- [x] Created more mock concepts (20230812)
+- [x] Routing for "Impuls"-Exercises and concepts (20230812)
+- [x] Link all concepts correctly for "Impuls"-Exercises (20230812)
+- [x] Use correct multi-tag structure in all files for "Impuls"-Exercises (20230812)
+
 
 #### Sprint 1: Prototype - Todos (Goal: - 10.04.23) Finished
 _Goal: Set up a working version of a website with a few exercises that are linked._

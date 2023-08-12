@@ -1,5 +1,5 @@
 ---
-title: Vektorielle Grösse
+title: SI-Einheiten
 taxonomy:
 	requires_physik: []
 	requires_mathematik: []
@@ -21,16 +21,13 @@ taxonomy:
 
 routes:
   aliases:
-    - '/konzepte/vektorielle-groesse'
+    - '/konzepte/si-einheit'
+
 
 mathjax:
 	process: true
 ---
 
-# Vektorielle Grösse
+# SI Einheiten
 
-> Eine vektorielle Grösse hat zwei Eigenschafen: den Betrag (die Menge) und die Richtung.
-
-### Beispiele
-
-Die Geschwindigkeit $\vec{v}$ hat einen Betrag (die "Menge an Geschwindigkeit") und eine Richtung (die Bewegungsrichtung).
+Hier gibt es noch keinen Inhalt

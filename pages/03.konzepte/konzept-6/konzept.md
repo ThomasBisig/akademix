@@ -18,6 +18,11 @@ taxonomy:
 	status: review_0
 
 	todo: ['Neue Zeichnung hinzufügen']
+
+routes:
+  aliases:
+    - '/konzepte/delta-schreibweise'
+
 mathjax:
 	process: true
 ---

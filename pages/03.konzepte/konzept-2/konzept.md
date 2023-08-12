@@ -18,6 +18,11 @@ taxonomy:
 	status: review_0
 
 	todo: []
+
+routes:
+  aliases:
+    - '/konzepte/gleichfoermige-bewegung'
+
 mathjax:
 	process: true
 ---

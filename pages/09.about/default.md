@@ -15,7 +15,7 @@ Aufgebaut wird diese Plattform mit Fokus auf die Stufe Gymnasium und interessier
 Die neueste Version ist jeweils auf [Github](https://github.com/ThomasBisig/akademix) zu finden.
 
 
-Version vom 03.06.2023 (unchecked S2)
+Version vom 12.08.2023
 
 [notice=tip]
 Project Guidelines:

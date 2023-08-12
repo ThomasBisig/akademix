@@ -1,16 +1,16 @@
 ---
-title: Impuls einer Kugel
+title: 'Impuls einer Kugel'
 taxonomy:
 	id: 2023081115223351
 	set:
 
-	requires_physik: [impuls, si-einheit]
+	requires_physik: ['Impuls', 'SI-Einheit']
 	requires_mathematik: []
 
-	category: exercise
+	category: ['Exercise']
 	fach: Physik
-	thema: [impuls]
-	art: ["Berechnung"]
+	thema: ['Impuls']
+	art: ['Berechnung']
 	needsSupport: 0
 	needsTool: 0
 
@@ -24,18 +24,22 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230811
+	version: 20230812
 	source: 'Thomas Bisig, tbisig@pm.me'
 	learning-objective: ''
-	content-type: markdown
+	content-type: 'markdown'
 	media:
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_0
-	status_exercise: review_0
-	status_solution: review_0
+	status_tags: 'review_0'
+	status_exercise: 'review_0'
+	status_solution: 'review_0'
 
 	todo: []
+
+routes:
+  aliases:
+    - '/aufgaben/2023081115223351'
 
 mathjax:
   process: true
@@ -54,14 +58,14 @@ Alle Grössen müssen in SI-Einheiten umgerechnet werden.
 Umrechnen in SI-Einheiten und Einsetzen in die Definition des Impuls.
 
 **Lösungsweg**:
-1. In [SI-Einheiten](konzept/konzept-1/) ergibt sich $m=6\,kg$ und $v = \frac{5}{3.6}\approx 1.39\,\frac{m}{s}$
+1. In [SI-Einheiten](/konzepte/si-einheit) ergibt sich $m=6\,kg$ und $v = \frac{5}{3.6} \frac{m}{s}\approx 1.39\,\frac{m}{s}$
 
-2. Da in diesem Beispiel die Richtung keine Rolle spielt, können die Vektorpfeile weggelassen werden.
+2. Da in diesem Beispiel die Bewegungsrichtung keine Rolle spielt, können die Vektorpfeile weggelassen werden ($\vec{p}\rightarrow p$ und $\vec{v}\rightarrow v$).
 
-3. Der Impuls ist definiert als Produkt aus Masse und Geschwindigkeit $p=m\cdot v$. Eingesetzt wird der Impuls zu
+3. Der [Impuls](/konzepte/impuls) ist definiert als Produkt aus Masse und Geschwindigkeit $p=m\cdot v$. Eingesetzt wird der Impuls zu
 
 $$
-$p=m\cdot v\approx 6\,kg \cdot 1.39\,\frac{m}{s}\approx \underline{8.3\,Ns}$ 
+p=m\cdot v\approx 6\,kg \cdot 1.39\,\frac{m}{s}\approx \underline{8.3\,Ns}
 $$
 
 [/details]

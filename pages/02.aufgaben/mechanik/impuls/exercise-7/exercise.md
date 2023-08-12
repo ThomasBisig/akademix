@@ -1,16 +1,16 @@
 ---
-title: Impulskomponenten eines Balls
+title: 'Impulskomponenten eines Balls'
 taxonomy:
 	id: 2023081114590010
 	set:
 
-	requires_physik: [impuls]
-	requires_mathematik: [pythagoras, trigonometrie]
+	requires_physik: ['Impuls']
+	requires_mathematik: ['Pythagoras', 'Trigonometrie', 'Umformung']
 
-	category: exercise
+	category: ['Exercise']
 	fach: Physik
-	thema: [impuls]
-	art: ["Berechnung"]
+	thema: ['Impuls']
+	art: ['Berechnung']
 	needsSupport: 0
 	needsTool: 0
 
@@ -24,30 +24,34 @@ taxonomy:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230811
+	version: 20230812
 	source: 'Thomas Bisig, tbisig@pm.me'
 	learning-objective: ''
-	content-type: markdown
-	media:
+	content-type: 'markdown'
+	media: 'Thomas Bisig, tbisig@pm.me'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_0
-	status_exercise: review_0
-	status_solution: review_0
+	status_tags: 'review_0'
+	status_exercise: 'review_0'
+	status_solution: 'review_0'
 
 	todo: []
+
+routes:
+  aliases:
+    - '/aufgaben/2023081114590010'
 
 mathjax:
   process: true
 ---
 
-![Impulskomponenten eines Balls](impulskomponenten_eines_balls.svg?resize=400,400&class=float-right) 
+![Impulskomponenten eines Balls](impulskomponenten_eines_balls.svg?resize=400,300&class=float-right) 
 
-Ein Ball habe in $x$-Richtung einen Impuls von $p_x=11.3\,Ns$ und in $y$-Richtung einen Impuls von $p_y=7.6\,Ns$, wie in der Skizze dargestellt. 
+Ein Ball habe in $x$-Richtung einen Impuls von $p_x=11.3\,Ns$ und in $y$-Richtung einen Impuls von $p_y=7.6\,Ns$. 
 
-a) Berechne den Gesamtimpuls der Bewegung.
-b) Berechne die Richtung der Bewegung als Winkel zur $x$-Achse.
-c) Wie würde das Ergebnis lauten, wenn es sich beim Impuls um eine skalare Grösse handeln würde?
+1. Berechne den Gesamtimpuls der Bewegung.
+2. Berechne die Richtung der Bewegung als Winkel zur $x$-Achse.
+3. Wie würde das Ergebnis lauten, wenn es sich beim Impuls um eine skalare Grösse handeln würde?
 
 [details="Tipp zum Gesamtimpuls" class="tipp"]
 Finde das rechtwinklige Dreieck und nutze den Pythagoras.
@@ -59,17 +63,18 @@ Nutze das rechtwinklige Dreieck und dein Wissen aus der Trigonometrie um den Win
 
 [details="Lösung" class="loesung"]
 **Antwort**:
-a) $\approx 13.62\,Ns$
-b) $\ang{33.92}$
-c) $18.9\,Ns$
+1. $\approx 13.62\,Ns$
+2. $\approx 33.92°$
+3. $18.9\,Ns$
 
 **Lösungsidee**:
-Da die Komponenten und der Gesamtimpuls ein rechtwinkliges Dreieck bilden, kann der Pythagoras und die Sätze aus der Trigonometrie genutzt werden.
+Da die zwei Impulskomponenten und der Gesamtimpuls ein rechtwinkliges Dreieck bilden, kann der Pythagoras und die Sätze aus der Trigonometrie genutzt werden.
 
 **Lösungsweg**:
 
-_Teil a_
-1. Der Satz des Pythagoras lautet für das rechtwinklige Dreieck aus Impulskomponenten $p_x$ und $p_x$ und Gesamtimpuls $p$:
+_Teil 1_
+
+1. Der [Satz des Pythagoras](/konzepte/pythagoras) lautet für das rechtwinklige Dreieck aus [Impulskomponenten](/konzepte/impuls) $p_x$ und $p_x$ und Gesamtimpuls $p$:
 
 $$
 p^2=p_x^2+p_y^2
@@ -81,10 +86,11 @@ $$
 p=\sqrt{p_x^2+p_y^2}=\sqrt{11.3^2+7.6^2}\approx\underline{13.62\,Ns} 
 $$
 
-_Teil b_
+_Teil 2_
+
 1. Die Impulskomponenten bilden die Katheten eines rechtwinkligen Dreiecks, in welchem die Hypotenuse gegeben ist durch den Gesamtimpuls.
 
-2. Mit hilfe des Tangens bzw. des Cotangens können wir den gesuchten Winkel $\alpha$ berechnen:
+2. Mit Hilfe des [Tangens bzw. des Cotangens](/konzepte/trigonometrie) können wir den gesuchten Winkel $\alpha$ nach [Umformung](/konzepte/umformung) berechnen:
 
 $$
 tan(\alpha)=\frac{p_y}{p_x}\rightarrow \alpha=tan^{-1}(\frac{p_y}{p_x})
@@ -92,10 +98,10 @@ $$
 
 3. Einsetzen liefert das Ergebnis
 $$
-\alpha=tan^{-1}(\frac{7.6\,Ns}{11.3\,Ns})\approx \underline{\ang{33.92}}
+\alpha=tan^{-1}(\frac{7.6\,Ns}{11.3\,Ns})\approx \underline{33.92°}
 $$
 
-_Teil c_
+_Teil 3_
 
 Skalare Grössen (wie zB die Masse) können direkt addiert werden:
 
