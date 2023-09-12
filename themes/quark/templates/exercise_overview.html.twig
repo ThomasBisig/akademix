@@ -12,18 +12,42 @@
             <th class="rest">Thema</th>
             <th class="rest">Art</th>
             <th class="rest">Schwierigkeit</th>
-            <th class="rest">Schwierigkeit (experimental)</th>
+            <th class="rest">Aufwand</th>
             <th class="rest">Set</th>
             <th class="rest">Tools</th>
             <th class="rest">Qualität</th>
         </tr>
     </thead>
     <tbody>
-    {% for post in taxonomy.findTaxonomy({'thema':page.taxonomy().subject|first}) %}
+    {% for post in taxonomy.findTaxonomy({'thema':page.taxonomy().subject|first,'category':'exercises'}) %}
         <tr>
             <td><a href="{{post.url}}">{{post.title|e}}</a></td>
             <td>{{post.taxonomy().thema|last}}</td>
-            <td>{{post.taxonomy().art|join(', ')}}</td>
+            <td>
+                <!-- Das ist ein unsauberer Hack -->
+                {% if post.taxonomy().art|string|contains('Experiment') %}
+                    <i class="fa fa-flask-solid info"><span class="tooltiptext tooltip-right">Experiment</span></i>
+                {% endif %}
+                {% if post.taxonomy().art|string|contains('Berechnung') %}
+                    <i class="fa fa-calculator-solid info"><span class="tooltiptext tooltip-right">Berechnung</span></i>
+                {% endif %}
+                {% if post.taxonomy().art|string|contains('Recherche') %}
+                    <i class="fa fa-book-solid info"><span class="tooltiptext tooltip-right">Recherche</span></i>
+                {% endif %}
+                {% if page.taxonomy().art|string|contains('Diagramm') %}
+                    <i class="fa fa-chart-line-solid info"><span class="tooltiptext tooltip-right">Diagramm</span></i>
+                {% endif %}
+                {% if page.taxonomy().art|string|contains('Auswahl') %}
+                    <i class="fa fa-square-check-solid info"><span class="tooltiptext tooltip-right">Auswahl</span></i>
+                {% endif %}
+                {% if page.taxonomy().art|string|contains('Konzept') %}
+                    <i class="fa fa-arrows-to-circle-solid info"><span class="tooltiptext tooltip-right">Konzept</span></i>
+                {% endif %}
+                {% if page.taxonomy().art|string|contains('Abschaetzung') %}
+                    <i class="fa fa-scale-balanced-solid info"><span class="tooltiptext tooltip-right">Abschätzung</span></i>
+                {% endif %}
+
+            </td>
             
             {% if post.taxonomy().schwierigkeit|first|int==1%}
                 <td><i class="far fa-star-regular"></i></td>
@@ -35,7 +59,7 @@
                 <td></td>
             {% endif %}
 
-            <td>{{post.taxonomy().bloom|first|int+post.taxonomy().schritte|first|int+post.taxonomy().schwierigkeit|first|int}}</td>
+            <td>{{post.taxonomy().schritte|first|int*post.taxonomy().schwierigkeit|first|int}}</td>
 
             {% if post.taxonomy().set|first|int>0%}
                 <td>&#10003;</td>
@@ -50,27 +74,27 @@
             {% endif %}
 
             <td>
-            {% if post.taxonomy().status_tags|last|string=="review_0"%}
+            {% if post.taxonomy().status_tags|last==0%}
             <span class="dot_red"></span>
-            {% elseif post.taxonomy().status_tags|last=='review_1'%}
+            {% elseif post.taxonomy().status_tags|last==1%}
             <span class="dot_orange"></span>
-            {% elseif post.taxonomy().status_tags|last=='review_2'%}
+            {% elseif post.taxonomy().status_tags|last==2%}
             <span class="dot_green"></span>
             {% endif %}
 
-            {% if post.taxonomy().status_exercise|last|string=="review_0"%}
+            {% if post.taxonomy().status_exercise|last==0%}
             <span class="dot_red"></span>
-            {% elseif post.taxonomy().status_exercise|last=='review_1'%}
+            {% elseif post.taxonomy().status_exercise|last==1%}
             <span class="dot_orange"></span>
-            {% elseif post.taxonomy().status_exercise|last=='review_2'%}
+            {% elseif post.taxonomy().status_exercise|last==2%}
             <span class="dot_green"></span>
             {% endif %}
 
-            {% if post.taxonomy().status_solution|last|string=="review_0"%}
+            {% if post.taxonomy().status_solution|last==0%}
             <span class="dot_red"></span>
-            {% elseif post.taxonomy().status_solution|last=='review_1'%}
+            {% elseif post.taxonomy().status_solution|last==1%}
             <span class="dot_orange"></span>
-            {% elseif post.taxonomy().status_solution|last=='review_2'%}
+            {% elseif post.taxonomy().status_solution|last==2%}
             <span class="dot_green"></span>
             {% endif %}
             </td>

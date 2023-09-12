@@ -1,5 +1,5 @@
 ---
-title: 'Welche Grössen sind in Stössen entscheidend?''
+title: 'Welche Grössen sind in Stössen entscheidend?'
 taxonomy:
 	id: 2023081114424888
 	set:
@@ -7,33 +7,32 @@ taxonomy:
 	requires_physik: []
 	requires_mathematik: []
 
-	category: ['Exercise']
+	category: ['exercises']
 	fach: Physik
 	thema: ['Impuls']
-	art: ['Experiment']
+	art: ['Konzept']
 	needsSupport: 0
 	needsTool: 0
 
-	hints: 
-	detail: 
+	hints: 0
 	bloom: 
-	schritte: 
-	schwierigkeit: 
-	realitaet:
+	schritte: 2
+	schwierigkeit: 1
+	realitaet: 2
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230812
-	source: 'Thomas Bisig, tbisig@pm.me'
+	version: 20230813
+	source: 'Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: 'markdown'
 	media:
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: 'review_0'
-	status_exercise: 'review_0'
-	status_solution: 'review_0'
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: []
 
@@ -51,11 +50,19 @@ mathjax:
 2. Wie entscheidest du beim Poolbillard, wie die weisse Kugel angeschlagen werden muss, um die Acht in die Tasche zu stossen?
 
 [details="Lösung" class="loesung"]
-**Antwort**:
-
 _Teil 1_
+![Person rennt mit Papierflieger über ihr](frontalkollision_lastwagen_pkw.svg?resize=400,500&class=float-right)
 
-Die Geschwindigkeit und Masse beider Fahrzeuge ist einerseits wichtig, andererseit in welchem Winkel sie zusammenstossen.
+Die Geschwindigkeit und die Masse (bzw die jeweiligen Verhältnisse) der zwei Fahrzeuge entscheiden, welcher der drei Fälle eintrifft:
+
+- __Meistens__: Da der Lastwagen schwerer ist, wird sich das Wrack bei gleicher Geschwindigkeit der Fahrzeuge __in die Fahrtrichtung des Lastwagens__ bewegen.
+- __Selten__: Falls der Lastwagen sehr langsam und das Auto sehr schnell unterwegs ist, kann es sein, dass sich trotz der höheren Masse des Lastwagens das Wrack __in die Fahrtrichtung des Autos__ bewegt. Die Bedingung für das Geschwindigkeitsverhältnis folgt aus der Ungleichung der Beträge der [Impulse](/konzepte/impuls) $p_\textrm{Auto} \gt p_\textrm{LKW}$ und führt zu:
+
+$$
+m_\textrm{Auto} \cdot v_\textrm{Auto} \gt m_\textrm{LKW} \cdot v_\textrm{LKW} \rightarrow \frac{v_\textrm{Auto}}{v_\textrm{LKW}} \gt \frac{m_\textrm{LKW}}{m_\textrm{Auto}}
+$$
+
+- __Fast nie__: Das Wrack __steht gleich nach der Kollision still__, wenn der Betrag beider Impulse gleich ist $p_\textrm{Auto} = p_\textrm{LKW}$.
 
 _Teil 2_
 

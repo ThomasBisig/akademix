@@ -7,33 +7,32 @@ taxonomy:
 	requires_physik: []
 	requires_mathematik: []
 
-	category: ['Exercise']
+	category: ['exercises']
 	fach: Physik
 	thema: ['Impuls']
 	art: ['Experiment']
 	needsSupport: 0
 	needsTool: 0
 
-	hints: 
-	detail: 
+	hints: 0
 	bloom: 
-	schritte: 
-	schwierigkeit: 
-	realitaet:
+	schritte: 5
+	schwierigkeit: 1
+	realitaet: 1
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230812
-	source: 'Thomas Bisig, tbisig@pm.me'
+	version: 20230813
+	source: 'Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: markdown'
-	media:
+	media: 'Thomas Bisig, thomas@akademix.ch'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: 'review_0'
-	status_exercise: 'review_0'
-	status_solution: 'review_0'
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: []
 
@@ -44,7 +43,7 @@ routes:
 mathjax:
   process: true
 ---
-
+![Newtonpendel mit Kugel vor Aufschlag](newtonpendel_vorher.svg?resize=400,250&class=float-right)
 Nimm ein Newtonpendel und führe folgende Versuche durch. Bevor du den Versuch startest, notiere jeweils deine Erwartung.
 1. Zieh eine Kugel hoch und lasse sie fallen.
 2. Zieh zwei Kugeln hoch und lasse sie fallen.
@@ -55,7 +54,7 @@ Nimm ein Newtonpendel und führe folgende Versuche durch. Bevor du den Versuch s
 (Falls du keine Newtonpendel zur Hand hast, kannst du die Effekte - ausser 4. - auch [simulieren](https://javalab.org/en/newtons_cradle_en/))
 
 [details="Lösung" class="loesung"]
-
+![Newtonpendel nach Aufschlag](newtonpendel_nachher.svg?resize=400,500&class=float-right)
 _Teil 1_
 
 Nach dem Anstossen wird __eine__ Kugel in die Höhe pendeln.
@@ -70,7 +69,7 @@ Nach dem Anstossen werden __drei Kugel__ in die Höhe pendeln. Im Unterschied zu
 
 _Teil 4_
 
-Die Kugeln prallen wieder zurück (verlieren aber schnell an Höhe).
+Die Kugeln prallen wieder zurück, die drei in der Mitte bleiben stehen.
 
 _Teil 5_
 

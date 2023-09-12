@@ -15,7 +15,6 @@ taxonomy:
 	needsTool: 0
 
 	hints: 4
-	detail: 0
 	bloom: 2
 	schritte: 5
 	schwierigkeit: 3
@@ -31,9 +30,9 @@ taxonomy:
 	media: 'https://commons.wikimedia.org/wiki/File:Lightning_NOAA.jpg'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_0
-	status_exercise: review_0
-	status_solution: review_0
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: []
 

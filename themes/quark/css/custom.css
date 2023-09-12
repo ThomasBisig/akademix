@@ -20,8 +20,8 @@ details {
 }
 
 details.tipp {
-	background: #FFF2DB;
 	padding: 5px;
+	border: 10px solid #FFF2DB;
 }
 
 details.tipp summary {
@@ -32,8 +32,8 @@ details.tipp summary {
 }
 
 details.loesung {
-	background: #E6F9E6;
 	padding: 5px;
+	border: 10px solid #E6F9E6;
 }
 
 details.loesung summary {
@@ -180,6 +180,7 @@ p.display_quality {
 	opacity: 50%;
 }
 
+/* Initial idea for custom solution links (like tags)
 details a {
 	font-weight: normal !important;
 	background-color: #BCD5BC57;
@@ -192,6 +193,7 @@ details a:hover {
 	background-color: #BCD5BCBB;
 	text-decoration: none;
 }
+ */
 
 /* Tooltip */
 .info {
@@ -278,4 +280,11 @@ blockquote {
 h3 {
 	background: #EEE;
 	padding: 5px 10px;
+}
+
+summary.mehr_aufgaben {
+	margin-top: 2rem;
+  font-size: 1rem;
+  color: #3a414e;
+  font-weight: 500;
 }

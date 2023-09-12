@@ -2,10 +2,18 @@
 
 {% block content %}
 
-<h1>Konzepte</h1>
+<h2>Konzepte Physik</h2>
 
 <ul>
-    {% for post in taxonomy.findTaxonomy({'category':'concepts'}) %}
+    {% for post in taxonomy.findTaxonomy({'category':'concepts','fach':'Physik'}).order('title') %}
+    <li><a href="{{post.url}}">{{post.title|e}}</a></li>
+    {% endfor %}
+</ul>
+
+<h2>Konzepte Mathematik</h2>
+
+<ul>
+    {% for post in taxonomy.findTaxonomy({'category':'concepts','fach':'Mathematik'}).order('title') %}
     <li><a href="{{post.url}}">{{post.title|e}}</a></li>
     {% endfor %}
 </ul>

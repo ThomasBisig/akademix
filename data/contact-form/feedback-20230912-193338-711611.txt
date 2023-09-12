@@ -1,0 +1,10 @@
+Name: Thomas
+Email: tbisig@pm.me
+Aufgabenstellung (in Latex oder Text): Berechne als erstes...
+Tipp zum Vorgehen (Text): Versuche, die grösste
+Lösungsidee (1-2 Sätze, ohne Formeln): Mit Hilfe der allgemeinen ...
+Lösung (ausführliche Lösungen erwünscht): 1. Versuche die grössten \int_4^4
+Wie schwer ist die Aufgabe? (1-3): 1
+Zeitaufwand (in Minuten): 5
+Gehört zu: {&quot;collection-option1&quot;:&quot;option1&quot;}
+

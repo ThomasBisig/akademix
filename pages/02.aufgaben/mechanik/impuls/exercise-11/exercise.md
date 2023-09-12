@@ -7,33 +7,32 @@ taxonomy:
 	requires_physik: ['Impuls','Mittlere Geschwindigkeit']
 	requires_mathematik: ['Umformung']
 
-	category: ['Exercise']
+	category: ['exercises']
 	fach: Physik
 	thema: ['Impuls']
 	art: ['Berechnung','Recherche']
 	needsSupport: 0
 	needsTool: 0
 
-	hints: 
-	detail: 
+	hints: 2
 	bloom: 
-	schritte: 
-	schwierigkeit: 
-	realitaet:
+	schritte: 5
+	schwierigkeit: 2
+	realitaet: 1
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230812
-	source: 'Thomas Bisig, tbisig@pm.me'
+	version: 20230813
+	source: 'Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: 'markdown'
-	media:
+	media: 'Thomas Bisig, thomas@akademix.ch'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: 'review_0'
-	status_exercise: 'review_0'
-	status_solution: 'review_0'
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: []
 
@@ -44,7 +43,7 @@ routes:
 mathjax:
   process: true
 ---
-
+![Person rennt mit Papierflieger über ihr](person-rennt-mit-flieger.svg?resize=250,300&class=float-right)
 Zwei Körper können den gleichen Impuls haben, auch wenn sie sich unterschiedlich schnell bewegen:
 
 Wie schnell muss eine maximal beladene _Boeing 747SP_ fliegen, um den gleichen Impuls zu haben wie eine $56 kg$ schwere Läuferin, welche die $100\,m$ in $12.56\,s$ zurücklegt?

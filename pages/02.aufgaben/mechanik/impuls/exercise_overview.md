@@ -6,4 +6,4 @@ taxonomy:
 	category: exercise_overview
 ---
 
-Nichts
+- [Aufgaben zum Hinzufügen](offen/): Kurznotizen zu noch hinzuzufügenden Aufgaben

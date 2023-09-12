@@ -1,21 +1,20 @@
 ---
-title: Lichtgeschwindigkeit
+title: Lichtgeschwindigkeit (Erde-Sonne)
 taxonomy:
 	id: 2023040112387650
 	set: 0202304061905122
 
-	requires_physik: [Gleichförmige Bewegung, SI-Einheit]
+	requires_physik: ['Gleichförmige Bewegung', 'SI-Einheit']
 	requires_mathematik: [Algebraische Umformung]
 
 	category: exercises
 	fach: Physik
-	thema: [Mechanik, Bewegung, Gleichförmige Bewegung]
+	thema: ['Mechanik', 'Bewegung', 'Gleichförmige Bewegung']
 	art: Berechnung
 	needsSupport: 0
 	needsTool: 0
 
 	hints: 2
-	detail: 0
 	bloom: 2
 	schritte: 2
 	schwierigkeit: 1
@@ -31,9 +30,9 @@ taxonomy:
 	media: no
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_1
-	status_exercise: review_1
-	status_solution: review_0
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 1
 
 	todo: ['write solution']
 

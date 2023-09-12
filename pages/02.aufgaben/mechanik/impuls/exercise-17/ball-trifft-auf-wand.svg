@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 113.4 56.7" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<path d="M0 0L113.4 0L113.4 56.7L0 56.7L0 0Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="none"/>
+<g id="Ebene-1" vectornator:layerName="Ebene 1">
+<path d="M99.3828 33.7747C95.0867 33.0381 90.6658 33.5572 86.3074 33.6151" fill="none" opacity="1" stroke="#224767" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.538288" stroke-width="2.09926" vectornator:layerName="Kurve 23"/>
+<path d="M101.511 28.277C101.732 28.2296 102.403 28.136 102.176 28.1347C99.5748 28.1207 96.9741 28.2804 94.3733 28.2385C91.5959 28.1938 91.763 28.1921 90.0982 27.7618" fill="none" opacity="1" stroke="#224767" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.538288" stroke-width="2.09926" vectornator:layerName="Kurve 24"/>
+<path d="M99.2385 22.0532C95.4916 22.8546 91.6061 22.7766 87.7779 22.9394" fill="none" opacity="1" stroke="#224767" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.538288" stroke-width="2.09926" vectornator:layerName="Kurve 25"/>
+<g opacity="1" vectornator:layerName="Gruppieren 2">
+<path d="M65.3358 27.914C65.3358 23.3288 69.0528 19.6118 73.638 19.6118C78.2232 19.6118 81.9402 23.3288 81.9402 27.914C81.9402 32.4991 78.2232 36.2161 73.638 36.2161C69.0528 36.2161 65.3358 32.4991 65.3358 27.914Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#224767" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.03909" vectornator:layerName="Oval 1"/>
+<path d="M73.638 20.7881C74.2562 20.7881 74.7051 21.3261 75.2535 21.5009C79.5433 22.8678 80.7304 28.6435 78.1946 31.8754C77.5054 32.7538 77.2406 34.0539 76.1649 34.568" fill="none" opacity="1" stroke="#224767" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.538288" stroke-width="4.05836" vectornator:layerName="Kurve 27"/>
+</g>
+<g opacity="1" vectornator:layerName="Gruppieren 4">
+<path d="M15.2534 6.91556C15.2534 20.7705 15.2723 34.6487 15.1946 48.5322" fill="none" opacity="1" stroke="#4a6b5f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6489" vectornator:layerName="Kurve 34"/>
+<path d="M12.3338 7.88876C11.0353 10.4859 12.4199 14.4228 12.0094 17.2963C11.0323 24.136 12.216 31.2145 11.3606 38.0579C10.9247 41.5449 10.8092 45.2687 10.9492 48.9124" fill="none" opacity="1" stroke="#4a6b5f" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.495495" stroke-width="5.39706" vectornator:layerName="Kurve 35"/>
+</g>
+<path d="M60.6843 28.3031C49.9212 28.3031 39.1003 28.1416 28.3957 28.1416" fill="none" opacity="1" stroke="#d0453b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" vectornator:layerName="Kurve 32"/>
+<path d="M31.6039 23.8369C30.9206 23.8369 30.5918 24.7616 30.1543 25.2866C27.4088 28.5812 28.029 28.633 30.2923 32.1897C30.6399 32.7359 31.0349 34.3297 31.8801 34.3297" fill="none" opacity="1" stroke="#d0453b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" vectornator:layerName="Kurve 33"/>
+</g>
+</svg>

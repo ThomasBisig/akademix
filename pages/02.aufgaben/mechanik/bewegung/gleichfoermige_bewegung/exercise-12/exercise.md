@@ -15,7 +15,6 @@ taxonomy:
 	needsTool: 'xls'
 
 	hints: 0
-	detail: 0
 	bloom: 3
 	schritte: 3
 	schwierigkeit: 3
@@ -31,9 +30,9 @@ taxonomy:
 	media: 'Thomas Bisig (thomas@akademix.ch)'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_1
-	status_exercise: review_0
-	status_solution: review_0
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: ['']
 

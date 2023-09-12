@@ -7,33 +7,32 @@ taxonomy:
 	requires_physik: ['Impuls']
 	requires_mathematik: ['Vektorielle Grösse']
 
-	category: 'Exercise'
+	category: 'exercises'
 	fach: Physik
 	thema: ['Impuls']
 	art: ['Lückentext', 'Berechnung']
 	needsSupport: 0
 	needsTool: 0
 
-	hints: 
-	detail: 
+	hints: 0
 	bloom: 
-	schritte: 
-	schwierigkeit: 
-	realitaet:
+	schritte: 3
+	schwierigkeit: 1
+	realitaet: 1
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230812
-	source: 'Thomas Bisig, tbisig@pm.me'
+	version: 20230813
+	source: 'Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: 'markdown'
 	media:
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: 'review_0'
-	status_exercise: 'review_0'
-	status_solution: 'review_0'
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: []
 

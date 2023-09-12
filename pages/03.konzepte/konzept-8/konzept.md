@@ -9,7 +9,7 @@ taxonomy:
 	thema: [lineare Funktionen]
 
 	autor: 'Thomas'
-	version: 20230814
+	version: 20230817
 	source: 'Thomas Bisig (thomas@akademix.ch)'
 	content-type: markdown
 	media: 'thomas@akademix.ch'
@@ -29,7 +29,9 @@ mathjax:
 
 # Vektorielle Grösse
 
-> Eine vektorielle Grösse hat zwei Eigenschafen: den Betrag (die Menge) und die Richtung.
+> Eine vektorielle Grösse hat zwei Eigenschafen
+- einen Betrag ("Menge") und
+- eine Richtung.
 
 ### Beispiele
 

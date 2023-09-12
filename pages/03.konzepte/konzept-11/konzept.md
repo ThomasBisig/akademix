@@ -5,8 +5,8 @@ taxonomy:
 	requires_mathematik: []
 
 	category: concepts
-	fach: Mathematik
-	thema: [lineare Funktionen]
+	fach: Physik
+	thema: ['lineare Funktionen']
 
 	autor: 'Thomas'
 	version: 20230814

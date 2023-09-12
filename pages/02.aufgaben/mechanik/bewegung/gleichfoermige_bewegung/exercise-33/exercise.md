@@ -10,12 +10,11 @@ taxonomy:
 	category: exercises
 	fach: Physik
 	thema: [Mechanik, Bewegung, Gleichförmige Bewegung]
-	art: [Diagramm zeichnen, Interpretation]
+	art: [Diagramm, Berechnung]
 	needsSupport: 0
 	needsTool: 0
 
 	hints: 2
-	detail: 0
 	bloom: 1
 	schritte: 2
 	schwierigkeit: 2
@@ -31,9 +30,9 @@ taxonomy:
 	media: 'Thomas Bisig (thomas@akademix.ch)'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_1
-	status_exercise: review_1
-	status_solution: review_1
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: [illustration_loesung]
 

@@ -1,12 +1,12 @@
 ---
-title: t-x-Diagramm
+title: Zeit-Ort-Diagramm
 taxonomy:
-	requires_physik: [Delta-Schreibweise]
-	requires_mathematik: [Diagramm lesen]
+	requires_physik: ['Delta-Schreibweise','Zeit','Ort']
+	requires_mathematik: ['Diagramme']
 
 	category: concepts
 	fach: Physik
-	thema: [Mechanik, Bewegung]
+	thema: ['Mechanik', 'Bewegung']
 
 	autor: 'Thomas'
 	version: 20230606
@@ -22,6 +22,7 @@ taxonomy:
 routes:
   aliases:
     - '/konzepte/zeit-ort-diagramm'
+    - '/konzepte/Zeit-Ort-Diagramm'
 
 mathjax:
 	process: true

@@ -13,13 +13,36 @@
     {% endif %}
 </p>
 
-<i class="fa fa-circle-info-solid info"><span class="tooltiptext tooltip-right">Autor: {{page.taxonomy().autor|join(' ')}}</br>Quelle: {{page.taxonomy().source|join(' ')}}</br>Version: {{page.taxonomy().version|first|string}}</br>Lizenz: {{page.taxonomy().licence|join(' ')}}</br></span></i>
+<!-- Das ist ein unsauberer Hack -->
+{% if page.taxonomy().art|string|contains('Experiment') %}
+    <i class="fa fa-flask-solid info"><span class="tooltiptext tooltip-right">Experiment</span></i>
+{% endif %}
+{% if page.taxonomy().art|string|contains('Berechnung') %}
+    <i class="fa fa-calculator-solid info"><span class="tooltiptext tooltip-right">Berechnung</span></i>
+{% endif %}
+{% if page.taxonomy().art|string|contains('Recherche') %}
+    <i class="fa fa-book-solid info"><span class="tooltiptext tooltip-right">Recherche</span></i>
+{% endif %}
+{% if page.taxonomy().art|string|contains('Diagramm') %}
+    <i class="fa fa-chart-line-solid info"><span class="tooltiptext tooltip-right">Diagramm</span></i>
+{% endif %}
+{% if page.taxonomy().art|string|contains('Auswahl') %}
+    <i class="fa fa-square-check-solid info"><span class="tooltiptext tooltip-right">Auswahl</span></i>
+{% endif %}
+{% if page.taxonomy().art|string|contains('Konzept') %}
+    <i class="fa fa-arrows-to-circle-solid info"><span class="tooltiptext tooltip-right">Konzept</span></i>
+{% endif %}
+{% if page.taxonomy().art|string|contains('Abschaetzung') %}
+    <i class="fa fa-scale-balanced-solid info"><span class="tooltiptext tooltip-right">Abschätzung</span></i>
+{% endif %}
 
 <div style="margin:100px;"></div>
 
-<h4>{{ page.title }} ({{page.taxonomy().art|join(', ')}})</h4>
+<h4>{{ page.title }}</h4>
 
 {{ page.content|raw }}</td>
+
+<i class="fa fa-circle-info-solid info"><span class="tooltiptext tooltip-right">Autor: {{page.taxonomy().autor|join(' ')}}</br>Quelle: {{page.taxonomy().source|join(' ')}}</br>Version: {{page.taxonomy().version|first|string}}</br>Lizenz: {{page.taxonomy().licence|join(' ')}}</br></span></i>
 
 <table class="more">
     <tr>
@@ -41,27 +64,48 @@
             </p>
         </td>
         <td width="50%">
-            <h5>einfacher</h5>
-            <ul>
-            {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int-1,'thema':page.taxonomy().thema}) %}
-                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
-            {% endfor %}
-            </ul>
+            <h5>Sammlung</h5>
+            {% if page.taxonomy().set|first|int>0%}
+                <ul>
+                {% for post in taxonomy.findTaxonomy({'set':page.taxonomy().set|first}) %}
 
-            <h5>ähnlich</h5>
-            <ul>
-            {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int,'thema':page.taxonomy().thema}) %}
-                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
-            {% endfor %}
-            </ul>
+                {% if page.taxonomy().id|first|int!=post.taxonomy().id|first|int %}    
+                    <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+                {% else %}
+                    <li>{{post.title|e}} ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+                {% endif %}
 
-            <h5>schwieriger</h5>
-            <ul>
-            {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int+1,'thema':page.taxonomy().thema})%}
-                <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
-            {% endfor %}
-            </ul>
+                {% endfor %}
+                </ul>
+            {% else %}
+                noch keine erstellt
+            {% endif %}
+
+            <details>
+            <summary class="mehr_aufgaben">Weitere Aufgaben</summary>
+                <h6>einfacher</h6>
+                <ul>
+                {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int-1,'thema':page.taxonomy().thema}) %}
+                    <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+                {% endfor %}
+                </ul>
+
+                <h6>ähnlich</h6>
+                <ul>
+                {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int,'thema':page.taxonomy().thema}) %}
+                    <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+                {% endfor %}
+                </ul>
+
+                <h6>schwieriger</h6>
+                <ul>
+                {% for post in taxonomy.findTaxonomy({'schwierigkeit':page.taxonomy().schwierigkeit|first|int+1,'thema':page.taxonomy().thema})%}
+                    <li><a href="{{post.url}}">{{post.title|e}}</a> ({{post.taxonomy().art|join(', ')}},{{post.taxonomy().schwierigkeit|first}})</li>
+                {% endfor %}
+                </ul>
+            </details>
         </td>
     </tr>
 </table>
+
 {% endblock %}

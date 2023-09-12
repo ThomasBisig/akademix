@@ -11,12 +11,11 @@ taxonomy:
 	category: exercises
 	fach: Physik
 	thema: [Mechanik, Bewegung, Gleichförmige Bewegung]
-	art: Auswahl
+	art: [Auswahl]
 	needsSupport: 0
 	needsTool: 0
 
 	hints: 0
-	detail: 0
 	bloom: 1
 	schritte: 1
 	schwierigkeit: 1
@@ -32,9 +31,9 @@ taxonomy:
 	media: no
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_1
-	status_exercise: review_1
-	status_solution: review_1
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: ['needs sibling']
 
@@ -53,7 +52,6 @@ Ein Körper ist in gleichförmiger Bewegung, wenn er
 
 
 [details="Lösung" class="loesung"]
-**Antwort**:
 
 Ein Körper ist in [gleichförmiger Bewegung](/konzepte/konzept-1), wenn er
 - sich nicht beschleunigt

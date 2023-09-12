@@ -16,7 +16,6 @@ taxonomy:
 	needsTool: 0
 
 	hints: 0
-	detail: 2
 	bloom: 2
 	schritte: 2
 	schwierigkeit: 2
@@ -32,9 +31,9 @@ taxonomy:
 	media: no
 	licence: 'CC BY-SA 3.0'
 
-	status_tags: [content_created, review_0]
-	status_exercise: [content_created, illustration_missing, files_na, review_0]
-	status_solution: [content_created, illustration_missing, links_missing, files_na, review_0]
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 0
 
 mathjax:
   process: true

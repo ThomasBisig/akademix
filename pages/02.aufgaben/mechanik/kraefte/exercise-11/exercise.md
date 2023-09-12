@@ -17,7 +17,6 @@ taxonomy:
 	bloom: 1
 	schritte: 1
 	hints: 0
-	detail: 0
 	schwierigkeit: 1
 	realitaet: 
 	kat_bruder:
@@ -31,9 +30,9 @@ taxonomy:
 	media: no
 	licence: 'CC BY-SA 3.0'
 
-	status_tags: [content_created, review_0]
-	status_exercise: [content_created, illustration_na, files_na, review_0]
-	status_solution: [content_created, illustration_na, links_missing, files_na, review_0]
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 mathjax:
   process: true
@@ -41,7 +40,7 @@ mathjax:
 Zähle mindestens drei unterschiedliche mechanische Kräfte auf.
 
 [details="Lösung" class="loesung"]
-**Antwort**:
+
 - Gravitationskraft (Erdanziehungskraft, Schwerkraft)
 - Reibungskraft
 - Normalkraft

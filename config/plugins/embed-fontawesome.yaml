@@ -18,6 +18,48 @@ solid:
     type: image/svg+xml
     size: 500
     path: user/data/fontawesome/solid/circle-info-solid.svg
+  user/data/fontawesome/solid/book-solid.svg:
+    name: book-solid.svg
+    full_path: book-solid.svg
+    type: image/svg+xml
+    size: 611
+    path: user/data/fontawesome/solid/book-solid.svg
+  user/data/fontawesome/solid/calculator-solid.svg:
+    name: calculator-solid.svg
+    full_path: calculator-solid.svg
+    type: image/svg+xml
+    size: 844
+    path: user/data/fontawesome/solid/calculator-solid.svg
+  user/data/fontawesome/solid/flask-solid.svg:
+    name: flask-solid.svg
+    full_path: flask-solid.svg
+    type: image/svg+xml
+    size: 633
+    path: user/data/fontawesome/solid/flask-solid.svg
+  user/data/fontawesome/solid/chart-line-solid.svg:
+    name: chart-line-solid.svg
+    full_path: chart-line-solid.svg
+    type: image/svg+xml
+    size: 594
+    path: user/data/fontawesome/solid/chart-line-solid.svg
+  user/data/fontawesome/solid/arrows-to-circle-solid.svg:
+    name: arrows-to-circle-solid.svg
+    full_path: arrows-to-circle-solid.svg
+    type: image/svg+xml
+    size: 1328
+    path: user/data/fontawesome/solid/arrows-to-circle-solid.svg
+  user/data/fontawesome/solid/square-check-solid.svg:
+    name: square-check-solid.svg
+    full_path: square-check-solid.svg
+    type: image/svg+xml
+    size: 496
+    path: user/data/fontawesome/solid/square-check-solid.svg
+  user/data/fontawesome/solid/scale-balanced-solid.svg:
+    name: scale-balanced-solid.svg
+    full_path: scale-balanced-solid.svg
+    type: image/svg+xml
+    size: 974
+    path: user/data/fontawesome/solid/scale-balanced-solid.svg
 regular:
   user/data/fontawesome/regular/file-excel-regular.svg:
     name: file-excel-regular.svg

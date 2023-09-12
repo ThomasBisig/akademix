@@ -15,7 +15,6 @@ taxonomy:
 	needsTool: 0
 
 	hints: 0
-	detail: 0
 	bloom: 1
 	schritte: 1
 	schwierigkeit: 1
@@ -31,9 +30,9 @@ taxonomy:
 	media: no
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: review_1
-	status_exercise: review_1
-	status_solution: review_1
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: ['']
 

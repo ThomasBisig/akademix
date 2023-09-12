@@ -8,7 +8,7 @@
 
 <table class="more">
     <tr>
-        <td width="50%">
+        <td width="30%">
             <p class="exercise_concepts">
                 <h5>Konzepte: Physik</h5>
                 <ul>
@@ -25,27 +25,49 @@
                 </ul>
             </p>
         </td>
-        <td width="50%">
-            <h5>Aufgaben</h5>
-            <ul>
-            {% for post in taxonomy.findTaxonomy({'requires_physik':page.title|e,'category':'exercise'}).order('header.schwierigkeit')|reverse %}
-                <li><a href="{{post.url}}">{{post.title|e}}</a>
+        <td width="35%">
+            <h5>Aufgaben (Physik)</h5>
+                <ul>
+                {% for post in taxonomy.findTaxonomy({'requires_physik':page.title|e}).order('header.schwierigkeit')|reverse %}
+                    <li><a href="{{post.url}}">{{post.title|e}}</a>
 
-				    {% if post.taxonomy().schwierigkeit|first|int==1%}
-				        <i class="fa fa-star-solid star"></i>
-				    {% elseif post.taxonomy().schwierigkeit|first|int==2%}
-				        <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
-				    {% elseif post.taxonomy().schwierigkeit|first|int==3%}
-				        <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
-				    {% else %}
-				    {% endif %}
-				    
-                <br/>
-                &rarr; {{post.taxonomy().requires_physik|join(', ')}}
-				<br/>
-                &rarr; {{post.taxonomy().art|join(', ')}}</li>
-            {% endfor %}
-            </ul>
+    				    {% if post.taxonomy().schwierigkeit|first|int==1%}
+    				        <i class="fa fa-star-solid star"></i>
+    				    {% elseif post.taxonomy().schwierigkeit|first|int==2%}
+    				        <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
+    				    {% elseif post.taxonomy().schwierigkeit|first|int==3%}
+    				        <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
+    				    {% else %}
+    				    {% endif %}
+    				    
+                    <br/>
+                    &rarr; {{post.taxonomy().requires_physik|join(', ')}}
+    				<br/>
+                    &rarr; {{post.taxonomy().art|join(', ')}}</li>
+                {% endfor %}
+                </ul>
+        </td>
+        <td width="35%">
+            <h5>Aufgaben (Mathematik)</h5>
+                <ul>
+                {% for post in taxonomy.findTaxonomy({'requires_mathematik':page.title|e,'category':exercise}).order('header.schwierigkeit')|reverse %}
+                    <li><a href="{{post.url}}">{{post.title|e}}</a>
+
+                        {% if post.taxonomy().schwierigkeit|first|int==1%}
+                            <i class="fa fa-star-solid star"></i>
+                        {% elseif post.taxonomy().schwierigkeit|first|int==2%}
+                            <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
+                        {% elseif post.taxonomy().schwierigkeit|first|int==3%}
+                            <i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i><i class="fa fa-star-solid star"></i>
+                        {% else %}
+                        {% endif %}
+                        
+                    <br/>
+                    &rarr; {{post.taxonomy().requires_mathematik|join(', ')}}
+                    <br/>
+                    &rarr; {{post.taxonomy().art|join(', ')}}</li>
+                {% endfor %}
+                </ul>
         </td>
     </tr>
 </table>

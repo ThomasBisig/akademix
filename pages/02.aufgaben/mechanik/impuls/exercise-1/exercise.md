@@ -7,33 +7,32 @@ taxonomy:
 	requires_physik: []
 	requires_mathematik: ['Umgekehrte Proportionalität']
 
-	category: ['Exercise']
+	category: 'exercises'
 	fach: Physik
-	thema: 'Impuls'
+	thema: ['Impuls']
 	art: ['Experiment']
 	needsSupport: 0
 	needsTool: 0
 
-	hints: 
-	detail: 
+	hints: 1
 	bloom: 
-	schritte:
-	schwierigkeit: 
-	realitaet:
+	schritte: 3
+	schwierigkeit: 1
+	realitaet: 2
 	kat_bruder:
 	kat_proz_konz: 
 
 	autor: 'Thomas'
-	version: 20230812
-	source: 'Thomas Bisig, tbisig@pm.me'
+	version: 20230813
+	source: 'Thomas Bisig, thomas@akademix.ch'
 	learning-objective: ''
 	content-type: 'markdown'
-	media: 'Thomas Bisig, tbisig@pm.me'
+	media: 'Thomas Bisig, thomas@akademix.ch'
 	licence: 'CC BY-SA 4.0'
 
-	status_tags: 'review_0'
-	status_exercise: 'review_1'
-	status_solution: 'review_1'
+	status_tags: 2
+	status_exercise: 2
+	status_solution: 2
 
 	todo: []
 
@@ -46,7 +45,7 @@ mathjax:
 ---
 
 ![Person auf Rollbrett, die einen Ball wegwirft](person_auf_rollbrett.svg?resize=400,200&class=float-right) 
-Du hast zwei Bälle unterschiedlicher Masse zur Verfügung. In jedem Durchgang des Experiments stehst du auf das Rollbrett und stösst den Ball auf Brusthöhe horizontal weg.
+Du hast zwei Bälle unterschiedlicher Masse zur Verfügung. In jedem Durchgang des Experiments sitzt du auf das Rollbrett und stösst den Ball auf Brusthöhe horizontal weg.
 
 1. Stosse den schwereren Ball zwei Mal hintereinander aber unterschiedlich stark von dir weg. Was stellst du fest?
 2. Stosse nacheinander jeden Ball mit derselben Geschwindigkeit von dir weg. Was stellst du fest?
