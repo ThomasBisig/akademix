@@ -1,1 +1,1 @@
-THIS REPOSITORY WILL NOT BE UPDATED ANYMORE AND IS NOW HOSTED ON **[SOURCEHUT.NET](https://git.sr.ht/~thomasbisig/akademix)**
+THIS REPOSITORY WILL NOT BE UPDATED ANYMORE AND IS NOW HOSTED ON **[SOURCEHUT.ORG](https://git.sr.ht/~thomasbisig/akademix)**
